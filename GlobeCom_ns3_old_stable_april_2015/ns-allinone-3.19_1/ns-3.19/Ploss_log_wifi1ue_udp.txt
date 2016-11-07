@@ -1,0 +1,6 @@
+./log_wifi1ue_20_position_.log:Percentage of Lost packets = 71.1337
+./log_wifi1ue_1_position_.log:Percentage of Lost packets = 0.0431034
+./log_wifi1ue_60_position_.log:Percentage of Lost packets = 90.402
+./log_wifi1ue_10_position_.log:Percentage of Lost packets = 40.8247
+./log_wifi1ue_5_position_.log:Percentage of Lost packets = 0.0539118
+./log_wifi1ue_40_position_.log:Percentage of Lost packets = 85.5668

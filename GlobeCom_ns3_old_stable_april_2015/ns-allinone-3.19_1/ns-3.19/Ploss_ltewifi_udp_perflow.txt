@@ -1,0 +1,6 @@
+./lte_ul_wifi_dl_5_position_.log:  Packet loss = 5944
+./lte_ul_wifi_dl_10_position_.log:  Packet loss = 13992
+./lte_ul_wifi_dl_20_position_.log:  Packet loss = 34471
+./lte_ul_wifi_dl_1_position_.log:  Packet loss = 16
+./lte_ul_wifi_dl_1_position_.log:  Packet loss = 114775
+./lte_ul_wifi_dl_40_position_.log:  Packet loss = 74471

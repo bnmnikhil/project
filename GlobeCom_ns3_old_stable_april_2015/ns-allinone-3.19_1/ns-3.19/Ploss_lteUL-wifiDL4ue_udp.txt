@@ -1,0 +1,6 @@
+./lteUL-wifiDL4ue_40_position_.log:Percentage of Lost packets = 91.1831
+./lteUL-wifiDL4ue_10_position_.log:Percentage of Lost packets = 63.8653
+./lteUL-wifiDL4ue_5_position_.log:Percentage of Lost packets = 27.7948
+./lteUL-wifiDL4ue_20_position_.log:Percentage of Lost packets = 82.3675
+./lteUL-wifiDL4ue_1_position_.log:Percentage of Lost packets = 0
+./lteUL-wifiDL4ue_60_position_.log:Percentage of Lost packets = 94.1369

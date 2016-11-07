@@ -1,0 +1,161 @@
+Remote host Address  : 1.0.0.2
+client mac address22:33:44:55:66:70
+client mac address22:33:44:55:66:71
+client mac address22:33:44:55:66:72
+client mac address22:33:44:55:66:73
+ UE Interface address7.0.0.2
+ Wifi Interface address7.0.0.2
+ UE Interface address7.0.0.3
+ Wifi Interface address7.0.0.3
+ UE Interface address7.0.0.4
+ Wifi Interface address7.0.0.4
+ UE Interface address7.0.0.5
+ Wifi Interface address7.0.0.5
+Flow 1 (1.0.0.2(49153) -> 7.0.0.2(1001))
+  Tx Bytes:   4623540
+  Rx Bytes:   1242412
+  Transmitted Packets: 4395
+  Received Packets: 1181
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +9995983001.0ns
+  Delay = 53.1126msec 
+  Throughput: 1.05368Mbps
+Flow 2 (1.0.0.2(49154) -> 7.0.0.2(1002))
+  Tx Bytes:   4623540
+  Rx Bytes:   134656
+  Transmitted Packets: 4395
+  Received Packets: 128
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +9998221067.0ns
+  Delay = 53.5636msec 
+  Throughput: 0.114172Mbps
+Flow 3 (1.0.0.2(49155) -> 7.0.0.3(1003))
+  Tx Bytes:   4623540
+  Rx Bytes:   13676
+  Transmitted Packets: 4395
+  Received Packets: 13
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +6359436663.0ns
+  Delay = 50.034msec 
+  Throughput: 0.0194684Mbps
+Flow 4 (1.0.0.2(49156) -> 7.0.0.3(1004))
+  Tx Bytes:   4623540
+  Rx Bytes:   2104
+  Transmitted Packets: 4395
+  Received Packets: 2
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +9810290873.0ns
+  Delay = 50.8423msec 
+  Throughput: 0.00182199Mbps
+Flow 5 (1.0.0.2(49157) -> 7.0.0.4(1005))
+  Tx Bytes:   4623540
+  Rx Bytes:   0
+  Transmitted Packets: 4395
+  Received Packets: 0
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +0.0ns
+  Delay = -nanmsec 
+  Throughput: -0Mbps
+Flow 6 (1.0.0.2(49158) -> 7.0.0.4(1006))
+  Tx Bytes:   4623540
+  Rx Bytes:   0
+  Transmitted Packets: 4395
+  Received Packets: 0
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +0.0ns
+  Delay = -nanmsec 
+  Throughput: -0Mbps
+Flow 7 (1.0.0.2(49159) -> 7.0.0.5(1007))
+  Tx Bytes:   4623540
+  Rx Bytes:   0
+  Transmitted Packets: 4395
+  Received Packets: 0
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +0.0ns
+  Delay = -nanmsec 
+  Throughput: -0Mbps
+Flow 8 (1.0.0.2(49160) -> 7.0.0.5(1008))
+  Tx Bytes:   4623540
+  Rx Bytes:   0
+  Transmitted Packets: 4395
+  Received Packets: 0
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +0.0ns
+  Delay = -nanmsec 
+  Throughput: -0Mbps
+Flow 9 (7.0.0.2(49153) -> 1.0.0.2(2000))
+  Tx Bytes:   4623540
+  Rx Bytes:   1244516
+  Transmitted Packets: 4395
+  Received Packets: 1183
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +9990428729.0ns
+  Delay = 53.3495msec 
+  Throughput: 1.05611Mbps
+Flow 10 (7.0.0.2(49154) -> 1.0.0.2(2001))
+  Tx Bytes:   4623540
+  Rx Bytes:   81004
+  Transmitted Packets: 4395
+  Received Packets: 77
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +9992193795.0ns
+  Delay = 53.0284msec 
+  Throughput: 0.0687276Mbps
+Flow 11 (7.0.0.3(49153) -> 1.0.0.2(2002))
+  Tx Bytes:   4623540
+  Rx Bytes:   1228736
+  Transmitted Packets: 4395
+  Received Packets: 1168
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +9993799861.0ns
+  Delay = 53.178msec 
+  Throughput: 1.04233Mbps
+Flow 12 (7.0.0.3(49154) -> 1.0.0.2(2003))
+  Tx Bytes:   4623540
+  Rx Bytes:   104148
+  Transmitted Packets: 4395
+  Received Packets: 99
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +9872058307.0ns
+  Delay = 54.4497msec 
+  Throughput: 0.0895605Mbps
+Flow 13 (7.0.0.4(49153) -> 1.0.0.2(2004))
+  Tx Bytes:   4623540
+  Rx Bytes:   977308
+  Transmitted Packets: 4395
+  Received Packets: 929
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +9877189505.0ns
+  Delay = 54.9095msec 
+  Throughput: 0.839936Mbps
+Flow 14 (7.0.0.4(49154) -> 1.0.0.2(2005))
+  Tx Bytes:   4623540
+  Rx Bytes:   74692
+  Transmitted Packets: 4395
+  Received Packets: 71
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +9836878921.0ns
+  Delay = 50.1471msec 
+  Throughput: 0.064486Mbps
+Flow 15 (7.0.0.5(49153) -> 1.0.0.2(2006))
+  Tx Bytes:   4623540
+  Rx Bytes:   1229788
+  Transmitted Packets: 4395
+  Received Packets: 1169
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +9983156465.0ns
+  Delay = 53.3471msec 
+  Throughput: 1.04446Mbps
+Flow 16 (7.0.0.5(49154) -> 1.0.0.2(2007))
+  Tx Bytes:   4623540
+  Rx Bytes:   114668
+  Transmitted Packets: 4395
+  Received Packets: 109
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +9908417627.0ns
+  Delay = 51.5213msec 
+  Throughput: 0.0982046Mbps
+  Packet loss = 64191
+Percentage of Lost packets = 91.2841
+Total  Delay = 0.0534479
+ Total Rx Bytes: 6.44771e+06 Total Throughput: 5.49295

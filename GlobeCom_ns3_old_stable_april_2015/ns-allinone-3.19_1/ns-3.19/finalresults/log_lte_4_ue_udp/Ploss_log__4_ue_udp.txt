@@ -1,0 +1,4 @@
+./log_4ue_96_position.log:Percentage of Lost packets = 64.6838
+./log_4ue_16_position.log:Percentage of Lost packets = 0.0682439
+./log_4ue_32_position.log:Percentage of Lost packets = 0.0796178
+./log_4ue_64_position.log:Percentage of Lost packets = 47.0137

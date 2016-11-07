@@ -1,0 +1,824 @@
+./UL_lte+wifi(1): Total Rx Bytes: 1.0459e+07 Total Delay : +1999930404.0ns Total Throughput: 39.8992
+./UL_lte+wifi(1): Total Rx Bytes: 9.6521e+06 Total Delay : +1999930404.0ns Total Throughput: 36.8211
+./UL_lte+wifi(1): Total Rx Bytes: 5.21687e+06 Total Delay : +1999930404.0ns Total Throughput: 19.9015
+./UL_lte+wifi(1): Total Rx Bytes: 3.82086e+06 Total Delay : +1999929529.0ns Total Throughput: 14.576
+./UL_lte+wifi(1): Total Rx Bytes: 2.54584e+06 Total Delay : +1997044959.0ns Total Throughput: 9.72598
+./UL_lte+wifi(1): Total Rx Bytes: 1.27713e+06 Total Delay : +1999930959.0ns Total Throughput: 4.87202
+./UL_lte+wifi(1): Total Rx Bytes: 254584 Total Delay : +1996929529.0ns Total Throughput: 0.972654
+./ULDL_ULlte+DLwifi(4): Total Rx Bytes: 9.98348e+06 Total Delay : +15734702366.0ns Total Throughput: 38.1702
+./ULDL_ULlte+DLwifi(4): Total Rx Bytes: 9.98348e+06 Total Delay : +15821617366.0ns Total Throughput: 38.1408
+./ULDL_ULlte+DLwifi(4): Total Rx Bytes: 9.98348e+06 Total Delay : +15565157366.0ns Total Throughput: 38.227
+./ULDL_ULlte+DLwifi(4): Total Rx Bytes: 9.98348e+06 Total Delay : +15712841366.0ns Total Throughput: 38.1722
+./ULDL_ULlte+DLwifi(4): Total Rx Bytes: 9.98348e+06 Total Delay : +15831996366.0ns Total Throughput: 38.1416
+./ULDL_ULlte+DLwifi(4): Total Rx Bytes: 9.41856e+06 Total Delay : +15992378202.0ns Total Throughput: 35.9459
+./ULDL_ULlte+DLwifi(4): Total Rx Bytes: 2.04088e+06 Total Delay : +15964410202.0ns Total Throughput: 7.80273
+./throughput_log_lteUL-wifiDL1ue_udp.txt:./log_lteUL-wifiDL1ue_20_position_.log: Total Rx Bytes: 1.44342e+08 Total Throughput: 57.9604
+./throughput_log_lteUL-wifiDL1ue_udp.txt:./log_lteUL-wifiDL1ue_10_position_.log: Total Rx Bytes: 9.74257e+07 Total Throughput: 39.1216
+./throughput_log_lteUL-wifiDL1ue_udp.txt:./log_lteUL-wifiDL1ue_1_position_.log: Total Rx Bytes: 9.75414e+06 Total Throughput: 3.91733
+./throughput_log_lteUL-wifiDL1ue_udp.txt:./log_lteUL-wifiDL1ue_40_position_.log: Total Rx Bytes: 1.44342e+08 Total Throughput: 57.9621
+./throughput_log_lteUL-wifiDL1ue_udp.txt:./log_lteUL-wifiDL1ue_5_position_.log: Total Rx Bytes: 4.87476e+07 Total Throughput: 19.575
+./throughput_log_lteUL-wifiDL1ue_udp.txt:./log_lteUL-wifiDL1ue_60_position_.log: Total Rx Bytes: 1.44342e+08 Total Throughput: 57.9604
+./throughput_lteUL-wifiDL4ue_tcp.txt:./lteUL-wifiDL4ue_10_position_.log: Total Rx Bytes: 5.3708e+06 Total Throughput: 13.2485
+./throughput_lteUL-wifiDL4ue_tcp.txt:./lteUL-wifiDL4ue_5_position_.log: Total Rx Bytes: 4.22326e+06 Total Throughput: 9.42581
+./throughput_lteUL-wifiDL4ue_tcp.txt:./lteUL-wifiDL4ue_1_position_.log: Total Rx Bytes: 6.04657e+06 Total Throughput: 15.3015
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_10_position_2.log: Total Rx Bytes: 2.10448e+06 Total Delay : +31565665554.0ns Total Throughput: 8.09399
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_20_position_3.log: Total Rx Bytes: 1.75721e+06 Total Delay : +31162586906.0ns Total Throughput: 6.87546
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_60_position_2.log: Total Rx Bytes: 2.10448e+06 Total Delay : +31565665554.0ns Total Throughput: 8.09399
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_1_position_2.log: Total Rx Bytes: 2.10448e+06 Total Delay : +31565665554.0ns Total Throughput: 8.09399
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_20_position_1.log: Total Rx Bytes: 2.83702e+06 Total Delay : +31481707894.0ns Total Throughput: 10.955
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_5_position_0.log: Total Rx Bytes: 3.09845e+06 Total Delay : +31454826137.0ns Total Throughput: 11.943
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_1_position_1.log: Total Rx Bytes: 2.83702e+06 Total Delay : +31481707894.0ns Total Throughput: 10.955
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_60_position_4.log: Total Rx Bytes: 1.49915e+06 Total Delay : +31630913423.0ns Total Throughput: 5.767
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_60_position_0.log: Total Rx Bytes: 3.09845e+06 Total Delay : +31454826137.0ns Total Throughput: 11.943
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_10_position_4.log: Total Rx Bytes: 1.49915e+06 Total Delay : +31630913423.0ns Total Throughput: 5.767
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_60_position_3.log: Total Rx Bytes: 1.75721e+06 Total Delay : +31162586906.0ns Total Throughput: 6.87546
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_1_position_0.log: Total Rx Bytes: 3.09845e+06 Total Delay : +31454826137.0ns Total Throughput: 11.943
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_5_position_4.log: Total Rx Bytes: 1.49915e+06 Total Delay : +31630913423.0ns Total Throughput: 5.767
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_20_position_4.log: Total Rx Bytes: 1.49915e+06 Total Delay : +31630913423.0ns Total Throughput: 5.767
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_60_position_1.log: Total Rx Bytes: 2.83702e+06 Total Delay : +31481707894.0ns Total Throughput: 10.955
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_40_position_4.log: Total Rx Bytes: 1.49915e+06 Total Delay : +31630913423.0ns Total Throughput: 5.767
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_5_position_1.log: Total Rx Bytes: 2.83702e+06 Total Delay : +31481707894.0ns Total Throughput: 10.955
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_10_position_0.log: Total Rx Bytes: 3.09845e+06 Total Delay : +31454826137.0ns Total Throughput: 11.943
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_40_position_2.log: Total Rx Bytes: 2.10448e+06 Total Delay : +31565665554.0ns Total Throughput: 8.09399
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_5_position_2.log: Total Rx Bytes: 2.10448e+06 Total Delay : +31565665554.0ns Total Throughput: 8.09399
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_40_position_3.log: Total Rx Bytes: 1.75721e+06 Total Delay : +31162586906.0ns Total Throughput: 6.87546
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_10_position_1.log: Total Rx Bytes: 2.83702e+06 Total Delay : +31481707894.0ns Total Throughput: 10.955
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_40_position_0.log: Total Rx Bytes: 3.09845e+06 Total Delay : +31454826137.0ns Total Throughput: 11.943
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_5_position_3.log: Total Rx Bytes: 1.75721e+06 Total Delay : +31162586906.0ns Total Throughput: 6.87546
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_1_position_3.log: Total Rx Bytes: 1.75721e+06 Total Delay : +31162586906.0ns Total Throughput: 6.87546
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_20_position_0.log: Total Rx Bytes: 3.09845e+06 Total Delay : +31454826137.0ns Total Throughput: 11.943
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_1_position_4.log: Total Rx Bytes: 1.49915e+06 Total Delay : +31630913423.0ns Total Throughput: 5.767
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_20_position_2.log: Total Rx Bytes: 2.10448e+06 Total Delay : +31565665554.0ns Total Throughput: 8.09399
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_40_position_1.log: Total Rx Bytes: 2.83702e+06 Total Delay : +31481707894.0ns Total Throughput: 10.955
+./throughput_ULlte_Dlwifi.txt:./ULlte_DLwifi_10_position_3.log: Total Rx Bytes: 1.75721e+06 Total Delay : +31162586906.0ns Total Throughput: 6.87546
+./ULDL_wifi(4): Total Rx Bytes: 1.35287e+06 Total Delay : +15893593836.0ns Total Throughput: 5.20418
+./ULDL_wifi(4): Total Rx Bytes: 1.35287e+06 Total Delay : +15893593836.0ns Total Throughput: 5.20418
+./ULDL_wifi(4): Total Rx Bytes: 1.35287e+06 Total Delay : +15893593836.0ns Total Throughput: 5.20418
+./ULDL_wifi(4): Total Rx Bytes: 1.35287e+06 Total Delay : +15893593836.0ns Total Throughput: 5.20418
+./ULDL_wifi(4): Total Rx Bytes: 1.35287e+06 Total Delay : +15893593836.0ns Total Throughput: 5.20418
+./ULDL_wifi(4): Total Rx Bytes: 1.35287e+06 Total Delay : +15893593836.0ns Total Throughput: 5.20418
+./ULDL_wifi(4): Total Rx Bytes: 1.83048e+06 Total Delay : +15952577836.0ns Total Throughput: 7.00419
+./tcp_UL_DL_all(4): Total Rx Bytes: 3.80158e+06 Total Delay : +15619552410.0ns Total Throughput: 14.7726
+./tcp_UL_DL_all(4): Total Rx Bytes: 1.74688e+06 Total Delay : +15869714552.0ns Total Throughput: 6.67335
+./tcp_UL_DL_all(4): Total Rx Bytes: 2.97729e+06 Total Delay : +15834098000.0ns Total Throughput: 11.4432
+./tcp_UL_DL_all(4): Total Rx Bytes: 2.23198e+06 Total Delay : +15884218010.0ns Total Throughput: 8.55612
+./tcp_UL_DL_all(4): Total Rx Bytes: 804168 Total Delay : +15892039657.0ns Total Throughput: 3.07876
+./tcp_UL_DL_all(4): Total Rx Bytes: 1.28473e+06 Total Delay : +15798003964.0ns Total Throughput: 4.95297
+./tcp_UL_DL_all(4): Total Rx Bytes: 1.15746e+06 Total Delay : +15833608296.0ns Total Throughput: 4.43388
+./tcp_UL_DL_all(4): Total Rx Bytes: 1.46914e+06 Total Delay : +15879425668.0ns Total Throughput: 5.62622
+./automate_script/4_ue_udp/automateScript_lte_wifi.sh:grep -r "Total Throughput" . > ../throughput_log_lte_wifi_4_ue_udp.txt
+./automate_script/4_ue_udp/automateScript_lte.sh:grep -r "Total Throughput" . > ../throughput_log_lte_4_ue_udp.txt
+./automate_script/4_ue_udp/automateScript_lte_ul_wifi_dl.sh:grep -r "Total Throughput" . > ../throughput_lte_ul_wifi_dl_4_ue_udp.txt
+./automate_script/4_ue_udp/automateScript_wifi.sh:grep -r "Total Throughput" . > ../throughput_log_wifi_4_ue_udp.txt
+./automate_script/1_ue_udp/automateScript_lte_wifi.sh:grep -r "Total Throughput" . > ../throughput_log_lte_wifi_1_ue_udp.txt
+./automate_script/1_ue_udp/automateScript_lte.sh:grep -r "Total Throughput" . > ../throughput_log_lte_1_ue_udp.txt
+./automate_script/1_ue_udp/automateScript_lte_ul_wifi_dl.sh:grep -r "Total Throughput" . > ../throughput_lte_ul_wifi_dl_1_ue_udp.txt
+./automate_script/1_ue_udp/automateScript_wifi.sh:grep -r "Total Throughput" . > ../throughput_log_wifi_1_ue_udp.txt
+./automate_script/4_ue_tcp/automateScript_lte_wifi.sh:grep -r "Total Throughput" . > ../throughput_log_lte_wifi_4_ue_tcp.txt
+./automate_script/4_ue_tcp/automateScript_lte.sh:grep -r "Total Throughput" . > ../throughput_log_lte_4_ue_tcp.txt
+./automate_script/4_ue_tcp/automateScript_lte_ul_wifi_dl.sh:grep -r "Total Throughput" . > ../throughput_lte_ul_wifi_dl_4_ue_tcp.txt
+./automate_script/4_ue_tcp/automateScript_wifi.sh:grep -r "Total Throughput" . > ../throughput_log_wifi_4_ue_tcp.txt
+./automate_script/4_ue_tcp/automateScript_lte_wifi_flow_split.sh:grep -r "Total Throughput" . > ../throughput_log_lte_wifi_4_ue_flow_tcp.txt
+./automate_script/1_ue_tcp/automateScript_lte_wifi.sh:grep -r "Total Throughput" . > ../throughput_log_lte_wifi_1_ue_tcp.txt
+./automate_script/1_ue_tcp/automateScript_lte.sh:grep -r "Total Throughput" . > ../throughput_log_lte_1_ue_tcp.txt
+./automate_script/1_ue_tcp/automateScript_lte_ul_wifi_dl.sh:grep -r "Total Throughput" . > ../throughput_lte_ul_wifi_dl_1_ue_tcp.txt
+./automate_script/1_ue_tcp/automateScript_wifi.sh:grep -r "Total Throughput" . > ../throughput_log_wifi_1_ue_tcp.txt
+./automate_script/1_ue_tcp/automateScript_lte_wifi_flow_split.sh:grep -r "Total Throughput" . > ../throughput_log_lte_wifi_1_ue_flow_tcp.txt
+./throughput_log_lteUL-wifiDL_udp.txt:./log_lteUL-wifiDL_10_position_.log: Total Rx Bytes: 1.40072e+08 Total Throughput: 56.2517
+./throughput_log_lteUL-wifiDL_udp.txt:./log_lteUL-wifiDL_20_position_.log: Total Rx Bytes: 1.40072e+08 Total Throughput: 56.2502
+./throughput_log_lteUL-wifiDL_udp.txt:./log_lteUL-wifiDL_40_position_.log: Total Rx Bytes: 1.40072e+08 Total Throughput: 56.2514
+./throughput_log_lteUL-wifiDL_udp.txt:./lteUL-wifiDL_60_position_.log: Total Rx Bytes: 1.55149e+07 Total Throughput: 65.4172
+./throughput_log_lteUL-wifiDL_udp.txt:./log_lteUL-wifiDL_60_position_.log: Total Rx Bytes: 1.40072e+08 Total Throughput: 56.2493
+./throughput_log_lteUL-wifiDL_udp.txt:./lteUL-wifiDL_20_position_.log: Total Rx Bytes: 1.55117e+07 Total Throughput: 57.2235
+./throughput_log_lteUL-wifiDL_udp.txt:./log_lteUL-wifiDL_1_position_.log: Total Rx Bytes: 3.90155e+07 Total Throughput: 15.6704
+./throughput_log_lteUL-wifiDL_udp.txt:./log_lteUL-wifiDL_5_position_.log: Total Rx Bytes: 1.40072e+08 Total Throughput: 56.249
+./throughput_log_lteUL-wifiDL_udp.txt:./lteUL-wifiDL_1_position_.log: Total Rx Bytes: 1.03096e+06 Total Throughput: 3.90341
+./throughput_log_lteUL-wifiDL_udp.txt:./lteUL-wifiDL_5_position_.log: Total Rx Bytes: 5.13481e+06 Total Throughput: 19.4621
+./throughput_log_lteUL-wifiDL_udp.txt:./lteUL-wifiDL_40_position_.log: Total Rx Bytes: 1.55149e+07 Total Throughput: 65.4845
+./throughput_log_lteUL-wifiDL_udp.txt:./lteUL-wifiDL_10_position_.log: Total Rx Bytes: 1.02538e+07 Total Throughput: 38.8701
+./throughput_ltewifi_tcp_perflow.txt:./ltewifi_40_position_.log: Total Rx Bytes: 2.21072e+06 Total Throughput: 8.48796
+./throughput_ltewifi_tcp_perflow.txt:./ltewifi_1_position_.log: Total Rx Bytes: 2.21072e+06 Total Throughput: 8.48796
+./throughput_ltewifi_tcp_perflow.txt:./ltewifi_10_position_.log: Total Rx Bytes: 2.21072e+06 Total Throughput: 8.48796
+./throughput_ltewifi_tcp_perflow.txt:./ltewifi_20_position_.log: Total Rx Bytes: 2.21072e+06 Total Throughput: 8.48796
+./throughput_ltewifi_tcp_perflow.txt:./ltewifi_5_position_.log: Total Rx Bytes: 2.21072e+06 Total Throughput: 8.48796
+./log_lte4ue_udp/lte4ue_20_position_.log: Total Rx Bytes: 8.79156e+06 Total Throughput: 36.3484
+./log_lte4ue_udp/lte4ue_60_position_.log: Total Rx Bytes: 8.79156e+06 Total Throughput: 36.3484
+./log_lte4ue_udp/lte4ue_1_position_.log: Total Rx Bytes: 4.12384e+06 Total Throughput: 15.6086
+./log_lte4ue_udp/lte4ue_40_position_.log: Total Rx Bytes: 8.79156e+06 Total Throughput: 36.3484
+./log_lte4ue_udp/lte4ue_5_position_.log: Total Rx Bytes: 8.78841e+06 Total Throughput: 33.0274
+./log_lte4ue_udp/lte4ue_10_position_.log: Total Rx Bytes: 8.79156e+06 Total Throughput: 36.3484
+./log_ltewifi_udp/ltewifi_40_position_.log: Total Rx Bytes: 1.53929e+07 Total Throughput: 55.4342
+./log_ltewifi_udp/ltewifi_1_position_.log: Total Rx Bytes: 1.03096e+06 Total Throughput: 3.90791
+./log_ltewifi_udp/ltewifi_10_position_.log: Total Rx Bytes: 1.02654e+07 Total Throughput: 38.9247
+./log_ltewifi_udp/ltewifi_20_position_.log: Total Rx Bytes: 1.53897e+07 Total Throughput: 55.4381
+./log_ltewifi_udp/ltewifi_5_position_.log: Total Rx Bytes: 5.13797e+06 Total Throughput: 19.4818
+./log_ltewifi_udp/ltewifi_60_position_.log: Total Rx Bytes: 1.53929e+07 Total Throughput: 55.4342
+./t2.txt:./ULlte_DLwifi_60_position_2.log: Total Rx Bytes: 2.10448e+06 Total Delay : +31565665554.0ns Total Throughput: 8.09399
+./t2.txt:./ULlte_DLwifi_60_position_4.log: Total Rx Bytes: 1.49915e+06 Total Delay : +31630913423.0ns Total Throughput: 5.767
+./t2.txt:./ULlte_DLwifi_60_position_0.log: Total Rx Bytes: 3.09845e+06 Total Delay : +31454826137.0ns Total Throughput: 11.943
+./t2.txt:./ULlte_DLwifi_60_position_3.log: Total Rx Bytes: 1.75721e+06 Total Delay : +31162586906.0ns Total Throughput: 6.87546
+./t2.txt:./ULlte_DLwifi_60_position_1.log: Total Rx Bytes: 2.83702e+06 Total Delay : +31481707894.0ns Total Throughput: 10.955
+./UL_lte+wifi(4): Total Rx Bytes: 5.75654e+06 Total Delay : +7996377171.0ns Total Throughput: 21.9694
+./UL_lte+wifi(4): Total Rx Bytes: 5.75654e+06 Total Delay : +7996377171.0ns Total Throughput: 21.9694
+./UL_lte+wifi(4): Total Rx Bytes: 5.75654e+06 Total Delay : +7997375421.0ns Total Throughput: 21.9668
+./UL_lte+wifi(4): Total Rx Bytes: 5.75654e+06 Total Delay : +7997375421.0ns Total Throughput: 21.9668
+./UL_lte+wifi(4): Total Rx Bytes: 5.7576e+06 Total Delay : +7998720741.0ns Total Throughput: 21.9669
+./UL_lte+wifi(4): Total Rx Bytes: 4.30899e+06 Total Delay : +7988994296.0ns Total Throughput: 16.4607
+./UL_lte+wifi(4): Total Rx Bytes: 4.30899e+06 Total Delay : +7988994296.0ns Total Throughput: 16.4607
+./stats_tcp: Total Rx Bytes: 3.80158e+06 Total Delay : +15619552410.0ns Total Throughput: 14.7726
+./stats_tcp: Total Rx Bytes: 1.74688e+06 Total Delay : +15869714552.0ns Total Throughput: 6.67335
+./stats_tcp: Total Rx Bytes: 2.97729e+06 Total Delay : +15834098000.0ns Total Throughput: 11.4432
+./stats_tcp: Total Rx Bytes: 2.23198e+06 Total Delay : +15884218010.0ns Total Throughput: 8.55612
+./stats_tcp: Total Rx Bytes: 804168 Total Delay : +15892039657.0ns Total Throughput: 3.07876
+./stats_tcp: Total Rx Bytes: 1.28473e+06 Total Delay : +15798003964.0ns Total Throughput: 4.95297
+./stats_tcp: Total Rx Bytes: 1.15746e+06 Total Delay : +15833608296.0ns Total Throughput: 4.43388
+./stats_tcp: Total Rx Bytes: 1.46914e+06 Total Delay : +15879425668.0ns Total Throughput: 5.62622
+./log_lteUL-wifiDL4ue_tcp/lteUL-wifiDL4ue_10_position_.log: Total Rx Bytes: 5.3708e+06 Total Throughput: 13.2485
+./log_lteUL-wifiDL4ue_tcp/lteUL-wifiDL4ue_5_position_.log: Total Rx Bytes: 4.22326e+06 Total Throughput: 9.42581
+./log_lteUL-wifiDL4ue_tcp/lteUL-wifiDL4ue_1_position_.log: Total Rx Bytes: 6.04657e+06 Total Throughput: 15.3015
+./DL_lte+wifi(4): Total Rx Bytes: 1.00182e+07 Total Delay : +7996868997.0ns Total Throughput: 38.2267
+./DL_lte+wifi(4): Total Rx Bytes: 1.00182e+07 Total Delay : +7996545997.0ns Total Throughput: 38.2283
+./DL_lte+wifi(4): Total Rx Bytes: 1.00182e+07 Total Delay : +7996545997.0ns Total Throughput: 38.2284
+./DL_lte+wifi(4): Total Rx Bytes: 1.00161e+07 Total Delay : +7997822998.0ns Total Throughput: 38.2182
+./DL_lte+wifi(4): Total Rx Bytes: 1.0014e+07 Total Delay : +7996853998.0ns Total Throughput: 38.2141
+./DL_lte+wifi(4): Total Rx Bytes: 9.37122e+06 Total Delay : +7997648541.0ns Total Throughput: 35.7589
+./DL_lte+wifi(4): Total Rx Bytes: 5.10536e+06 Total Delay : +7995586541.0ns Total Throughput: 19.4861
+./DL_lte+wifi(4): Total Rx Bytes: 1.02254e+06 Total Delay : +7978656916.0ns Total Throughput: 3.91113
+./automateScript.sh:grep -r "Total Throughput" . > ../throughput_log_lte_1_ue_udp.txt
+./log_lte1ue_udp/log_lte1ue_40_position_.log: Total Rx Bytes: 8.48312e+07 Total Throughput: 34.0638
+./log_lte1ue_udp/log_lte1ue_5_position_.log: Total Rx Bytes: 4.87444e+07 Total Throughput: 19.5732
+./log_lte1ue_udp/log_lte1ue_60_position_.log: Total Rx Bytes: 8.48312e+07 Total Throughput: 34.0638
+./log_lte1ue_udp/log_lte1ue_1_position_.log: Total Rx Bytes: 9.75204e+06 Total Throughput: 3.91704
+./log_lte1ue_udp/log_lte1ue_20_position_.log: Total Rx Bytes: 8.48312e+07 Total Throughput: 34.0638
+./log_lte1ue_udp/log_lte1ue_10_position_.log: Total Rx Bytes: 8.48312e+07 Total Throughput: 34.0638
+./DL_wifi(4): Total Rx Bytes: 5.67449e+06 Total Delay : +7569434000.0ns Total Throughput: 21.7807
+./DL_wifi(4): Total Rx Bytes: 5.67449e+06 Total Delay : +7717118000.0ns Total Throughput: 21.7259
+./DL_wifi(4): Total Rx Bytes: 5.67449e+06 Total Delay : +7836273000.0ns Total Throughput: 21.6953
+./DL_wifi(4): Total Rx Bytes: 5.10956e+06 Total Delay : +7996654836.0ns Total Throughput: 19.4996
+./DL_wifi(4): Total Rx Bytes: 1.02254e+06 Total Delay : +7972686836.0ns Total Throughput: 3.91406
+./Flow1_lte-2_wifi: Total Rx Bytes: 5.10641e+06 Total Delay : +3999368918.0ns Total Throughput: 19.4825
+./ULDL_lte(4): Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./ULDL_lte(4): Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./ULDL_lte(4): Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./ULDL_lte(4): Total Rx Bytes: 8.65165e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0246
+./ULDL_lte(4): Total Rx Bytes: 8.65165e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0246
+./ULDL_lte(4): Total Rx Bytes: 8.64849e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0126
+./ULDL_lte(4): Total Rx Bytes: 2.04088e+06 Total Delay : +15981723362.0ns Total Throughput: 7.79425
+./log_wifi1ue_udp/log_wifi1ue_20_position_.log: Total Rx Bytes: 5.7698e+07 Total Throughput: 23.1706
+./log_wifi1ue_udp/log_wifi1ue_1_position_.log: Total Rx Bytes: 9.75835e+06 Total Throughput: 3.91855
+./log_wifi1ue_udp/log_wifi1ue_60_position_.log: Total Rx Bytes: 5.7698e+07 Total Throughput: 26.6538
+./log_wifi1ue_udp/log_wifi1ue_10_position_.log: Total Rx Bytes: 5.7698e+07 Total Throughput: 23.1701
+./log_wifi1ue_udp/log_wifi1ue_5_position_.log: Total Rx Bytes: 4.8757e+07 Total Throughput: 19.5787
+./log_wifi1ue_udp/log_wifi1ue_40_position_.log: Total Rx Bytes: 5.7698e+07 Total Throughput: 26.6644
+./UL_wifi(4): Total Rx Bytes: 1.5496e+06 Total Delay : +7963979836.0ns Total Throughput: 5.94043
+./UL_wifi(4): Total Rx Bytes: 1.5496e+06 Total Delay : +7963979836.0ns Total Throughput: 5.94043
+./UL_wifi(4): Total Rx Bytes: 1.5496e+06 Total Delay : +7963979836.0ns Total Throughput: 5.94043
+./UL_wifi(4): Total Rx Bytes: 1.5496e+06 Total Delay : +7963979836.0ns Total Throughput: 5.94043
+./UL_wifi(4): Total Rx Bytes: 1.5496e+06 Total Delay : +7963979836.0ns Total Throughput: 5.94043
+./UL_wifi(4): Total Rx Bytes: 1.5496e+06 Total Delay : +7963979836.0ns Total Throughput: 5.94043
+./UL_wifi(4): Total Rx Bytes: 1.02254e+06 Total Delay : +7989440836.0ns Total Throughput: 3.90585
+./log_lte_udp/lte_40_position_.log: Total Rx Bytes: 8.93674e+06 Total Throughput: 33.796
+./log_lte_udp/lte_60_position_.log: Total Rx Bytes: 8.93674e+06 Total Throughput: 33.796
+./log_lte_udp/lte_5_position_.log: Total Rx Bytes: 5.13481e+06 Total Throughput: 19.4471
+./log_lte_udp/lte_20_position_.log: Total Rx Bytes: 8.93674e+06 Total Throughput: 33.796
+./log_lte_udp/lte_10_position_.log: Total Rx Bytes: 8.93674e+06 Total Throughput: 33.796
+./log_lte_udp/lte_1_position_.log: Total Rx Bytes: 1.03096e+06 Total Throughput: 3.90071
+./temp.txt:./Delay.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./temp.txt:./Delay.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./temp.txt:./Delay.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./temp.txt:./Delay.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./temp.txt:./Delay.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./temp.txt:./Delay.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./temp.txt:./Delay.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./temp.txt:./Delay.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./Delay.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./Delay.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./Delay.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./temp.txt:./Delay.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./temp.txt:./Delay.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./temp.txt:./Delay.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./temp.txt:./Delay.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./temp.txt:./Delay.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./temp.txt:./Delay.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./temp.txt:./Delay.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./temp.txt:./Delay.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./temp.txt:./Delay.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./temp.txt:./Delay.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./temp.txt:./Delay.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./temp.txt:./Delay.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./temp.txt:./Delay.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./temp.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./temp.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./temp.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./temp.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./temp.txt:./temp.txt:./Delay.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./temp.txt:./temp.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./temp.txt:./temp.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./temp.txt:./temp.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./temp.txt:./temp.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./temp.txt:./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./temp.txt:./temp.txt:./delay.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./temp.txt:./temp.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./temp.txt:./temp.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./temp.txt:./temp.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./temp.txt:./temp.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./temp.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./temp.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./temp.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./temp.txt:./temp.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./temp.txt:./temp.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./temp.txt:./temp.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./temp.txt:./temp.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./temp.txt:./temp.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./temp.txt:./temp.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./temp.txt:./temp.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./temp.txt:./temp.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./temp.txt:./temp.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./temp.txt:./temp.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./temp.txt:./temp.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./temp.txt:./temp.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./temp.txt:./temp.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./temp.txt:./delay.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./temp.txt:./delay.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./temp.txt:./delay.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./temp.txt:./delay.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./temp.txt:./delay.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./temp.txt:./delay.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./temp.txt:./delay.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./temp.txt:./delay.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./delay.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./delay.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./delay.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./temp.txt:./delay.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./temp.txt:./delay.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./temp.txt:./delay.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./temp.txt:./delay.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./temp.txt:./delay.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./temp.txt:./delay.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./temp.txt:./delay.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./temp.txt:./delay.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./temp.txt:./delay.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./temp.txt:./delay.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./temp.txt:./delay.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./temp.txt:./delay.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./temp.txt:./delay.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./temp.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./temp.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./temp.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./temp.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./temp.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./temp.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./temp.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./temp.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./temp.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./temp.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./temp.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./temp.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./temp.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./temp.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./temp.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./temp.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./temp.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./throughput_log_wifi1ue_udp.txt:./log_wifi1ue_20_position_.log: Total Rx Bytes: 5.7698e+07 Total Throughput: 23.1706
+./throughput_log_wifi1ue_udp.txt:./log_wifi1ue_1_position_.log: Total Rx Bytes: 9.75835e+06 Total Throughput: 3.91855
+./throughput_log_wifi1ue_udp.txt:./log_wifi1ue_60_position_.log: Total Rx Bytes: 5.7698e+07 Total Throughput: 26.6538
+./throughput_log_wifi1ue_udp.txt:./log_wifi1ue_10_position_.log: Total Rx Bytes: 5.7698e+07 Total Throughput: 23.1701
+./throughput_log_wifi1ue_udp.txt:./log_wifi1ue_5_position_.log: Total Rx Bytes: 4.8757e+07 Total Throughput: 19.5787
+./throughput_log_wifi1ue_udp.txt:./log_wifi1ue_40_position_.log: Total Rx Bytes: 5.7698e+07 Total Throughput: 26.6644
+./test/ltewifi_case1: Total Rx Bytes: 2.57495e+07 Total Throughput: 21.8299
+./test/lteul_wifidl_case3: Total Rx Bytes: 2.0913e+07 Total Throughput: 17.7646
+./test/case1: Total Rx Bytes: 3.89394e+07 Total Throughput: 33.0194
+./test/lteul_wifidl_case4: Total Rx Bytes: 3.89394e+07 Total Throughput: 33.0194
+./test/ltewifi_case2: Total Rx Bytes: 4.27988e+07 Total Throughput: 36.282
+./test/lte_wifi_case1: Total Rx Bytes: 2.18641e+07 Total Throughput: 18.5541
+./test/test_case: Total Rx Bytes: 3.89394e+07 Total Throughput: 33.0194
+./stats_ULlte_DLwifi_4ue: Total Rx Bytes: 9.98348e+06 Total Delay : +15734702366.0ns Total Throughput: 38.1702
+./stats_ULlte_DLwifi_4ue: Total Rx Bytes: 9.98348e+06 Total Delay : +15821617366.0ns Total Throughput: 38.1408
+./stats_ULlte_DLwifi_4ue: Total Rx Bytes: 9.98348e+06 Total Delay : +15565157366.0ns Total Throughput: 38.227
+./stats_ULlte_DLwifi_4ue: Total Rx Bytes: 9.98348e+06 Total Delay : +15712841366.0ns Total Throughput: 38.1722
+./stats_ULlte_DLwifi_4ue: Total Rx Bytes: 9.98348e+06 Total Delay : +15831996366.0ns Total Throughput: 38.1416
+./stats_ULlte_DLwifi_4ue: Total Rx Bytes: 9.41856e+06 Total Delay : +15992378202.0ns Total Throughput: 35.9459
+./stats_ULlte_DLwifi_4ue: Total Rx Bytes: 2.04088e+06 Total Delay : +15964410202.0ns Total Throughput: 7.80273
+./delay.txt: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./delay.txt: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./delay.txt: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./delay.txt: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./delay.txt: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./delay.txt: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./delay.txt: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./delay.txt: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./delay.txt: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./delay.txt: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./delay.txt: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./delay.txt: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./delay.txt: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./delay.txt: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./delay.txt: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./delay.txt: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./delay.txt: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./delay.txt: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./delay.txt: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./delay.txt: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./delay.txt: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./delay.txt: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./delay.txt: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./delay.txt: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./UL_lte(1): Total Rx Bytes: 4.51413e+06 Total Delay : +1999930404.0ns Total Throughput: 17.2206
+./UL_lte(1): Total Rx Bytes: 4.51413e+06 Total Delay : +1999930404.0ns Total Throughput: 17.2206
+./UL_lte(1): Total Rx Bytes: 4.51413e+06 Total Delay : +1999930404.0ns Total Throughput: 17.2206
+./UL_lte(1): Total Rx Bytes: 3.8114e+06 Total Delay : +1999930404.0ns Total Throughput: 14.5398
+./UL_lte(1): Total Rx Bytes: 2.54479e+06 Total Delay : +1999929529.0ns Total Throughput: 9.70794
+./UL_lte(1): Total Rx Bytes: 1.27397e+06 Total Delay : +1998929529.0ns Total Throughput: 4.86242
+./UL_lte(1): Total Rx Bytes: 254584 Total Delay : +1996929529.0ns Total Throughput: 0.972654
+./tcp_test: Total Rx Bytes: 4.82063e+07 Total Throughput: 40.875
+./UL_wifi(1): Total Rx Bytes: 5.94485e+06 Total Delay : +1999690959.0ns Total Throughput: 22.6813
+./UL_wifi(1): Total Rx Bytes: 5.94485e+06 Total Delay : +1999690959.0ns Total Throughput: 22.6813
+./UL_wifi(1): Total Rx Bytes: 5.23054e+06 Total Delay : +1999784959.0ns Total Throughput: 19.9551
+./UL_wifi(1): Total Rx Bytes: 3.82718e+06 Total Delay : +1999623959.0ns Total Throughput: 14.6023
+./UL_wifi(1): Total Rx Bytes: 2.5532e+06 Total Delay : +1999504959.0ns Total Throughput: 9.74211
+./UL_wifi(1): Total Rx Bytes: 1.27818e+06 Total Delay : +1999930959.0ns Total Throughput: 4.87604
+./UL_wifi(1): Total Rx Bytes: 255636 Total Delay : +1992648959.0ns Total Throughput: 0.978771
+./throughput_lteUL-wifiDL1ue_tcp.txt:./lteUL-wifiDL1ue_10_position_.log: Total Rx Bytes: 4.73793e+06 Total Throughput: 16.1956
+./throughput_lteUL-wifiDL1ue_tcp.txt:./lteUL-wifiDL1ue_1_position_.log: Total Rx Bytes: 1.41433e+06 Total Throughput: 3.63173
+./throughput_lteUL-wifiDL1ue_tcp.txt:./lteUL-wifiDL1ue_5_position_.log: Total Rx Bytes: 3.57174e+06 Total Throughput: 12.0621
+./log_ltewifi_perpacket_udp/ltewifi_perpacket_10_position_.log: Total Rx Bytes: 1.02644e+07 Total Throughput: 38.8839
+./log_ltewifi_perpacket_udp/ltewifi_perpacket_5_position_.log: Total Rx Bytes: 5.13797e+06 Total Throughput: 19.4591
+./log_ltewifi_perpacket_udp/ltewifi_perpacket_1_position_.log: Total Rx Bytes: 1.03096e+06 Total Throughput: 3.90071
+./log_ltewifi_perpacket_udp/ltewifi_perpacket_40_position_.log: Total Rx Bytes: 1.53908e+07 Total Throughput: 51.6357
+./log_ltewifi_perpacket_udp/ltewifi_perpacket_20_position_.log: Total Rx Bytes: 8.93674e+06 Total Throughput: 33.796
+./log_ltewifi_perpacket_udp/ltewifi_perpacket_20_position_.log: Total Rx Bytes: 1.53887e+07 Total Throughput: 51.6084
+./log_ltewifi_perpacket_udp/ltewifi_perpacket_60_position_.log: Total Rx Bytes: 1.53918e+07 Total Throughput: 53.1282
+./stats_ULDL_lte_4ue: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./stats_ULDL_lte_4ue: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./stats_ULDL_lte_4ue: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./stats_ULDL_lte_4ue: Total Rx Bytes: 8.65165e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0246
+./stats_ULDL_lte_4ue: Total Rx Bytes: 8.65165e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0246
+./stats_ULDL_lte_4ue: Total Rx Bytes: 8.64849e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0126
+./stats_ULDL_lte_4ue: Total Rx Bytes: 2.04088e+06 Total Delay : +15981723362.0ns Total Throughput: 7.79425
+./testUL: Total Rx Bytes: 1.90778e+07 Total Throughput: 16.1733
+./throughput_ltewifi.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.13226e+06 Total Delay : +31094460515.0ns Total Throughput: 8.34694
+./throughput_ltewifi.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 2.51903e+06 Total Delay : +31452180970.0ns Total Throughput: 9.68338
+./throughput_ltewifi.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 1.66043e+06 Total Delay : +31592618471.0ns Total Throughput: 6.38717
+./throughput_ltewifi.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 1.59812e+06 Total Delay : +30238533563.0ns Total Throughput: 6.38047
+./throughput_ltewifi.txt:./ltewifi_5_position_0.log: Total Rx Bytes: 2.91657e+06 Total Delay : +31488048757.0ns Total Throughput: 11.2068
+./throughput_ltewifi.txt:./ltewifi_10_position_0.log: Total Rx Bytes: 2.91657e+06 Total Delay : +31488048757.0ns Total Throughput: 11.2068
+./throughput_ltewifi.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 1.66043e+06 Total Delay : +31592618471.0ns Total Throughput: 6.38717
+./throughput_ltewifi.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 2.51903e+06 Total Delay : +31452180970.0ns Total Throughput: 9.68338
+./throughput_ltewifi.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 2.13226e+06 Total Delay : +31094460515.0ns Total Throughput: 8.34694
+./throughput_ltewifi.txt:./ltewifi_20_position_0.log: Total Rx Bytes: 2.91657e+06 Total Delay : +31488048757.0ns Total Throughput: 11.2068
+./throughput_ltewifi.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 1.59812e+06 Total Delay : +30238533563.0ns Total Throughput: 6.38047
+./throughput_ltewifi.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 1.59812e+06 Total Delay : +30238533563.0ns Total Throughput: 6.38047
+./throughput_ltewifi.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 1.59812e+06 Total Delay : +30238533563.0ns Total Throughput: 6.38047
+./throughput_ltewifi.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 1.66043e+06 Total Delay : +31592618471.0ns Total Throughput: 6.38717
+./throughput_ltewifi.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 2.51903e+06 Total Delay : +31452180970.0ns Total Throughput: 9.68338
+./throughput_ltewifi.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.51903e+06 Total Delay : +31452180970.0ns Total Throughput: 9.68338
+./throughput_ltewifi.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 2.51903e+06 Total Delay : +31452180970.0ns Total Throughput: 9.68338
+./throughput_ltewifi.txt:./ltewifi_40_position_0.log: Total Rx Bytes: 2.91657e+06 Total Delay : +31488048757.0ns Total Throughput: 11.2068
+./throughput_ltewifi.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 1.59812e+06 Total Delay : +30238533563.0ns Total Throughput: 6.38047
+./throughput_ltewifi.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 2.13226e+06 Total Delay : +31094460515.0ns Total Throughput: 8.34694
+./throughput_ltewifi.txt:./ltewifi_1_position_0.log: Total Rx Bytes: 2.91657e+06 Total Delay : +31488048757.0ns Total Throughput: 11.2068
+./throughput_ltewifi.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 2.13226e+06 Total Delay : +31094460515.0ns Total Throughput: 8.34694
+./throughput_ltewifi.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 1.66043e+06 Total Delay : +31592618471.0ns Total Throughput: 6.38717
+./throughput_ltewifi.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.59812e+06 Total Delay : +30238533563.0ns Total Throughput: 6.38047
+./throughput_ltewifi.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 2.51903e+06 Total Delay : +31452180970.0ns Total Throughput: 9.68338
+./throughput_ltewifi.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 2.13226e+06 Total Delay : +31094460515.0ns Total Throughput: 8.34694
+./throughput_ltewifi.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 1.66043e+06 Total Delay : +31592618471.0ns Total Throughput: 6.38717
+./throughput_ltewifi.txt:./ltewifi_60_position_0.log: Total Rx Bytes: 2.91657e+06 Total Delay : +31488048757.0ns Total Throughput: 11.2068
+./throughput_ltewifi.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 1.66043e+06 Total Delay : +31592618471.0ns Total Throughput: 6.38717
+./throughput_ltewifi.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 2.13226e+06 Total Delay : +31094460515.0ns Total Throughput: 8.34694
+./log_wifi4ue_udp/wifi4ue_60_position_.log: Total Rx Bytes: 3.48738e+06 Total Throughput: 6.30634
+./log_wifi4ue_udp/wifi4ue_1_position_.log: Total Rx Bytes: 2.77518e+06 Total Throughput: 6.34801
+./log_wifi4ue_udp/wifi4ue_10_position_.log: Total Rx Bytes: 3.49159e+06 Total Throughput: 6.20699
+./log_wifi4ue_udp/wifi4ue_20_position_.log: Total Rx Bytes: 3.49054e+06 Total Throughput: 6.2534
+./log_wifi4ue_udp/wifi4ue_40_position_.log: Total Rx Bytes: 3.48738e+06 Total Throughput: 6.52517
+./log_wifi4ue_udp/wifi4ue_5_position_.log: Total Rx Bytes: 3.49054e+06 Total Throughput: 5.54036
+./ULDL_lte+wifi(4): Total Rx Bytes: 9.98874e+06 Total Delay : +15989723362.0ns Total Throughput: 38.1282
+./ULDL_lte+wifi(4): Total Rx Bytes: 9.89827e+06 Total Delay : +15989723362.0ns Total Throughput: 37.7828
+./ULDL_lte+wifi(4): Total Rx Bytes: 9.94982e+06 Total Delay : +15989723362.0ns Total Throughput: 37.9796
+./ULDL_lte+wifi(4): Total Rx Bytes: 9.90668e+06 Total Delay : +15990720737.0ns Total Throughput: 37.8123
+./ULDL_lte+wifi(4): Total Rx Bytes: 9.93509e+06 Total Delay : +15993610167.0ns Total Throughput: 37.9135
+./ULDL_lte+wifi(4): Total Rx Bytes: 6.60866e+06 Total Delay : +15982372417.0ns Total Throughput: 25.239
+./ULDL_lte+wifi(4): Total Rx Bytes: 2.04298e+06 Total Delay : +15957399834.0ns Total Throughput: 7.81417
+./tcp_ULDL_all(4): Total Rx Bytes: 2.25217e+06 Total Delay : +31819236359.0ns Total Throughput: 8.6158
+./tcp_ULDL_all(4): Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./tcp_ULDL_all(4): Total Rx Bytes: 2.21866e+06 Total Delay : +30293753248.0ns Total Throughput: 8.87097
+./tcp_ULDL_all(4): Total Rx Bytes: 4.37231e+06 Total Delay : +31386493510.0ns Total Throughput: 16.8622
+./stats_ULDL_ltewifi_4ue: Total Rx Bytes: 9.98874e+06 Total Delay : +15989723362.0ns Total Throughput: 38.1282
+./stats_ULDL_ltewifi_4ue: Total Rx Bytes: 9.89827e+06 Total Delay : +15989723362.0ns Total Throughput: 37.7828
+./stats_ULDL_ltewifi_4ue: Total Rx Bytes: 9.94982e+06 Total Delay : +15989723362.0ns Total Throughput: 37.9796
+./stats_ULDL_ltewifi_4ue: Total Rx Bytes: 9.90668e+06 Total Delay : +15990720737.0ns Total Throughput: 37.8123
+./stats_ULDL_ltewifi_4ue: Total Rx Bytes: 9.93509e+06 Total Delay : +15993610167.0ns Total Throughput: 37.9135
+./stats_ULDL_ltewifi_4ue: Total Rx Bytes: 6.60866e+06 Total Delay : +15982372417.0ns Total Throughput: 25.239
+./stats_ULDL_ltewifi_4ue: Total Rx Bytes: 2.04298e+06 Total Delay : +15957399834.0ns Total Throughput: 7.81417
+./log_lteUL-wifiDL1ue_udp/log_lteUL-wifiDL1ue_20_position_.log: Total Rx Bytes: 1.44342e+08 Total Throughput: 57.9604
+./log_lteUL-wifiDL1ue_udp/log_lteUL-wifiDL1ue_10_position_.log: Total Rx Bytes: 9.74257e+07 Total Throughput: 39.1216
+./log_lteUL-wifiDL1ue_udp/log_lteUL-wifiDL1ue_1_position_.log: Total Rx Bytes: 9.75414e+06 Total Throughput: 3.91733
+./log_lteUL-wifiDL1ue_udp/log_lteUL-wifiDL1ue_40_position_.log: Total Rx Bytes: 1.44342e+08 Total Throughput: 57.9621
+./log_lteUL-wifiDL1ue_udp/log_lteUL-wifiDL1ue_5_position_.log: Total Rx Bytes: 4.87476e+07 Total Throughput: 19.575
+./log_lteUL-wifiDL1ue_udp/log_lteUL-wifiDL1ue_60_position_.log: Total Rx Bytes: 1.44342e+08 Total Throughput: 57.9604
+./tcp_test_DL: Total Rx Bytes: 5.05782e+06 Total Throughput: 4.29463
+./throughput_log_ltewifi_udp.txt:./ltewifi4ue_60_position_.log: Total Rx Bytes: 1.22558e+07 Total Throughput: 38.4479
+./throughput_log_ltewifi_udp.txt:./ltewifi4ue_20_position_.log: Total Rx Bytes: 1.22569e+07 Total Throughput: 38.6427
+./throughput_log_ltewifi_udp.txt:./ltewifi4ue_5_position_.log: Total Rx Bytes: 1.22516e+07 Total Throughput: 38.6097
+./throughput_log_ltewifi_udp.txt:./ltewifi4ue_40_position_.log: Total Rx Bytes: 1.22558e+07 Total Throughput: 38.5588
+./throughput_log_ltewifi_udp.txt:./ltewifi4ue_10_position_.log: Total Rx Bytes: 1.22569e+07 Total Throughput: 38.5569
+./throughput_log_ltewifi_udp.txt:./ltewifi4ue_1_position_.log: Total Rx Bytes: 4.11542e+06 Total Throughput: 15.4747
+./throughput_wifi.txt:./wifi_5_position_4.log: Total Rx Bytes: 1.11254e+06 Total Delay : +29169431360.0ns Total Throughput: 4.65552
+./throughput_wifi.txt:./wifi_1_position_4.log: Total Rx Bytes: 1.11254e+06 Total Delay : +29169431360.0ns Total Throughput: 4.65552
+./throughput_wifi.txt:./wifi_1_position_3.log: Total Rx Bytes: 1.40705e+06 Total Delay : +29183528177.0ns Total Throughput: 5.68329
+./throughput_wifi.txt:./wifi_60_position_1.log: Total Rx Bytes: 1.97898e+06 Total Delay : +31545050715.0ns Total Throughput: 7.63341
+./throughput_wifi.txt:./wifi_20_position_2.log: Total Rx Bytes: 1.66766e+06 Total Delay : +31046846953.0ns Total Throughput: 6.6191
+./throughput_wifi.txt:./wifi_60_position_4.log: Total Rx Bytes: 1.11254e+06 Total Delay : +29169431360.0ns Total Throughput: 4.65552
+./throughput_wifi.txt:./wifi_10_position_3.log: Total Rx Bytes: 1.40705e+06 Total Delay : +29183528177.0ns Total Throughput: 5.68329
+./throughput_wifi.txt:./wifi_10_position_4.log: Total Rx Bytes: 1.11254e+06 Total Delay : +29169431360.0ns Total Throughput: 4.65552
+./throughput_wifi.txt:./wifi_5_position_0.log: Total Rx Bytes: 2.36518e+06 Total Delay : +31414133721.0ns Total Throughput: 9.13976
+./throughput_wifi.txt:./wifi_20_position_4.log: Total Rx Bytes: 1.11254e+06 Total Delay : +29169431360.0ns Total Throughput: 4.65552
+./throughput_wifi.txt:./wifi_20_position_1.log: Total Rx Bytes: 1.97898e+06 Total Delay : +31545050715.0ns Total Throughput: 7.63341
+./throughput_wifi.txt:./wifi_5_position_1.log: Total Rx Bytes: 1.97898e+06 Total Delay : +31545050715.0ns Total Throughput: 7.63341
+./throughput_wifi.txt:./wifi_5_position_3.log: Total Rx Bytes: 1.40705e+06 Total Delay : +29183528177.0ns Total Throughput: 5.68329
+./throughput_wifi.txt:./wifi_60_position_3.log: Total Rx Bytes: 1.40705e+06 Total Delay : +29183528177.0ns Total Throughput: 5.68329
+./throughput_wifi.txt:./wifi_60_position_0.log: Total Rx Bytes: 2.36518e+06 Total Delay : +31414133721.0ns Total Throughput: 9.13976
+./throughput_wifi.txt:./wifi_40_position_1.log: Total Rx Bytes: 1.97898e+06 Total Delay : +31545050715.0ns Total Throughput: 7.63341
+./throughput_wifi.txt:./wifi_1_position_2.log: Total Rx Bytes: 1.66766e+06 Total Delay : +31046846953.0ns Total Throughput: 6.6191
+./throughput_wifi.txt:./wifi_1_position_1.log: Total Rx Bytes: 1.97898e+06 Total Delay : +31545050715.0ns Total Throughput: 7.63341
+./throughput_wifi.txt:./wifi_20_position_3.log: Total Rx Bytes: 1.40705e+06 Total Delay : +29183528177.0ns Total Throughput: 5.68329
+./throughput_wifi.txt:./wifi_60_position_2.log: Total Rx Bytes: 1.66766e+06 Total Delay : +31046846953.0ns Total Throughput: 6.6191
+./throughput_wifi.txt:./wifi_5_position_2.log: Total Rx Bytes: 1.66766e+06 Total Delay : +31046846953.0ns Total Throughput: 6.6191
+./throughput_wifi.txt:./wifi_40_position_2.log: Total Rx Bytes: 1.66766e+06 Total Delay : +31046846953.0ns Total Throughput: 6.6191
+./throughput_wifi.txt:./wifi_10_position_1.log: Total Rx Bytes: 1.97898e+06 Total Delay : +31545050715.0ns Total Throughput: 7.63341
+./throughput_wifi.txt:./wifi_10_position_0.log: Total Rx Bytes: 2.36518e+06 Total Delay : +31414133721.0ns Total Throughput: 9.13976
+./throughput_wifi.txt:./wifi_40_position_3.log: Total Rx Bytes: 1.40705e+06 Total Delay : +29183528177.0ns Total Throughput: 5.68329
+./throughput_wifi.txt:./wifi_40_position_0.log: Total Rx Bytes: 2.36518e+06 Total Delay : +31414133721.0ns Total Throughput: 9.13976
+./throughput_wifi.txt:./wifi_1_position_0.log: Total Rx Bytes: 2.36518e+06 Total Delay : +31414133721.0ns Total Throughput: 9.13976
+./throughput_wifi.txt:./wifi_40_position_4.log: Total Rx Bytes: 1.11254e+06 Total Delay : +29169431360.0ns Total Throughput: 4.65552
+./throughput_wifi.txt:./wifi_10_position_2.log: Total Rx Bytes: 1.66766e+06 Total Delay : +31046846953.0ns Total Throughput: 6.6191
+./throughput_wifi.txt:./wifi_20_position_0.log: Total Rx Bytes: 2.36518e+06 Total Delay : +31414133721.0ns Total Throughput: 9.13976
+./t4.txt:./ULlte_DLwifi_40_position_4.log: Total Rx Bytes: 1.49915e+06 Total Delay : +31630913423.0ns Total Throughput: 5.767
+./t4.txt:./ULlte_DLwifi_40_position_2.log: Total Rx Bytes: 2.10448e+06 Total Delay : +31565665554.0ns Total Throughput: 8.09399
+./t4.txt:./ULlte_DLwifi_40_position_3.log: Total Rx Bytes: 1.75721e+06 Total Delay : +31162586906.0ns Total Throughput: 6.87546
+./t4.txt:./ULlte_DLwifi_40_position_0.log: Total Rx Bytes: 3.09845e+06 Total Delay : +31454826137.0ns Total Throughput: 11.943
+./t4.txt:./ULlte_DLwifi_40_position_1.log: Total Rx Bytes: 2.83702e+06 Total Delay : +31481707894.0ns Total Throughput: 10.955
+./throughput_lteUL_wifiDL_tcp: Total Rx Bytes: 6.68884e+06 Total Throughput: 18.5061
+./throughput_lte.txt:./lte_5_position_4.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_10_position_0.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_40_position_4.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_40_position_1.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_5_position_3.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_1_position_3.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_1_position_1.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_60_position_1.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_5_position_1.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_1_position_0.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_20_position_1.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_60_position_0.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_20_position_2.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_5_position_2.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_10_position_3.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_10_position_2.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_20_position_4.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_60_position_4.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_10_position_1.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_10_position_4.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_40_position_3.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_1_position_2.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_60_position_2.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_40_position_0.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_5_position_0.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_1_position_4.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_20_position_0.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_20_position_3.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_40_position_2.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_lte.txt:./lte_60_position_3.log: Total Rx Bytes: 2.70422e+06 Total Delay : +31672722130.0ns Total Throughput: 10.3592
+./throughput_log_wifi_udp.txt:./wifi4ue_60_position_.log: Total Rx Bytes: 3.48738e+06 Total Throughput: 6.30634
+./throughput_log_wifi_udp.txt:./wifi4ue_1_position_.log: Total Rx Bytes: 2.77518e+06 Total Throughput: 6.34801
+./throughput_log_wifi_udp.txt:./wifi4ue_10_position_.log: Total Rx Bytes: 3.49159e+06 Total Throughput: 6.20699
+./throughput_log_wifi_udp.txt:./wifi4ue_20_position_.log: Total Rx Bytes: 3.49054e+06 Total Throughput: 6.2534
+./throughput_log_wifi_udp.txt:./wifi4ue_40_position_.log: Total Rx Bytes: 3.48738e+06 Total Throughput: 6.52517
+./throughput_log_wifi_udp.txt:./wifi4ue_5_position_.log: Total Rx Bytes: 3.49054e+06 Total Throughput: 5.54036
+./UL_lte(4): Total Rx Bytes: 4.30899e+06 Total Delay : +7995723366.0ns Total Throughput: 16.4463
+./UL_lte(4): Total Rx Bytes: 4.30899e+06 Total Delay : +7995723366.0ns Total Throughput: 16.4463
+./UL_lte(4): Total Rx Bytes: 4.30899e+06 Total Delay : +7995723366.0ns Total Throughput: 16.4463
+./UL_lte(4): Total Rx Bytes: 4.30899e+06 Total Delay : +7995723366.0ns Total Throughput: 16.4463
+./UL_lte(4): Total Rx Bytes: 4.30899e+06 Total Delay : +7995723366.0ns Total Throughput: 16.4463
+./UL_lte(4): Total Rx Bytes: 4.30899e+06 Total Delay : +7995723366.0ns Total Throughput: 16.4463
+./UL_lte(4): Total Rx Bytes: 1.01834e+06 Total Delay : +7991723366.0ns Total Throughput: 3.88867
+./Result_Femto/wifi/wifi_5_position_4.log: Total Rx Bytes: 1.28975e+06 Total Delay : +3981274441.0ns Total Throughput: 4.93216
+./Result_Femto/wifi/wifi_1_position_4.log: Total Rx Bytes: 1.02254e+06 Total Delay : +3988448104.0ns Total Throughput: 3.90634
+./Result_Femto/wifi/wifi_1_position_4.log: Total Rx Bytes: 1.28975e+06 Total Delay : +3981274441.0ns Total Throughput: 4.93216
+./Result_Femto/wifi/wifi_1_position_3.log: Total Rx Bytes: 932072 Total Delay : +15368023627.0ns Total Throughput: 3.59066
+./Result_Femto/wifi/wifi_1_position_3.log: Total Rx Bytes: 1.10355e+06 Total Delay : +13666215356.0ns Total Throughput: 4.34173
+./Result_Femto/wifi/wifi_20_position_2.log: Total Rx Bytes: 1.48016e+06 Total Delay : +15810211044.0ns Total Throughput: 5.69074
+./Result_Femto/wifi/wifi_10_position_3.log: Total Rx Bytes: 1.10355e+06 Total Delay : +13666215356.0ns Total Throughput: 4.34173
+./Result_Femto/wifi/wifi_10_position_4.log: Total Rx Bytes: 1.28975e+06 Total Delay : +3981274441.0ns Total Throughput: 4.93216
+./Result_Femto/wifi/wifi_5_position_0.log: Total Rx Bytes: 1.36865e+06 Total Delay : +15525936626.0ns Total Throughput: 5.39552
+./Result_Femto/wifi/wifi_20_position_4.log: Total Rx Bytes: 1.28975e+06 Total Delay : +3981274441.0ns Total Throughput: 4.93216
+./Result_Femto/wifi/wifi_20_position_1.log: Total Rx Bytes: 1.36024e+06 Total Delay : +15928154415.0ns Total Throughput: 5.21073
+./Result_Femto/wifi/wifi_5_position_1.log: Total Rx Bytes: 1.36024e+06 Total Delay : +15928154415.0ns Total Throughput: 5.21073
+./Result_Femto/wifi/wifi_5_position_3.log: Total Rx Bytes: 1.10355e+06 Total Delay : +13666215356.0ns Total Throughput: 4.34173
+./Result_Femto/wifi/wifi_40_position_1.log: Total Rx Bytes: 1.36024e+06 Total Delay : +15928154415.0ns Total Throughput: 5.21073
+./Result_Femto/wifi/wifi_1_position_2.log: Total Rx Bytes: 1.58221e+06 Total Delay : +15927091142.0ns Total Throughput: 6.06326
+./Result_Femto/wifi/wifi_1_position_2.log: Total Rx Bytes: 1.48016e+06 Total Delay : +15810211044.0ns Total Throughput: 5.69074
+./Result_Femto/wifi/wifi_1_position_1.log: Total Rx Bytes: 1.44545e+06 Total Delay : +15825122956.0ns Total Throughput: 5.55622
+./Result_Femto/wifi/wifi_1_position_1.log: Total Rx Bytes: 1.36024e+06 Total Delay : +15928154415.0ns Total Throughput: 5.21073
+./Result_Femto/wifi/wifi_20_position_3.log: Total Rx Bytes: 1.10355e+06 Total Delay : +13666215356.0ns Total Throughput: 4.34173
+./Result_Femto/wifi/wifi_5_position_2.log: Total Rx Bytes: 1.48016e+06 Total Delay : +15810211044.0ns Total Throughput: 5.69074
+./Result_Femto/wifi/wifi_40_position_2.log: Total Rx Bytes: 1.48016e+06 Total Delay : +15810211044.0ns Total Throughput: 5.69074
+./Result_Femto/wifi/wifi_10_position_1.log: Total Rx Bytes: 1.36024e+06 Total Delay : +15928154415.0ns Total Throughput: 5.21073
+./Result_Femto/wifi/wifi_10_position_0.log: Total Rx Bytes: 1.36865e+06 Total Delay : +15525936626.0ns Total Throughput: 5.39552
+./Result_Femto/wifi/wifi_40_position_3.log: Total Rx Bytes: 1.10355e+06 Total Delay : +13666215356.0ns Total Throughput: 4.34173
+./Result_Femto/wifi/wifi_40_position_0.log: Total Rx Bytes: 1.36865e+06 Total Delay : +15525936626.0ns Total Throughput: 5.39552
+./Result_Femto/wifi/wifi_1_position_0.log: Total Rx Bytes: 1.79156e+06 Total Delay : +15964998949.0ns Total Throughput: 6.85021
+./Result_Femto/wifi/wifi_1_position_0.log: Total Rx Bytes: 1.36865e+06 Total Delay : +15525936626.0ns Total Throughput: 5.39552
+./Result_Femto/wifi/wifi_40_position_4.log: Total Rx Bytes: 1.28975e+06 Total Delay : +3981274441.0ns Total Throughput: 4.93216
+./Result_Femto/wifi/wifi_10_position_2.log: Total Rx Bytes: 1.48016e+06 Total Delay : +15810211044.0ns Total Throughput: 5.69074
+./Result_Femto/wifi/wifi_20_position_0.log: Total Rx Bytes: 1.36865e+06 Total Delay : +15525936626.0ns Total Throughput: 5.39552
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_5_position_4.log: Total Rx Bytes: 5.69448e+06 Total Delay : +9990017926.0ns Total Throughput: 21.7377
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_20_position_4.log: Total Rx Bytes: 5.67975e+06 Total Delay : +9907522392.0ns Total Throughput: 21.7186
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_40_position_2.log: Total Rx Bytes: 6.51714e+06 Total Delay : +14907998683.0ns Total Throughput: 25.2325
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_10_position_4.log: Total Rx Bytes: 5.6808e+06 Total Delay : +8838635779.0ns Total Throughput: 23.1275
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_1_position_0.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15964614594.0ns Total Throughput: 7.80263
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_1_position_0.log: Total Rx Bytes: 9.37016e+06 Total Delay : +15848565482.0ns Total Throughput: 35.7954
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_20_position_1.log: Total Rx Bytes: 7.27563e+06 Total Delay : +15426451664.0ns Total Throughput: 27.9361
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_1_position_4.log: Total Rx Bytes: 1.52961e+06 Total Delay : +9979745980.0ns Total Throughput: 5.84487
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_1_position_4.log: Total Rx Bytes: 5.6787e+06 Total Delay : +9465715616.0ns Total Throughput: 21.9796
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_1_position_2.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15969388382.0ns Total Throughput: 7.80028
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_1_position_2.log: Total Rx Bytes: 6.51293e+06 Total Delay : +15813019900.0ns Total Throughput: 24.8993
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_10_position_0.log: Total Rx Bytes: 9.42487e+06 Total Delay : +15256454834.0ns Total Throughput: 36.2464
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_5_position_3.log: Total Rx Bytes: 5.10115e+06 Total Delay : +14200404728.0ns Total Throughput: 20.2484
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_10_position_3.log: Total Rx Bytes: 5.09904e+06 Total Delay : +13019359779.0ns Total Throughput: 20.7558
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_20_position_2.log: Total Rx Bytes: 6.51609e+06 Total Delay : +15609544776.0ns Total Throughput: 24.9628
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_20_position_3.log: Total Rx Bytes: 5.09378e+06 Total Delay : +13486854764.0ns Total Throughput: 20.4529
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_40_position_4.log: Total Rx Bytes: 5.67554e+06 Total Delay : +9268054378.0ns Total Throughput: 22.1489
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_5_position_1.log: Total Rx Bytes: 7.27563e+06 Total Delay : +15573832660.0ns Total Throughput: 27.9758
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_40_position_0.log: Total Rx Bytes: 9.39015e+06 Total Delay : +15892973274.0ns Total Throughput: 35.8564
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_5_position_0.log: Total Rx Bytes: 9.41856e+06 Total Delay : +15992708594.0ns Total Throughput: 35.9451
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_5_position_2.log: Total Rx Bytes: 6.57395e+06 Total Delay : +13847428090.0ns Total Throughput: 27.1209
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_10_position_1.log: Total Rx Bytes: 7.27458e+06 Total Delay : +13219752884.0ns Total Throughput: 30.3385
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_20_position_0.log: Total Rx Bytes: 9.32072e+06 Total Delay : +15590592030.0ns Total Throughput: 35.6711
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_40_position_1.log: Total Rx Bytes: 7.27668e+06 Total Delay : +15885346078.0ns Total Throughput: 27.7944
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_40_position_3.log: Total Rx Bytes: 5.09063e+06 Total Delay : +14351211309.0ns Total Throughput: 19.9561
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_10_position_2.log: Total Rx Bytes: 6.51819e+06 Total Delay : +15410428688.0ns Total Throughput: 25.059
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_1_position_1.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15967257518.0ns Total Throughput: 7.80133
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_1_position_1.log: Total Rx Bytes: 7.27563e+06 Total Delay : +15795455056.0ns Total Throughput: 27.8131
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_1_position_3.log: Total Rx Bytes: 1.90202e+06 Total Delay : +15939222562.0ns Total Throughput: 7.28191
+./Result_Femto/throughput_lte_ul_wifi_dl.txt:./lte_ul_wifi_dl_1_position_3.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15221483220.0ns Total Throughput: 19.5984
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_5_position_4.log: Total Rx Bytes: 5.69448e+06 Total Delay : +9990017926.0ns Total Throughput: 21.7377
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_20_position_4.log: Total Rx Bytes: 5.67975e+06 Total Delay : +9907522392.0ns Total Throughput: 21.7186
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_40_position_2.log: Total Rx Bytes: 6.51714e+06 Total Delay : +14907998683.0ns Total Throughput: 25.2325
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_10_position_4.log: Total Rx Bytes: 5.6808e+06 Total Delay : +8838635779.0ns Total Throughput: 23.1275
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_1_position_0.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15964614594.0ns Total Throughput: 7.80263
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_1_position_0.log: Total Rx Bytes: 9.37016e+06 Total Delay : +15848565482.0ns Total Throughput: 35.7954
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_20_position_1.log: Total Rx Bytes: 7.27563e+06 Total Delay : +15426451664.0ns Total Throughput: 27.9361
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_1_position_4.log: Total Rx Bytes: 1.52961e+06 Total Delay : +9979745980.0ns Total Throughput: 5.84487
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_1_position_4.log: Total Rx Bytes: 5.6787e+06 Total Delay : +9465715616.0ns Total Throughput: 21.9796
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_1_position_2.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15969388382.0ns Total Throughput: 7.80028
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_1_position_2.log: Total Rx Bytes: 6.51293e+06 Total Delay : +15813019900.0ns Total Throughput: 24.8993
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_10_position_0.log: Total Rx Bytes: 9.42487e+06 Total Delay : +15256454834.0ns Total Throughput: 36.2464
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_5_position_3.log: Total Rx Bytes: 5.10115e+06 Total Delay : +14200404728.0ns Total Throughput: 20.2484
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_10_position_3.log: Total Rx Bytes: 5.09904e+06 Total Delay : +13019359779.0ns Total Throughput: 20.7558
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_20_position_2.log: Total Rx Bytes: 6.51609e+06 Total Delay : +15609544776.0ns Total Throughput: 24.9628
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_20_position_3.log: Total Rx Bytes: 5.09378e+06 Total Delay : +13486854764.0ns Total Throughput: 20.4529
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_40_position_4.log: Total Rx Bytes: 5.67554e+06 Total Delay : +9268054378.0ns Total Throughput: 22.1489
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_5_position_1.log: Total Rx Bytes: 7.27563e+06 Total Delay : +15573832660.0ns Total Throughput: 27.9758
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_40_position_0.log: Total Rx Bytes: 9.39015e+06 Total Delay : +15892973274.0ns Total Throughput: 35.8564
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_5_position_0.log: Total Rx Bytes: 9.41856e+06 Total Delay : +15992708594.0ns Total Throughput: 35.9451
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_5_position_2.log: Total Rx Bytes: 6.57395e+06 Total Delay : +13847428090.0ns Total Throughput: 27.1209
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_10_position_1.log: Total Rx Bytes: 7.27458e+06 Total Delay : +13219752884.0ns Total Throughput: 30.3385
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_20_position_0.log: Total Rx Bytes: 9.32072e+06 Total Delay : +15590592030.0ns Total Throughput: 35.6711
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_40_position_1.log: Total Rx Bytes: 7.27668e+06 Total Delay : +15885346078.0ns Total Throughput: 27.7944
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_40_position_3.log: Total Rx Bytes: 5.09063e+06 Total Delay : +14351211309.0ns Total Throughput: 19.9561
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_10_position_2.log: Total Rx Bytes: 6.51819e+06 Total Delay : +15410428688.0ns Total Throughput: 25.059
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_1_position_1.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15967257518.0ns Total Throughput: 7.80133
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_1_position_1.log: Total Rx Bytes: 7.27563e+06 Total Delay : +15795455056.0ns Total Throughput: 27.8131
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_1_position_3.log: Total Rx Bytes: 1.90202e+06 Total Delay : +15939222562.0ns Total Throughput: 7.28191
+./Result_Femto/lte_ul_wifi_dl/lte_ul_wifi_dl_1_position_3.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15221483220.0ns Total Throughput: 19.5984
+./Result_Femto/lte/lte_5_position_4.log: Total Rx Bytes: 8.64849e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0126
+./Result_Femto/lte/lte_10_position_0.log: Total Rx Bytes: 8.65165e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0246
+./Result_Femto/lte/lte_40_position_4.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/lte/lte_40_position_1.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/lte/lte_5_position_3.log: Total Rx Bytes: 8.64849e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0126
+./Result_Femto/lte/lte_1_position_3.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15981723362.0ns Total Throughput: 7.79425
+./Result_Femto/lte/lte_1_position_3.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/lte/lte_1_position_1.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15981723362.0ns Total Throughput: 7.79425
+./Result_Femto/lte/lte_1_position_1.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/lte/lte_5_position_1.log: Total Rx Bytes: 8.64849e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0126
+./Result_Femto/lte/lte_1_position_0.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15981723362.0ns Total Throughput: 7.79425
+./Result_Femto/lte/lte_1_position_0.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/lte/lte_20_position_1.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/lte/lte_20_position_2.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/lte/lte_5_position_2.log: Total Rx Bytes: 8.64849e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0126
+./Result_Femto/lte/lte_10_position_3.log: Total Rx Bytes: 8.65165e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0246
+./Result_Femto/lte/lte_10_position_2.log: Total Rx Bytes: 8.65165e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0246
+./Result_Femto/lte/lte_20_position_4.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/lte/lte_10_position_1.log: Total Rx Bytes: 8.65165e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0246
+./Result_Femto/lte/lte_10_position_4.log: Total Rx Bytes: 8.65165e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0246
+./Result_Femto/lte/lte_40_position_3.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/lte/lte_1_position_2.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15981723362.0ns Total Throughput: 7.79425
+./Result_Femto/lte/lte_1_position_2.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/lte/lte_40_position_0.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/lte/lte_5_position_0.log: Total Rx Bytes: 8.64849e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0126
+./Result_Femto/lte/lte_1_position_4.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15981723362.0ns Total Throughput: 7.79425
+./Result_Femto/lte/lte_1_position_4.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/lte/lte_20_position_0.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/lte/lte_20_position_3.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/lte/lte_40_position_2.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_wifi.txt:./wifi_5_position_4.log: Total Rx Bytes: 1.28975e+06 Total Delay : +3981274441.0ns Total Throughput: 4.93216
+./Result_Femto/throughput_wifi.txt:./wifi_1_position_4.log: Total Rx Bytes: 1.02254e+06 Total Delay : +3988448104.0ns Total Throughput: 3.90634
+./Result_Femto/throughput_wifi.txt:./wifi_1_position_4.log: Total Rx Bytes: 1.28975e+06 Total Delay : +3981274441.0ns Total Throughput: 4.93216
+./Result_Femto/throughput_wifi.txt:./wifi_1_position_3.log: Total Rx Bytes: 932072 Total Delay : +15368023627.0ns Total Throughput: 3.59066
+./Result_Femto/throughput_wifi.txt:./wifi_1_position_3.log: Total Rx Bytes: 1.10355e+06 Total Delay : +13666215356.0ns Total Throughput: 4.34173
+./Result_Femto/throughput_wifi.txt:./wifi_20_position_2.log: Total Rx Bytes: 1.48016e+06 Total Delay : +15810211044.0ns Total Throughput: 5.69074
+./Result_Femto/throughput_wifi.txt:./wifi_10_position_3.log: Total Rx Bytes: 1.10355e+06 Total Delay : +13666215356.0ns Total Throughput: 4.34173
+./Result_Femto/throughput_wifi.txt:./wifi_10_position_4.log: Total Rx Bytes: 1.28975e+06 Total Delay : +3981274441.0ns Total Throughput: 4.93216
+./Result_Femto/throughput_wifi.txt:./wifi_5_position_0.log: Total Rx Bytes: 1.36865e+06 Total Delay : +15525936626.0ns Total Throughput: 5.39552
+./Result_Femto/throughput_wifi.txt:./wifi_20_position_4.log: Total Rx Bytes: 1.28975e+06 Total Delay : +3981274441.0ns Total Throughput: 4.93216
+./Result_Femto/throughput_wifi.txt:./wifi_20_position_1.log: Total Rx Bytes: 1.36024e+06 Total Delay : +15928154415.0ns Total Throughput: 5.21073
+./Result_Femto/throughput_wifi.txt:./wifi_5_position_1.log: Total Rx Bytes: 1.36024e+06 Total Delay : +15928154415.0ns Total Throughput: 5.21073
+./Result_Femto/throughput_wifi.txt:./wifi_5_position_3.log: Total Rx Bytes: 1.10355e+06 Total Delay : +13666215356.0ns Total Throughput: 4.34173
+./Result_Femto/throughput_wifi.txt:./wifi_40_position_1.log: Total Rx Bytes: 1.36024e+06 Total Delay : +15928154415.0ns Total Throughput: 5.21073
+./Result_Femto/throughput_wifi.txt:./wifi_1_position_2.log: Total Rx Bytes: 1.58221e+06 Total Delay : +15927091142.0ns Total Throughput: 6.06326
+./Result_Femto/throughput_wifi.txt:./wifi_1_position_2.log: Total Rx Bytes: 1.48016e+06 Total Delay : +15810211044.0ns Total Throughput: 5.69074
+./Result_Femto/throughput_wifi.txt:./wifi_1_position_1.log: Total Rx Bytes: 1.44545e+06 Total Delay : +15825122956.0ns Total Throughput: 5.55622
+./Result_Femto/throughput_wifi.txt:./wifi_1_position_1.log: Total Rx Bytes: 1.36024e+06 Total Delay : +15928154415.0ns Total Throughput: 5.21073
+./Result_Femto/throughput_wifi.txt:./wifi_20_position_3.log: Total Rx Bytes: 1.10355e+06 Total Delay : +13666215356.0ns Total Throughput: 4.34173
+./Result_Femto/throughput_wifi.txt:./wifi_5_position_2.log: Total Rx Bytes: 1.48016e+06 Total Delay : +15810211044.0ns Total Throughput: 5.69074
+./Result_Femto/throughput_wifi.txt:./wifi_40_position_2.log: Total Rx Bytes: 1.48016e+06 Total Delay : +15810211044.0ns Total Throughput: 5.69074
+./Result_Femto/throughput_wifi.txt:./wifi_10_position_1.log: Total Rx Bytes: 1.36024e+06 Total Delay : +15928154415.0ns Total Throughput: 5.21073
+./Result_Femto/throughput_wifi.txt:./wifi_10_position_0.log: Total Rx Bytes: 1.36865e+06 Total Delay : +15525936626.0ns Total Throughput: 5.39552
+./Result_Femto/throughput_wifi.txt:./wifi_40_position_3.log: Total Rx Bytes: 1.10355e+06 Total Delay : +13666215356.0ns Total Throughput: 4.34173
+./Result_Femto/throughput_wifi.txt:./wifi_40_position_0.log: Total Rx Bytes: 1.36865e+06 Total Delay : +15525936626.0ns Total Throughput: 5.39552
+./Result_Femto/throughput_wifi.txt:./wifi_1_position_0.log: Total Rx Bytes: 1.79156e+06 Total Delay : +15964998949.0ns Total Throughput: 6.85021
+./Result_Femto/throughput_wifi.txt:./wifi_1_position_0.log: Total Rx Bytes: 1.36865e+06 Total Delay : +15525936626.0ns Total Throughput: 5.39552
+./Result_Femto/throughput_wifi.txt:./wifi_40_position_4.log: Total Rx Bytes: 1.28975e+06 Total Delay : +3981274441.0ns Total Throughput: 4.93216
+./Result_Femto/throughput_wifi.txt:./wifi_10_position_2.log: Total Rx Bytes: 1.48016e+06 Total Delay : +15810211044.0ns Total Throughput: 5.69074
+./Result_Femto/throughput_wifi.txt:./wifi_20_position_0.log: Total Rx Bytes: 1.36865e+06 Total Delay : +15525936626.0ns Total Throughput: 5.39552
+./Result_Femto/throughput_lte.txt:./lte_5_position_4.log: Total Rx Bytes: 8.64849e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0126
+./Result_Femto/throughput_lte.txt:./lte_10_position_0.log: Total Rx Bytes: 8.65165e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0246
+./Result_Femto/throughput_lte.txt:./lte_40_position_4.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_lte.txt:./lte_40_position_1.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_lte.txt:./lte_5_position_3.log: Total Rx Bytes: 8.64849e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0126
+./Result_Femto/throughput_lte.txt:./lte_1_position_3.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15981723362.0ns Total Throughput: 7.79425
+./Result_Femto/throughput_lte.txt:./lte_1_position_3.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_lte.txt:./lte_1_position_1.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15981723362.0ns Total Throughput: 7.79425
+./Result_Femto/throughput_lte.txt:./lte_1_position_1.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_lte.txt:./lte_5_position_1.log: Total Rx Bytes: 8.64849e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0126
+./Result_Femto/throughput_lte.txt:./lte_1_position_0.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15981723362.0ns Total Throughput: 7.79425
+./Result_Femto/throughput_lte.txt:./lte_1_position_0.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_lte.txt:./lte_20_position_1.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_lte.txt:./lte_20_position_2.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_lte.txt:./lte_5_position_2.log: Total Rx Bytes: 8.64849e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0126
+./Result_Femto/throughput_lte.txt:./lte_10_position_3.log: Total Rx Bytes: 8.65165e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0246
+./Result_Femto/throughput_lte.txt:./lte_10_position_2.log: Total Rx Bytes: 8.65165e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0246
+./Result_Femto/throughput_lte.txt:./lte_20_position_4.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_lte.txt:./lte_10_position_1.log: Total Rx Bytes: 8.65165e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0246
+./Result_Femto/throughput_lte.txt:./lte_10_position_4.log: Total Rx Bytes: 8.65165e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0246
+./Result_Femto/throughput_lte.txt:./lte_40_position_3.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_lte.txt:./lte_1_position_2.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15981723362.0ns Total Throughput: 7.79425
+./Result_Femto/throughput_lte.txt:./lte_1_position_2.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_lte.txt:./lte_40_position_0.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_lte.txt:./lte_5_position_0.log: Total Rx Bytes: 8.64849e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0126
+./Result_Femto/throughput_lte.txt:./lte_1_position_4.log: Total Rx Bytes: 2.04088e+06 Total Delay : +15981723362.0ns Total Throughput: 7.79425
+./Result_Femto/throughput_lte.txt:./lte_1_position_4.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_lte.txt:./lte_20_position_0.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_lte.txt:./lte_20_position_3.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_lte.txt:./lte_40_position_2.log: Total Rx Bytes: 8.6527e+06 Total Delay : +15989723362.0ns Total Throughput: 33.0287
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_10_position_1.log: Total Rx Bytes: 5.66186e+06 Total Delay : +15966358204.0ns Total Throughput: 21.6167
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_1_position_1.log: Total Rx Bytes: 1.83153e+06 Total Delay : +15940260816.0ns Total Throughput: 7.01018
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_1_position_1.log: Total Rx Bytes: 5.66292e+06 Total Delay : +15966358204.0ns Total Throughput: 21.6207
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_5_position_2.log: Total Rx Bytes: 4.03337e+06 Total Delay : +15836960527.0ns Total Throughput: 15.4763
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_40_position_3.log: Total Rx Bytes: 5.45778e+06 Total Delay : +15906933765.0ns Total Throughput: 20.8456
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_20_position_3.log: Total Rx Bytes: 5.45778e+06 Total Delay : +15906933765.0ns Total Throughput: 20.8456
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_5_position_0.log: Total Rx Bytes: 3.98708e+06 Total Delay : +15950081786.0ns Total Throughput: 15.2324
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_10_position_0.log: Total Rx Bytes: 5.77969e+06 Total Delay : +15950081786.0ns Total Throughput: 22.0723
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_5_position_4.log: Total Rx Bytes: 3.8156e+06 Total Delay : +6977040420.0ns Total Throughput: 14.5752
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_5_position_3.log: Total Rx Bytes: 3.66412e+06 Total Delay : +15906933765.0ns Total Throughput: 14.0016
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_5_position_1.log: Total Rx Bytes: 3.86926e+06 Total Delay : +15966358204.0ns Total Throughput: 14.7767
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_10_position_4.log: Total Rx Bytes: 5.60821e+06 Total Delay : +6977040420.0ns Total Throughput: 21.4152
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_1_position_2.log: Total Rx Bytes: 1.93884e+06 Total Delay : +15971516779.0ns Total Throughput: 7.40961
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_1_position_2.log: Total Rx Bytes: 5.82703e+06 Total Delay : +15836960527.0ns Total Throughput: 22.3202
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_1_position_3.log: Total Rx Bytes: 1.41704e+06 Total Delay : +15868374148.0ns Total Throughput: 5.42639
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_1_position_3.log: Total Rx Bytes: 5.45778e+06 Total Delay : +15906933765.0ns Total Throughput: 20.8456
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_40_position_1.log: Total Rx Bytes: 5.66292e+06 Total Delay : +15966358204.0ns Total Throughput: 21.6207
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_40_position_0.log: Total Rx Bytes: 5.78074e+06 Total Delay : +15950081786.0ns Total Throughput: 22.0763
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_20_position_1.log: Total Rx Bytes: 5.66292e+06 Total Delay : +15966358204.0ns Total Throughput: 21.6207
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_20_position_0.log: Total Rx Bytes: 5.78074e+06 Total Delay : +15950081786.0ns Total Throughput: 22.0763
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_20_position_2.log: Total Rx Bytes: 5.82703e+06 Total Delay : +15836960527.0ns Total Throughput: 22.3202
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_1_position_4.log: Total Rx Bytes: 1.27818e+06 Total Delay : +6983084308.0ns Total Throughput: 4.88413
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_1_position_4.log: Total Rx Bytes: 5.60926e+06 Total Delay : +6977040420.0ns Total Throughput: 21.4192
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_10_position_3.log: Total Rx Bytes: 5.45672e+06 Total Delay : +15906933765.0ns Total Throughput: 20.8415
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_1_position_0.log: Total Rx Bytes: 2.04404e+06 Total Delay : +15966622200.0ns Total Throughput: 7.81368
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_1_position_0.log: Total Rx Bytes: 5.78074e+06 Total Delay : +15950081786.0ns Total Throughput: 22.0763
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_20_position_4.log: Total Rx Bytes: 5.60926e+06 Total Delay : +6977040420.0ns Total Throughput: 21.4192
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_10_position_2.log: Total Rx Bytes: 5.82598e+06 Total Delay : +15836960527.0ns Total Throughput: 22.3162
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_40_position_4.log: Total Rx Bytes: 5.60926e+06 Total Delay : +6977040420.0ns Total Throughput: 21.4192
+./Result_Femto/throughput_lte_wifi.txt:./lte_wifi_40_position_2.log: Total Rx Bytes: 5.82703e+06 Total Delay : +15836960527.0ns Total Throughput: 22.3202
+./Result_Femto/lte_wifi/lte_wifi_10_position_1.log: Total Rx Bytes: 5.66186e+06 Total Delay : +15966358204.0ns Total Throughput: 21.6167
+./Result_Femto/lte_wifi/lte_wifi_1_position_1.log: Total Rx Bytes: 1.83153e+06 Total Delay : +15940260816.0ns Total Throughput: 7.01018
+./Result_Femto/lte_wifi/lte_wifi_1_position_1.log: Total Rx Bytes: 5.66292e+06 Total Delay : +15966358204.0ns Total Throughput: 21.6207
+./Result_Femto/lte_wifi/lte_wifi_5_position_2.log: Total Rx Bytes: 4.03337e+06 Total Delay : +15836960527.0ns Total Throughput: 15.4763
+./Result_Femto/lte_wifi/lte_wifi_40_position_3.log: Total Rx Bytes: 5.45778e+06 Total Delay : +15906933765.0ns Total Throughput: 20.8456
+./Result_Femto/lte_wifi/lte_wifi_20_position_3.log: Total Rx Bytes: 5.45778e+06 Total Delay : +15906933765.0ns Total Throughput: 20.8456
+./Result_Femto/lte_wifi/lte_wifi_5_position_0.log: Total Rx Bytes: 3.98708e+06 Total Delay : +15950081786.0ns Total Throughput: 15.2324
+./Result_Femto/lte_wifi/lte_wifi_10_position_0.log: Total Rx Bytes: 5.77969e+06 Total Delay : +15950081786.0ns Total Throughput: 22.0723
+./Result_Femto/lte_wifi/lte_wifi_5_position_4.log: Total Rx Bytes: 3.8156e+06 Total Delay : +6977040420.0ns Total Throughput: 14.5752
+./Result_Femto/lte_wifi/lte_wifi_5_position_3.log: Total Rx Bytes: 3.66412e+06 Total Delay : +15906933765.0ns Total Throughput: 14.0016
+./Result_Femto/lte_wifi/lte_wifi_5_position_1.log: Total Rx Bytes: 3.86926e+06 Total Delay : +15966358204.0ns Total Throughput: 14.7767
+./Result_Femto/lte_wifi/lte_wifi_10_position_4.log: Total Rx Bytes: 5.60821e+06 Total Delay : +6977040420.0ns Total Throughput: 21.4152
+./Result_Femto/lte_wifi/lte_wifi_1_position_2.log: Total Rx Bytes: 1.93884e+06 Total Delay : +15971516779.0ns Total Throughput: 7.40961
+./Result_Femto/lte_wifi/lte_wifi_1_position_2.log: Total Rx Bytes: 5.82703e+

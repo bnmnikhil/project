@@ -1,0 +1,25 @@
+****************************************************************************
+10Mbps  downlink
+
+Flow 1 (1.0.0.2 -> 7.0.0.2)
+  Tx Bytes:   2566880
+  Rx Bytes:   2553204
+  Transmitted Packets: 2440
+  Received Packets: 2427
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2999504959.0ns
+  Delay = +1999504959.0ns
+  Throughput: 9.74211Mbps
+Flow 2 (1.0.0.2 -> 7.0.0.2)
+  Tx Bytes:   2566880
+  Rx Bytes:   2553204
+  Transmitted Packets: 2440
+  Received Packets: 2427
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2999863959.0ns
+  Delay = +1999863959.0ns
+  Throughput: 9.74036Mbps
+ Total Rx Bytes: 5.10641e+06 Total Delay : +3999368918.0ns Total Throughput: 19.4825
+
+
+

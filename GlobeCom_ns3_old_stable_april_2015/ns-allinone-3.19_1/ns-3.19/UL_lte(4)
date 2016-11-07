@@ -1,0 +1,288 @@
+*****************************************************************************
+60Mbps
+
+Flow 1 (7.0.0.2 -> 1.0.0.2)
+  Tx Bytes:   15819976
+  Rx Bytes:   1077248
+  Transmitted Packets: 15038
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998929529.0ns
+  Delay = +1998929529.0ns
+  Throughput: 4.11158Mbps
+Flow 2 (7.0.0.3 -> 1.0.0.2)
+  Tx Bytes:   15819976
+  Rx Bytes:   1077248
+  Transmitted Packets: 15038
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998930404.0ns
+  Delay = +1998930404.0ns
+  Throughput: 4.11157Mbps
+Flow 3 (7.0.0.4 -> 1.0.0.2)
+  Tx Bytes:   15819976
+  Rx Bytes:   1077248
+  Transmitted Packets: 15038
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998931279.0ns
+  Delay = +1998931279.0ns
+  Throughput: 4.11157Mbps
+Flow 4 (7.0.0.5 -> 1.0.0.2)
+  Tx Bytes:   15819976
+  Rx Bytes:   1077248
+  Transmitted Packets: 15038
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998932154.0ns
+  Delay = +1998932154.0ns
+  Throughput: 4.11157Mbps
+ Total Rx Bytes: 4.30899e+06 Total Delay : +7995723366.0ns Total Throughput: 16.4463
+
+*****************************************************************************
+40Mbps
+
+Flow 1 (7.0.0.2 -> 1.0.0.2)
+  Tx Bytes:   10520000
+  Rx Bytes:   1077248
+  Transmitted Packets: 10000
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998929529.0ns
+  Delay = +1998929529.0ns
+  Throughput: 4.11158Mbps
+Flow 2 (7.0.0.3 -> 1.0.0.2)
+  Tx Bytes:   10520000
+  Rx Bytes:   1077248
+  Transmitted Packets: 10000
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998930404.0ns
+  Delay = +1998930404.0ns
+  Throughput: 4.11157Mbps
+Flow 3 (7.0.0.4 -> 1.0.0.2)
+  Tx Bytes:   10520000
+  Rx Bytes:   1077248
+  Transmitted Packets: 10000
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998931279.0ns
+  Delay = +1998931279.0ns
+  Throughput: 4.11157Mbps
+Flow 4 (7.0.0.5 -> 1.0.0.2)
+  Tx Bytes:   10520000
+  Rx Bytes:   1077248
+  Transmitted Packets: 10000
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998932154.0ns
+  Delay = +1998932154.0ns
+  Throughput: 4.11157Mbps
+ Total Rx Bytes: 4.30899e+06 Total Delay : +7995723366.0ns Total Throughput: 16.4463
+
+***************************************************************************
+20Mbps 
+
+Flow 1 (7.0.0.2 -> 1.0.0.2)
+  Tx Bytes:   5260000
+  Rx Bytes:   1077248
+  Transmitted Packets: 5000
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998929529.0ns
+  Delay = +1998929529.0ns
+  Throughput: 4.11158Mbps
+Flow 2 (7.0.0.3 -> 1.0.0.2)
+  Tx Bytes:   5260000
+  Rx Bytes:   1077248
+  Transmitted Packets: 5000
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998930404.0ns
+  Delay = +1998930404.0ns
+  Throughput: 4.11157Mbps
+Flow 3 (7.0.0.4 -> 1.0.0.2)
+  Tx Bytes:   5260000
+  Rx Bytes:   1077248
+  Transmitted Packets: 5000
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998931279.0ns
+  Delay = +1998931279.0ns
+  Throughput: 4.11157Mbps
+Flow 4 (7.0.0.5 -> 1.0.0.2)
+  Tx Bytes:   5260000
+  Rx Bytes:   1077248
+  Transmitted Packets: 5000
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998932154.0ns
+  Delay = +1998932154.0ns
+  Throughput: 4.11157Mbps
+ Total Rx Bytes: 4.30899e+06 Total Delay : +7995723366.0ns Total Throughput: 16.4463
+
+**************************************************************************
+15Mbps
+
+Flow 1 (7.0.0.2 -> 1.0.0.2)
+  Tx Bytes:   3847164
+  Rx Bytes:   1077248
+  Transmitted Packets: 3657
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998929529.0ns
+  Delay = +1998929529.0ns
+  Throughput: 4.11158Mbps
+Flow 2 (7.0.0.3 -> 1.0.0.2)
+  Tx Bytes:   3847164
+  Rx Bytes:   1077248
+  Transmitted Packets: 3657
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998930404.0ns
+  Delay = +1998930404.0ns
+  Throughput: 4.11157Mbps
+Flow 3 (7.0.0.4 -> 1.0.0.2)
+  Tx Bytes:   3847164
+  Rx Bytes:   1077248
+  Transmitted Packets: 3657
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998931279.0ns
+  Delay = +1998931279.0ns
+  Throughput: 4.11157Mbps
+Flow 4 (7.0.0.5 -> 1.0.0.2)
+  Tx Bytes:   3847164
+  Rx Bytes:   1077248
+  Transmitted Packets: 3657
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998932154.0ns
+  Delay = +1998932154.0ns
+  Throughput: 4.11157Mbps
+ Total Rx Bytes: 4.30899e+06 Total Delay : +7995723366.0ns Total Throughput: 16.4463
+
+**************************************************************************
+10Mbps
+
+Flow 1 (7.0.0.2 -> 1.0.0.2)
+  Tx Bytes:   2566880
+  Rx Bytes:   1077248
+  Transmitted Packets: 2440
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998929529.0ns
+  Delay = +1998929529.0ns
+  Throughput: 4.11158Mbps
+Flow 2 (7.0.0.3 -> 1.0.0.2)
+  Tx Bytes:   2566880
+  Rx Bytes:   1077248
+  Transmitted Packets: 2440
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998930404.0ns
+  Delay = +1998930404.0ns
+  Throughput: 4.11157Mbps
+Flow 3 (7.0.0.4 -> 1.0.0.2)
+  Tx Bytes:   2566880
+  Rx Bytes:   1077248
+  Transmitted Packets: 2440
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998931279.0ns
+  Delay = +1998931279.0ns
+  Throughput: 4.11157Mbps
+Flow 4 (7.0.0.5 -> 1.0.0.2)
+  Tx Bytes:   2566880
+  Rx Bytes:   1077248
+  Transmitted Packets: 2440
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998932154.0ns
+  Delay = +1998932154.0ns
+  Throughput: 4.11157Mbps
+ Total Rx Bytes: 4.30899e+06 Total Delay : +7995723366.0ns Total Throughput: 16.4463
+
+**************************************************************************
+5Mbps
+
+Flow 1 (7.0.0.2 -> 1.0.0.2)
+  Tx Bytes:   1284492
+  Rx Bytes:   1077248
+  Transmitted Packets: 1221
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998929529.0ns
+  Delay = +1998929529.0ns
+  Throughput: 4.11158Mbps
+Flow 2 (7.0.0.3 -> 1.0.0.2)
+  Tx Bytes:   1284492
+  Rx Bytes:   1077248
+  Transmitted Packets: 1221
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998930404.0ns
+  Delay = +1998930404.0ns
+  Throughput: 4.11157Mbps
+Flow 3 (7.0.0.4 -> 1.0.0.2)
+  Tx Bytes:   1284492
+  Rx Bytes:   1077248
+  Transmitted Packets: 1221
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998931279.0ns
+  Delay = +1998931279.0ns
+  Throughput: 4.11157Mbps
+Flow 4 (7.0.0.5 -> 1.0.0.2)
+  Tx Bytes:   1284492
+  Rx Bytes:   1077248
+  Transmitted Packets: 1221
+  Received Packets: 1024
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2998932154.0ns
+  Delay = +1998932154.0ns
+  Throughput: 4.11157Mbps
+ Total Rx Bytes: 4.30899e+06 Total Delay : +7995723366.0ns Total Throughput: 16.4463
+
+**************************************************************************
+1Mbps
+
+Flow 1 (7.0.0.2 -> 1.0.0.2)
+  Tx Bytes:   257740
+  Rx Bytes:   254584
+  Transmitted Packets: 245
+  Received Packets: 242
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2997929529.0ns
+  Delay = +1997929529.0ns
+  Throughput: 0.972167Mbps
+Flow 2 (7.0.0.3 -> 1.0.0.2)
+  Tx Bytes:   257740
+  Rx Bytes:   254584
+  Transmitted Packets: 245
+  Received Packets: 242
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2997930404.0ns
+  Delay = +1997930404.0ns
+  Throughput: 0.972167Mbps
+Flow 3 (7.0.0.4 -> 1.0.0.2)
+  Tx Bytes:   257740
+  Rx Bytes:   254584
+  Transmitted Packets: 245
+  Received Packets: 242
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2997931279.0ns
+  Delay = +1997931279.0ns
+  Throughput: 0.972166Mbps
+Flow 4 (7.0.0.5 -> 1.0.0.2)
+  Tx Bytes:   257740
+  Rx Bytes:   254584
+  Transmitted Packets: 245
+  Received Packets: 242
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +2997932154.0ns
+  Delay = +1997932154.0ns
+  Throughput: 0.972166Mbps
+ Total Rx Bytes: 1.01834e+06 Total Delay : +7991723366.0ns Total Throughput: 3.88867
+
+

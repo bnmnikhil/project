@@ -1,0 +1,6 @@
+./wifi4ue_60_position_.log: Total Rx Bytes: 3.48738e+06 Total Throughput: 6.30634
+./wifi4ue_1_position_.log: Total Rx Bytes: 2.77518e+06 Total Throughput: 6.34801
+./wifi4ue_10_position_.log: Total Rx Bytes: 3.49159e+06 Total Throughput: 6.20699
+./wifi4ue_20_position_.log: Total Rx Bytes: 3.49054e+06 Total Throughput: 6.2534
+./wifi4ue_40_position_.log: Total Rx Bytes: 3.48738e+06 Total Throughput: 6.52517
+./wifi4ue_5_position_.log: Total Rx Bytes: 3.49054e+06 Total Throughput: 5.54036

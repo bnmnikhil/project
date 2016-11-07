@@ -1,0 +1,28 @@
+./automateScript.sh:grep -r "Packet loss" . > ../loss_udp_ltewifi.txt
+./Log_ltewifi/ltewifi_1_position_2.log:  Packet loss = 16
+./Log_ltewifi/ltewifi_20_position_1.log:  Packet loss = 32602
+./Log_ltewifi/ltewifi_1_position_3.log:  Packet loss = 16
+./Log_ltewifi/ltewifi_10_position_4.log:  Packet loss = 14127
+./Log_ltewifi/ltewifi_40_position_3.log:  Packet loss = 74242
+./Log_ltewifi/ltewifi_10_position_1.log:  Packet loss = 12181
+./Log_ltewifi/ltewifi_60_position_2.log:  Packet loss = 113762
+./Log_ltewifi/ltewifi_40_position_4.log:  Packet loss = 74606
+./Log_ltewifi/ltewifi_20_position_4.log:  Packet loss = 34606
+./Log_ltewifi/ltewifi_60_position_4.log:  Packet loss = 114910
+./Log_ltewifi/ltewifi_60_position_3.log:  Packet loss = 114540
+./Log_ltewifi/ltewifi_5_position_1.log:  Packet loss = 4175
+./Log_ltewifi/ltewifi_1_position_1.log:  Packet loss = 16
+./Log_ltewifi/ltewifi_40_position_1.log:  Packet loss = 72641
+./Log_ltewifi/ltewifi_5_position_4.log:  Packet loss = 6079
+./Log_ltewifi/ltewifi_40_position_2.log:  Packet loss = 73457
+./Log_ltewifi/ltewifi_20_position_2.log:  Packet loss = 33464
+./Log_ltewifi/ltewifi_5_position_3.log:  Packet loss = 5716
+./Log_ltewifi/ltewifi_1_position_4.log:  Packet loss = 224
+./Log_ltewifi/ltewifi_60_position_1.log:  Packet loss = 112948
+./Log_ltewifi/ltewifi_10_position_2.log:  Packet loss = 12983
+./Log_ltewifi/ltewifi_10_position_3.log:  Packet loss = 13764
+./Log_ltewifi/ltewifi_20_position_3.log:  Packet loss = 34233
+./Log_ltewifi/ltewifi_5_position_2.log:  Packet loss = 4935
+./scratch/lena-simple-epc.cc:  std::cout << "  Packet loss = " << PLoss<< "\n";
+Binary file ./build/scratch/lena-simple-epc.cc.3.o matches
+Binary file ./build/scratch/lena-simple-epc matches

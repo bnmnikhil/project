@@ -1,0 +1,44 @@
+Remote host Address  : 1.0.0.2
+client mac address22:33:44:55:66:70
+ UE Interface address7.0.0.2
+ Wifi Interface address7.0.0.2
+Flow 1 (1.0.0.2(49153) -> 7.0.0.2(1001))
+  Tx Bytes:   13883244
+  Rx Bytes:   13879036
+  Transmitted Packets: 13197
+  Received Packets: 13193
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +9999999999.0ns
+  Delay = 3.50109msec 
+  Throughput: 11.7654Mbps
+Flow 2 (1.0.0.2(49154) -> 7.0.0.2(1002))
+  Tx Bytes:   13883244
+  Rx Bytes:   13522408
+  Transmitted Packets: 13197
+  Received Packets: 12854
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +9999604805.0ns
+  Delay = 29.0548msec 
+  Throughput: 11.4636Mbps
+Flow 3 (7.0.0.2(49153) -> 1.0.0.2(2000))
+  Tx Bytes:   13883244
+  Rx Bytes:   13871672
+  Transmitted Packets: 13197
+  Received Packets: 13186
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +9999930404.0ns
+  Delay = 5.2209msec 
+  Throughput: 11.7593Mbps
+Flow 4 (7.0.0.2(49154) -> 1.0.0.2(2001))
+  Tx Bytes:   13883244
+  Rx Bytes:   13443508
+  Transmitted Packets: 13197
+  Received Packets: 12779
+  First Tx time:   +1000000000.0ns
+  Last Rx time:   +9998950665.0ns
+  Delay = 37.4054msec 
+  Throughput: 11.3975Mbps
+  Packet loss = 776
+Percentage of Lost packets = 1.47003
+Total  Delay = 0.0185824
+ Total Rx Bytes: 5.47166e+07 Total Throughput: 46.3858

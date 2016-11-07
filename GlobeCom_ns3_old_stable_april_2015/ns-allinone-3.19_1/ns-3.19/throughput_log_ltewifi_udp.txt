@@ -1,0 +1,6 @@
+./ltewifi4ue_60_position_.log: Total Rx Bytes: 1.22558e+07 Total Throughput: 38.4479
+./ltewifi4ue_20_position_.log: Total Rx Bytes: 1.22569e+07 Total Throughput: 38.6427
+./ltewifi4ue_5_position_.log: Total Rx Bytes: 1.22516e+07 Total Throughput: 38.6097
+./ltewifi4ue_40_position_.log: Total Rx Bytes: 1.22558e+07 Total Throughput: 38.5588
+./ltewifi4ue_10_position_.log: Total Rx Bytes: 1.22569e+07 Total Throughput: 38.5569
+./ltewifi4ue_1_position_.log: Total Rx Bytes: 4.11542e+06 Total Throughput: 15.4747

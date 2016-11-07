@@ -1,0 +1,5 @@
+./ULlte_DLwifi_60_position_2.log: Total Rx Bytes: 2.10448e+06 Total Delay : +31565665554.0ns Total Throughput: 8.09399
+./ULlte_DLwifi_60_position_4.log: Total Rx Bytes: 1.49915e+06 Total Delay : +31630913423.0ns Total Throughput: 5.767
+./ULlte_DLwifi_60_position_0.log: Total Rx Bytes: 3.09845e+06 Total Delay : +31454826137.0ns Total Throughput: 11.943
+./ULlte_DLwifi_60_position_3.log: Total Rx Bytes: 1.75721e+06 Total Delay : +31162586906.0ns Total Throughput: 6.87546
+./ULlte_DLwifi_60_position_1.log: Total Rx Bytes: 2.83702e+06 Total Delay : +31481707894.0ns Total Throughput: 10.955

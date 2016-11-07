@@ -1,0 +1,4 @@
+./log_4ue_96_position.log:Total  Delay = 0.0262691
+./log_4ue_16_position.log:Total  Delay = 0.0128573
+./log_4ue_32_position.log:Total  Delay = 0.0167848
+./log_4ue_64_position.log:Total  Delay = 0.0130814

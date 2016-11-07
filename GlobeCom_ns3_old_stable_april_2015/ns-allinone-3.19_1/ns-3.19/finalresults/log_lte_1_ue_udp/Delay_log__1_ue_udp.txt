@@ -1,0 +1,4 @@
+./log_1ue_ltewifi_position.log:Total  Delay = 0.00804384
+./log_1ue_lte_position.log:Total  Delay = 0.00790584
+./log_1ue_wifi_position.log:Total  Delay = 0.00455808
+./log_1ue_lteulwifidl_position.log:Total  Delay = 0.00825925

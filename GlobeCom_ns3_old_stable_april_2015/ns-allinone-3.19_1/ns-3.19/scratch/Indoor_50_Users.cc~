@@ -1,0 +1,1289 @@
+/* -*-  Mode: C++; c-file-style: "gnu"; indent-tabs-mode:nil; -*- */
+/*
+ * Copyright (c) 2011 Centre Tecnologic de Telecomunicacions de Catalunya (CTTC)
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation;
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ *
+ * Author: Jaume Nin <jaume.nin@cttc.cat>
+ */
+
+#include "ns3/lte-helper.h"
+#include "ns3/epc-helper.h"
+#include "ns3/core-module.h"
+#include "ns3/network-module.h"
+#include "ns3/ipv4-global-routing-helper.h"
+#include "ns3/internet-module.h"
+#include "ns3/mobility-module.h"
+#include "ns3/lte-module.h"
+#include "ns3/applications-module.h"
+#include "ns3/point-to-point-helper.h"
+#include "ns3/config-store.h"
+#include "ns3/flow-monitor-module.h"
+#include "ns3/core-module.h"
+#include "ns3/point-to-point-module.h"
+#include "ns3/network-module.h"
+#include "ns3/applications-module.h"
+#include "ns3/wifi-module.h"
+#include "ns3/mobility-module.h"
+#include "ns3/csma-module.h"
+#include "ns3/internet-module.h"
+#include "ns3/epc-enb-application.h"
+#include "ns3/routerlayer.h"
+#include "map"
+#include "sstream"
+#include "time.h"
+#include "ns3/building.h"
+#include "ns3/buildings-module.h"
+#include "ns3/ipv4-interface.h"
+#include "ns3/buildings-module.h"
+#include "ns3/box.h"
+//#include "ns3/common.h"
+//#include "ns3/ltewifiinterface.h"
+
+//#include "ns3/gtk-config-store.h"
+
+using namespace ns3;
+
+
+NS_LOG_COMPONENT_DEFINE ("EpcFirstExample");
+//LogComponentEnable("PacketSink", LOG_LEVEL_INFO);
+void 
+PrintGnuplottableBuildingListToFile (std::string filename)
+{
+  std::ofstream outFile;
+  outFile.open (filename.c_str (), std::ios_base::out | std::ios_base::trunc);
+  if (!outFile.is_open ())
+    {
+      NS_LOG_ERROR ("Can't open file " << filename);
+      return;
+    }
+  uint32_t index = 0;
+  for (BuildingList::Iterator it = BuildingList::Begin (); it != BuildingList::End (); ++it)
+    {
+      ++index;
+      Box box = (*it)->GetBoundaries ();
+      outFile << "set object " << index
+              << " rect from " << box.xMin  << "," << box.yMin
+              << " to "   << box.xMax  << "," << box.yMax
+              << " front fs empty "
+              << std::endl;
+    }
+}
+
+void 
+PrintGnuplottableUeListToFile (std::string filename)
+{
+  std::ofstream outFile;
+  outFile.open (filename.c_str (), std::ios_base::out | std::ios_base::trunc);
+  if (!outFile.is_open ())
+    {
+      NS_LOG_ERROR ("Can't open file " << filename);
+      return;
+    }
+  for (NodeList::Iterator it = NodeList::Begin (); it != NodeList::End (); ++it)
+    {
+      Ptr<Node> node = *it;
+      int nDevs = node->GetNDevices ();
+      for (int j = 0; j < nDevs; j++)
+        {
+          Ptr<LteUeNetDevice> uedev = node->GetDevice (j)->GetObject <LteUeNetDevice> ();
+          if (uedev)
+            {
+              Vector pos = node->GetObject<MobilityModel> ()->GetPosition ();
+              outFile << "set label \"" << uedev->GetImsi ()
+                      << "\" at "<< pos.x << "," << pos.y << " left font \"Helvetica,4\" textcolor rgb \"grey\" front point pt 1 ps 0.3 lc rgb \"grey\" offset 0,0"
+                      << std::endl;
+            }
+        }
+    }
+}
+
+void 
+PrintGnuplottableEnbListToFile (std::string filename)
+{
+  std::ofstream outFile;
+  outFile.open (filename.c_str (), std::ios_base::out | std::ios_base::trunc);
+  if (!outFile.is_open ())
+    {
+      NS_LOG_ERROR ("Can't open file " << filename);
+      return;
+    }
+  for (NodeList::Iterator it = NodeList::Begin (); it != NodeList::End (); ++it)
+    {
+      Ptr<Node> node = *it;
+      int nDevs = node->GetNDevices ();
+      for (int j = 0; j < nDevs; j++)
+        {
+          Ptr<LteEnbNetDevice> enbdev = node->GetDevice (j)->GetObject <LteEnbNetDevice> ();
+          if (enbdev)
+            {
+              Vector pos = node->GetObject<MobilityModel> ()->GetPosition ();
+              outFile << "set label \"" << enbdev->GetCellId ()
+                      << "\" at "<< pos.x << "," << pos.y
+                      << " left font \"Helvetica,4\" textcolor rgb \"white\" front  point pt 2 ps 0.3 lc rgb \"white\" offset 0,0"
+                      << std::endl;
+            }
+        }
+    }
+}
+
+NodeContainer integrated_ue;
+Ipv4InterfaceContainer ueIpIface;
+Ptr<Node> remoteHost;
+void schedule_web(uint32_t portU1,uint32_t user_id);
+
+int
+main (int argc, char *argv[])
+{
+	//LogComponentEnable("PacketSink", LOG_LEVEL_INFO);
+	int seedval=1;
+	uint64_t runval=1;
+	int lte=2;
+	uint16_t number_of_IBX = 10;
+	uint16_t numberOfClients=150;
+	double simTime = 2;
+	double distance = 0;
+	long xvalue=30;
+	long yvalue=10;
+	double interPacketInterval =81920;
+	bool UDP=true;
+	uint32_t queue_size_lte_rlc_um=10*1024; //Bytes default 10*1024
+	uint32_t queue_size_lte_rlc_tm=2*1024*1024; //Bytes
+	//Wi-Fi Queue length and delay
+	uint32_t MaxPacketNumber_in_wifi_queue=400; //Number of packets == default 400
+	Time MaxDelay_in_wifi_queue=Seconds(10); //In Seconds == default 0.05
+	int tcp_type=1;
+	double epc_delay=0.015; //15 msec
+	double backhaul_delay=0.010; //10 msec
+	double enbTxPowerDbm = 23.0;
+	bool generaterem = true;
+
+	
+
+	//256=32 Mbps
+	//512= 16 Mbps
+	//1024==8 Mbps
+	//2048 = 4 Mbps
+	//4096 = 2 Mbps
+	//8192= 1 Mbps
+	//81920= 0.1 Mbps
+	ns3::PacketMetadata::Enable ();
+	// Command line argument
+	CommandLine cmd;
+	cmd.AddValue("number_of_IBX", "Number of eNodeBs + Wi-Fi pairs", number_of_IBX);
+	cmd.AddValue("numberOfClients", "Number of UEs", numberOfClients);
+	cmd.AddValue("simTime", "Total duration of the simulation [s])", simTime);
+	cmd.AddValue("distance", "Distance between eNBs [m]", distance);
+	cmd.AddValue("interPacketInterval", "Inter packet interval [ms])", interPacketInterval);
+	cmd.AddValue("xvalue", "X co-ordinate postion", xvalue);
+	cmd.AddValue("yvalue", "Y co-ordinate postion", yvalue);
+	cmd.AddValue("lte", "1- only lte, 2- only wifi, 3- Lte+wifi packet split, 4- flow split LTE +Wi-fi  5- flow based LTE UL DL and Wi-Fi DL, 6- flow based LTE UL DL and Wi-Fi (TCP Data) DL", lte);
+	cmd.AddValue("queue_size_lte_rlc_um","LTE Queue Size for RLC UM",queue_size_lte_rlc_um);
+	cmd.AddValue("queue_size_lte_rlc_tm","LTE Queue Size for RLC UM",queue_size_lte_rlc_tm);
+	cmd.AddValue("MaxPacketNumber_in_wifi_queue","Maximum number of Wi-Fi packets in Wi-Fi Queue",MaxPacketNumber_in_wifi_queue);
+	cmd.AddValue("MaxDelay_in_wifi_queue","Maximum delay Wi-Fi packets can be hold on Wi-Fi Queue",MaxDelay_in_wifi_queue);
+	cmd.AddValue("UDP","Traffic Type",UDP);
+	cmd.AddValue("tcp_type","tye of tcp  1- reno, 2 - cubic",tcp_type);
+	cmd.AddValue("seedval", "1 or more", seedval);
+	cmd.AddValue("runval", "1 or more", runval);
+	cmd.AddValue("epc_delay", "Delay will be set for epc",epc_delay);
+	cmd.AddValue("backhaul_delay", "Delay will be set for backhaul internet",backhaul_delay);
+	cmd.AddValue("generaterem", "Generate REM Plot for visualization",generaterem);
+
+	cmd.Parse(argc, argv);
+
+	uint32_t numberOfVoiceUsers = 0.2*numberOfClients;
+	uint32_t numberOfYoutubeUsers = 0.1*numberOfClients;
+	uint32_t numberOfWebUsers = 0.3*numberOfClients;
+	uint32_t numberOfFTPUsers = 0.5*numberOfClients;
+	uint32_t user_id = 0;
+
+	std::cout<<"queue size = "<<MaxPacketNumber_in_wifi_queue<<std::endl;
+	ns3::RngSeedManager::SetRun(runval);
+	ns3::RngSeedManager::SetSeed(seedval) ;
+	Ptr<LteHelper> lteHelper = CreateObject<LteHelper> ();
+
+	Ptr<PointToPointEpcHelper>  epcHelper = CreateObject<PointToPointEpcHelper> ();
+	epcHelper->SetAttribute("S1uLinkDelay",TimeValue(Seconds(epc_delay)));
+	lteHelper->SetEpcHelper (epcHelper);
+	lteHelper->SetSchedulerType("ns3::PfFfMacScheduler");
+	ConfigStore inputConfig;
+	inputConfig.ConfigureDefaults();
+	Config::SetDefault ("ns3::LteRlcUm::MaxTxBufferSize", UintegerValue(queue_size_lte_rlc_um));
+	Config::SetDefault ("ns3::LteRlcTm::MaxTxBufferSize", UintegerValue(queue_size_lte_rlc_tm));
+	Config::SetDefault ("ns3::LteEnbPhy::TxPower", DoubleValue (enbTxPowerDbm));
+	std::cout<<"LTE buffer size="<<queue_size_lte_rlc_um<<std::endl;
+	Config::SetDefault ("ns3::WifiMacQueue::MaxPacketNumber", UintegerValue(MaxPacketNumber_in_wifi_queue));
+	Config::SetDefault ("ns3::WifiMacQueue::MaxDelay", TimeValue (MaxDelay_in_wifi_queue));
+
+	if(tcp_type==2)
+	{
+		//Config::SetDefault ("ns3::TcpL4Protocol::SocketType", TypeIdValue (TcpCubic::GetTypeId()));
+	}
+	Ipv4Interface::onlylte=lte;
+	EpcEnbApplication::onlylte=lte;
+	Ptr<Node> pgw1 = epcHelper1->GetPgwNode ();
+        Ptr<Node> pgw2 = epcHelper2->GetPgwNode ();
+        Ptr<Node> pgw3 = epcHelper3->GetPgwNode ();
+        Ptr<Node> pgw4 = epcHelper4->GetPgwNode ();
+        Ptr<Node> pgw5 = epcHelper5->GetPgwNode ();
+        Ptr<Node> pgw6 = epcHelper6->GetPgwNode ();
+        Ptr<Node> pgw7 = epcHelper7->GetPgwNode ();
+
+	// Create a single RemoteHost
+	NodeContainer remoteHostContainer;
+	remoteHostContainer.Create (1);
+	 remoteHost = remoteHostContainer.Get (0);
+	InternetStackHelper internet;
+	internet.Install (remoteHostContainer);
+
+	// Create the Internet
+	PointToPointHelper p2ph;
+	p2ph.SetDeviceAttribute ("DataRate", DataRateValue (DataRate ("100Gb/s")));
+	p2ph.SetDeviceAttribute ("Mtu", UintegerValue (1500));
+	p2ph.SetChannelAttribute ("Delay", TimeValue (Seconds (backhaul_delay)));
+	NetDeviceContainer internetDevices1 = p2ph.Install (pgw1, remoteHost);
+	NetDeviceContainer internetDevices2 = p2ph.Install (pgw2, remoteHost);
+	NetDeviceContainer internetDevices3 = p2ph.Install (pgw3, remoteHost);
+	NetDeviceContainer internetDevices4 = p2ph.Install (pgw4, remoteHost);
+	NetDeviceContainer internetDevices5 = p2ph.Install (pgw5, remoteHost);
+	NetDeviceContainer internetDevices6 = p2ph.Install (pgw6, remoteHost);
+	NetDeviceContainer internetDevices7 = p2ph.Install (pgw7, remoteHost);
+
+	Ipv4AddressHelper ipv4h;
+	ipv4h.SetBase ("1.0.0.0", "255.0.0.0");
+	Ipv4InterfaceContainer internetIpIfaces1 = ipv4h.Assign (internetDevices1);
+
+	ipv4h.SetBase ("2.0.0.0", "255.0.0.0");
+	Ipv4InterfaceContainer internetIpIfaces2 = ipv4h.Assign (internetDevices2);
+
+	ipv4h.SetBase ("3.0.0.0", "255.0.0.0");
+	Ipv4InterfaceContainer internetIpIfaces3 = ipv4h.Assign (internetDevices3);
+
+	ipv4h.SetBase ("4.0.0.0", "255.0.0.0");
+	Ipv4InterfaceContainer internetIpIfaces4 = ipv4h.Assign (internetDevices4);
+
+	ipv4h.SetBase ("5.0.0.0", "255.0.0.0");
+	Ipv4InterfaceContainer internetIpIfaces5 = ipv4h.Assign (internetDevices5);
+
+	ipv4h.SetBase ("6.0.0.0", "255.0.0.0");
+	Ipv4InterfaceContainer internetIpIfaces6 = ipv4h.Assign (internetDevices6);
+
+	ipv4h.SetBase ("7.0.0.0", "255.0.0.0");
+	Ipv4InterfaceContainer internetIpIfaces7 = ipv4h.Assign (internetDevices7);
+
+	
+
+	
+
+
+	// interface 0 is localhost, 1 is the p2p device
+	Ipv4Address remoteHostAddr = internetIpIfaces7.GetAddress (1);
+	//std::cout<<"Remote host Address  : "<<remoteHostAddr<<std::endl;
+
+	Ipv4StaticRoutingHelper ipv4RoutingHelper;
+	Ptr<Ipv4StaticRouting> remoteHostStaticRouting = ipv4RoutingHelper.GetStaticRouting (remoteHost->GetObject<Ipv4> ());
+	remoteHostStaticRouting->AddNetworkRouteTo (Ipv4Address ("7.0.0.0"), Ipv4Mask ("255.0.0.0"), 1);
+
+	NodeContainer integrated_box[number_of_IBX];
+	// NodeContainer integrated_ue;
+	NodeContainer enbNodes;
+	NodeContainer wifiAp;
+
+	enbNodes.Create(number_of_IBX);
+	wifiAp.Create(number_of_IBX);
+
+	//ADD wi-fi and LTE into integrated box
+	for(uint16_t i=0;i<number_of_IBX;i++)
+	{
+		integrated_box[i].Add(enbNodes.Get(i)); 
+		integrated_box[i].Add(wifiAp.Get(i));
+	}
+
+	double x_min = -30.0;
+	double x_max = 180.0;
+	double y_min = -30.0;
+	double y_max = 160.0;
+	double z_min = 0.0;
+	double z_max = 10;
+	Ptr<Building> b = CreateObject <Building> ();
+	b->SetBoundaries (Box (x_min, x_max, y_min, y_max, z_min, z_max));
+	b->SetBuildingType (Building::Commercial);
+	b->SetExtWallsType (Building::StoneBlocks);
+	b->SetNFloors (1);
+	b->SetNRoomsX (1);
+	b->SetNRoomsY (1);
+
+/*	lteHelper->SetAttribute ("PathlossModel", StringValue ("ns3::HybridBuildingsPropagationLossModel"));
+  	lteHelper->SetPathlossModelAttribute ("ShadowSigmaExtWalls", DoubleValue (0));
+  	lteHelper->SetPathlossModelAttribute ("ShadowSigmaOutdoor", DoubleValue (1));
+  	lteHelper->SetPathlossModelAttribute ("ShadowSigmaIndoor", DoubleValue (1.5));*/
+
+	//ADD Wi-Fi and LTE into UE (Lets call wifi with lte devices as integrated UE)
+	integrated_ue.Create(numberOfClients);
+
+	MobilityHelper mobility0;
+	Ptr<ListPositionAllocator> positionAlloc0 = CreateObject<ListPositionAllocator> ();
+	positionAlloc0->Add (Vector(10,10,4));
+	mobility0.SetPositionAllocator(positionAlloc0);
+	mobility0.SetMobilityModel("ns3::ConstantPositionMobilityModel");
+	mobility0.Install(integrated_box[0]);
+
+	MobilityHelper mobility1;
+	Ptr<ListPositionAllocator> positionAlloc1 = CreateObject<ListPositionAllocator> ();
+	positionAlloc1->Add (Vector(50, 10, 4));
+	mobility1.SetPositionAllocator(positionAlloc1);
+	mobility1.SetMobilityModel("ns3::ConstantPositionMobilityModel");
+	mobility1.Install(integrated_box[1]);
+
+	MobilityHelper mobility2;
+	Ptr<ListPositionAllocator> positionAlloc2 = CreateObject<ListPositionAllocator> ();
+	positionAlloc2->Add (Vector(90, 10, 4));
+	mobility2.SetPositionAllocator(positionAlloc2);
+	mobility2.SetMobilityModel("ns3::ConstantPositionMobilityModel");
+	mobility2.Install(integrated_box[2]);
+
+	MobilityHelper mobility3;
+	Ptr<ListPositionAllocator> positionAlloc3 = CreateObject<ListPositionAllocator> ();
+	positionAlloc3->Add (Vector(130, 10, 4));
+	mobility3.SetPositionAllocator(positionAlloc3);
+	mobility3.SetMobilityModel("ns3::ConstantPositionMobilityModel");
+	mobility3.Install(integrated_box[3]);
+
+	MobilityHelper mobility4;
+	Ptr<ListPositionAllocator> positionAlloc4 = CreateObject<ListPositionAllocator> ();
+	positionAlloc4->Add (Vector(10,60,4));
+	mobility4.SetPositionAllocator(positionAlloc4);
+	mobility4.SetMobilityModel("ns3::ConstantPositionMobilityModel");
+	mobility4.Install(integrated_box[4]);
+
+	MobilityHelper mobility5;
+	Ptr<ListPositionAllocator> positionAlloc5 = CreateObject<ListPositionAllocator> ();
+	positionAlloc5->Add (Vector(10, 110,4));
+	mobility5.SetPositionAllocator(positionAlloc5);
+	mobility5.SetMobilityModel("ns3::ConstantPositionMobilityModel");
+	mobility5.Install(integrated_box[5]);
+
+	MobilityHelper mobility6;
+	Ptr<ListPositionAllocator> positionAlloc6 = CreateObject<ListPositionAllocator> ();
+	positionAlloc6->Add (Vector(50, 110,4));
+	mobility6.SetPositionAllocator(positionAlloc6);
+	mobility6.SetMobilityModel("ns3::ConstantPositionMobilityModel");
+	mobility6.Install(integrated_box[6]);
+
+	MobilityHelper mobility7;
+	Ptr<ListPositionAllocator> positionAlloc7 = CreateObject<ListPositionAllocator> ();
+	positionAlloc7->Add (Vector(90, 110,4));
+	mobility7.SetPositionAllocator(positionAlloc7);
+	mobility7.SetMobilityModel("ns3::ConstantPositionMobilityModel");
+	mobility7.Install(integrated_box[7]);
+
+	MobilityHelper mobility8;
+	Ptr<ListPositionAllocator> positionAlloc8 = CreateObject<ListPositionAllocator> ();
+	positionAlloc8->Add (Vector(130,110,4));
+	mobility8.SetPositionAllocator(positionAlloc8);
+	mobility8.SetMobilityModel("ns3::ConstantPositionMobilityModel");
+	mobility8.Install(integrated_box[8]);
+
+	MobilityHelper mobility9;
+	Ptr<ListPositionAllocator> positionAlloc9 = CreateObject<ListPositionAllocator> ();
+	positionAlloc9->Add (Vector(130,60,4));
+	mobility9.SetPositionAllocator(positionAlloc9);
+	mobility9.SetMobilityModel("ns3::ConstantPositionMobilityModel");
+	mobility9.Install(integrated_box[9]);
+	
+
+	MobilityHelper mobility;	
+	int per_cell=numberOfClients/number_of_IBX;
+	for(uint16_t i=0;i<numberOfClients;i++) 
+	{
+
+		/*if (i < 5)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("10.0"),"Y",StringValue("10.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i>=5 && i < 10)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("50.0"),"Y",StringValue("10.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i>=10 && i < 15)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("90.0"),"Y",StringValue("10.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i>=15 && i < 20)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("130.0"),"Y",StringValue("10.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i>=20 && i < 25)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("10.0"),"Y",StringValue("60.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i>=25 && i < 30)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("10.0"),"Y",StringValue("110.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i>=30 && i < 35)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("50.0"),"Y",StringValue("110.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i>=35 && i < 40)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("90.0"),"Y",StringValue("110.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i>=40 && i < 45)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("130.0"),"Y",StringValue("110.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i>=45 && i < 50)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("130.0"),"Y",StringValue("60.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}*/
+			//std::cout<<"value = "<<i/10<<std::endl;
+			if (i/per_cell==0)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("10.0"),"Y",StringValue("10.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i/per_cell==1)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("50.0"),"Y",StringValue("10.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i/per_cell==2)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("90.0"),"Y",StringValue("10.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i/per_cell==3)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("130.0"),"Y",StringValue("10.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i/per_cell==4)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("10.0"),"Y",StringValue("60.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i/per_cell==5)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("10.0"),"Y",StringValue("110.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i/per_cell==6)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("50.0"),"Y",StringValue("110.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i/per_cell==7)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("90.0"),"Y",StringValue("110.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i/per_cell==8)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("130.0"),"Y",StringValue("110.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+		if (i/per_cell==9 || i/per_cell==10)
+		{
+			MobilityHelper mobility;
+			mobility.SetPositionAllocator("ns3::RandomDiscPositionAllocator","X",StringValue("130.0"),"Y",StringValue("60.0"),"Rho",StringValue("ns3::UniformRandomVariable[Min=0|Max=10]"),"Theta",StringValue("ns3::UniformRandomVariable[Min=0|Max=360]"));
+			mobility.Install(integrated_ue.Get(i));
+		}
+	}
+	// mobility.Install(integrated_ue);
+
+	//WifiHelper wifi=WifiHelper::Default ();
+	WifiHelper wifi1=WifiHelper::Default ();
+	WifiHelper wifi2=WifiHelper::Default ();
+	WifiHelper wifi3=WifiHelper::Default ();
+	WifiHelper wifi4=WifiHelper::Default ();
+	WifiHelper wifi5=WifiHelper::Default ();
+	WifiHelper wifi6=WifiHelper::Default ();
+	WifiHelper wifi7=WifiHelper::Default ();
+	WifiHelper wifi8=WifiHelper::Default ();
+	WifiHelper wifi9=WifiHelper::Default ();
+	WifiHelper wifi10=WifiHelper::Default ();
+
+	//wifi.SetStandard (WIFI_PHY_STANDARD_80211a);
+	wifi1.SetStandard (WIFI_PHY_STANDARD_80211a);
+	wifi2.SetStandard (WIFI_PHY_STANDARD_80211a);
+	wifi3.SetStandard (WIFI_PHY_STANDARD_80211a);
+	wifi4.SetStandard (WIFI_PHY_STANDARD_80211a);
+	wifi5.SetStandard (WIFI_PHY_STANDARD_80211a);
+	wifi6.SetStandard (WIFI_PHY_STANDARD_80211a);
+	wifi7.SetStandard (WIFI_PHY_STANDARD_80211a);
+	wifi8.SetStandard (WIFI_PHY_STANDARD_80211a);
+	wifi9.SetStandard (WIFI_PHY_STANDARD_80211a);
+	wifi10.SetStandard (WIFI_PHY_STANDARD_80211a);
+
+
+	//YansWifiChannelHelper channel = YansWifiChannelHelper::Default ();
+	YansWifiChannelHelper channel1 = YansWifiChannelHelper::Default ();
+	YansWifiChannelHelper channel2 = YansWifiChannelHelper::Default ();
+	YansWifiChannelHelper channel3 = YansWifiChannelHelper::Default ();
+	YansWifiChannelHelper channel4 = YansWifiChannelHelper::Default ();
+	YansWifiChannelHelper channel5 = YansWifiChannelHelper::Default ();
+	YansWifiChannelHelper channel6 = YansWifiChannelHelper::Default ();
+	YansWifiChannelHelper channel7 = YansWifiChannelHelper::Default ();
+	YansWifiChannelHelper channel8 = YansWifiChannelHelper::Default ();
+	YansWifiChannelHelper channel9 = YansWifiChannelHelper::Default ();
+	YansWifiChannelHelper channel10 = YansWifiChannelHelper::Default ();
+
+
+	//YansWifiPhyHelper phy = YansWifiPhyHelper::Default ();
+	YansWifiPhyHelper phy1 = YansWifiPhyHelper::Default ();
+	YansWifiPhyHelper phy2 = YansWifiPhyHelper::Default ();
+	YansWifiPhyHelper phy3 = YansWifiPhyHelper::Default ();
+	YansWifiPhyHelper phy4 = YansWifiPhyHelper::Default ();
+	YansWifiPhyHelper phy5 = YansWifiPhyHelper::Default ();
+	YansWifiPhyHelper phy6 = YansWifiPhyHelper::Default ();
+	YansWifiPhyHelper phy7 = YansWifiPhyHelper::Default ();
+	YansWifiPhyHelper phy8 = YansWifiPhyHelper::Default ();
+	YansWifiPhyHelper phy9 = YansWifiPhyHelper::Default ();
+	YansWifiPhyHelper phy10 = YansWifiPhyHelper::Default ();
+
+	//phy.SetChannel (channel.Create ());
+	phy1.SetChannel (channel1.Create ());
+	phy2.SetChannel (channel2.Create ());
+	phy3.SetChannel (channel3.Create ());
+	phy4.SetChannel (channel4.Create ());
+	phy5.SetChannel (channel5.Create ());
+	phy6.SetChannel (channel6.Create ());
+	phy7.SetChannel (channel7.Create ());
+	phy8.SetChannel (channel8.Create ());
+	phy9.SetChannel (channel9.Create ());
+	phy10.SetChannel (channel10.Create ());
+
+	//wifi.SetRemoteStationManager ("ns3::AarfWifiManager");
+	wifi1.SetRemoteStationManager ("ns3::AarfWifiManager");
+	wifi2.SetRemoteStationManager ("ns3::AarfWifiManager");
+	wifi3.SetRemoteStationManager ("ns3::AarfWifiManager");
+	wifi4.SetRemoteStationManager ("ns3::AarfWifiManager");
+	wifi5.SetRemoteStationManager ("ns3::AarfWifiManager");
+	wifi6.SetRemoteStationManager ("ns3::AarfWifiManager");
+	wifi7.SetRemoteStationManager ("ns3::AarfWifiManager");
+	wifi8.SetRemoteStationManager ("ns3::AarfWifiManager");
+	wifi9.SetRemoteStationManager ("ns3::AarfWifiManager");
+	wifi10.SetRemoteStationManager ("ns3::AarfWifiManager");
+
+
+	NqosWifiMacHelper mac = NqosWifiMacHelper::Default ();	
+
+	// Install LTE Devices to the nodes and wifi devices to node
+	NetDeviceContainer enbLteDevs = lteHelper->InstallEnbDevice (enbNodes);
+	NetDeviceContainer ueLteDevs;
+	for(uint16_t i=0;i<numberOfClients;i++) 
+	{
+		ueLteDevs.Add(lteHelper->InstallUeDevice (integrated_ue.Get(i)));
+	}
+
+	NetDeviceContainer wifiDevs[numberOfClients];
+	
+	Ssid ssid0 = Ssid ("Integrated_Box0");
+	mac.SetType ("ns3::StaWifiMac",
+			"Ssid", SsidValue (ssid0),
+			"ActiveProbing", BooleanValue (true));
+
+	for(uint16_t i=0;i<((numberOfClients/number_of_IBX)*(1));i++) 
+	{
+		wifiDevs[i]=wifi1.Install(phy1,mac,integrated_ue.Get(i));
+	}
+
+	Ssid ssid1 = Ssid ("Integrated_Box1");
+	mac.SetType ("ns3::StaWifiMac",
+			"Ssid", SsidValue (ssid1),
+			"ActiveProbing", BooleanValue (true));
+	for(uint16_t i=((numberOfClients/number_of_IBX)*(1));i<((numberOfClients/number_of_IBX)*(2));i++) 
+	{
+		wifiDevs[i]=wifi2.Install(phy2,mac,integrated_ue.Get(i));
+		//std::cout <<"dest address " <<wifiDevs[i].Get(0)->g << std::endl;
+	}
+
+	Ssid ssid2 = Ssid ("Integrated_Box2");
+	mac.SetType ("ns3::StaWifiMac",
+			"Ssid", SsidValue (ssid2),
+			"ActiveProbing", BooleanValue (true));
+	for(uint16_t i=((numberOfClients/number_of_IBX)*(2));i<((numberOfClients/number_of_IBX)*(3));i++) 
+	{
+		wifiDevs[i]=wifi3.Install(phy3,mac,integrated_ue.Get(i));
+		//std::cout <<"dest address " <<wifiDevs[i].Get(0)->g << std::endl;
+	}
+
+	Ssid ssid3 = Ssid ("Integrated_Box3");
+	mac.SetType ("ns3::StaWifiMac",
+			"Ssid", SsidValue (ssid3),
+			"ActiveProbing", BooleanValue (true));
+	for(uint16_t i=((numberOfClients/number_of_IBX)*(3));i<((numberOfClients/number_of_IBX)*(4));i++) 
+	{
+		wifiDevs[i]=wifi4.Install(phy4,mac,integrated_ue.Get(i));
+		//std::cout <<"dest address " <<wifiDevs[i].Get(0)->g << std::endl;
+	}
+
+	Ssid ssid4 = Ssid ("Integrated_Box4");
+	mac.SetType ("ns3::StaWifiMac",
+			"Ssid", SsidValue (ssid4),
+			"ActiveProbing", BooleanValue (true));
+	for(uint16_t i=((numberOfClients/number_of_IBX)*(4));i<((numberOfClients/number_of_IBX)*(5));i++) 
+	{
+		wifiDevs[i]=wifi5.Install(phy5,mac,integrated_ue.Get(i));
+		//std::cout <<"dest address " <<wifiDevs[i].Get(0)->g << std::endl;
+	}
+
+	Ssid ssid5 = Ssid ("Integrated_Box5");
+	mac.SetType ("ns3::StaWifiMac",
+			"Ssid", SsidValue (ssid5),
+			"ActiveProbing", BooleanValue (true));
+	
+	for(uint16_t i=((numberOfClients/number_of_IBX)*(5));i<((numberOfClients/number_of_IBX)*(6));i++) 
+	{
+		wifiDevs[i]=wifi6.Install(phy6,mac,integrated_ue.Get(i));
+		//std::cout <<"dest address " <<wifiDevs[i].Get(0)->g << std::endl;
+	}
+
+	Ssid ssid6 = Ssid ("Integrated_Box6");
+	mac.SetType ("ns3::StaWifiMac",
+			"Ssid", SsidValue (ssid6),
+			"ActiveProbing", BooleanValue (true));
+	
+	for(uint16_t i=((numberOfClients/number_of_IBX)*(6));i<((numberOfClients/number_of_IBX)*(7));i++) 
+	{
+		wifiDevs[i]=wifi7.Install(phy7,mac,integrated_ue.Get(i));
+		//std::cout <<"dest address " <<wifiDevs[i].Get(0)->g << std::endl;
+	}
+
+	Ssid ssid7 = Ssid ("Integrated_Box7");
+	mac.SetType ("ns3::StaWifiMac",
+			"Ssid", SsidValue (ssid7),
+			"ActiveProbing", BooleanValue (true));
+	
+	for(uint16_t i=((numberOfClients/number_of_IBX)*(7));i<((numberOfClients/number_of_IBX)*(8));i++) 
+	{
+		wifiDevs[i]=wifi8.Install(phy8,mac,integrated_ue.Get(i));
+		//std::cout <<"dest address " <<wifiDevs[i].Get(0)->g << std::endl;
+	}
+	
+	Ssid ssid8 = Ssid ("Integrated_Box8");
+	mac.SetType ("ns3::StaWifiMac",
+			"Ssid", SsidValue (ssid8),
+			"ActiveProbing", BooleanValue (true));
+	
+	for(uint16_t i=((numberOfClients/number_of_IBX)*(8));i<((numberOfClients/number_of_IBX)*(9));i++) 
+	{
+		wifiDevs[i]=wifi9.Install(phy9,mac,integrated_ue.Get(i));
+		//std::cout <<"dest address " <<wifiDevs[i].Get(0)->g << std::endl;
+	}
+
+	Ssid ssid9 = Ssid ("Integrated_Box9");
+	mac.SetType ("ns3::StaWifiMac",
+			"Ssid", SsidValue (ssid9),
+			"ActiveProbing", BooleanValue (true));
+	
+	for(uint16_t i=((numberOfClients/number_of_IBX)*(9));i<((numberOfClients/number_of_IBX)*(10));i++) 
+	{
+		wifiDevs[i]=wifi10.Install(phy10,mac,integrated_ue.Get(i));
+		//std::cout <<"dest address " <<wifiDevs[i].Get(0)->g << std::endl;
+	}
+	
+	mac.SetType ("ns3::ApWifiMac","Ssid", SsidValue (ssid0));
+	NetDeviceContainer wifiApDevs0 =wifi1.Install(phy1,mac,wifiAp.Get(0));
+
+	mac.SetType ("ns3::ApWifiMac","Ssid", SsidValue (ssid1));
+	NetDeviceContainer wifiApDevs1 =wifi2.Install(phy2,mac,wifiAp.Get(1));
+
+	mac.SetType ("ns3::ApWifiMac","Ssid", SsidValue (ssid2));
+	NetDeviceContainer wifiApDevs2 =wifi3.Install(phy3,mac,wifiAp.Get(2));
+
+	mac.SetType ("ns3::ApWifiMac","Ssid", SsidValue (ssid3));
+	NetDeviceContainer wifiApDevs3 =wifi4.Install(phy4,mac,wifiAp.Get(3));
+
+	mac.SetType ("ns3::ApWifiMac","Ssid", SsidValue (ssid4));
+	NetDeviceContainer wifiApDevs4 =wifi5.Install(phy5,mac,wifiAp.Get(4));
+
+	mac.SetType ("ns3::ApWifiMac","Ssid", SsidValue (ssid5));
+	NetDeviceContainer wifiApDevs5 =wifi6.Install(phy7,mac,wifiAp.Get(5));
+
+	mac.SetType ("ns3::ApWifiMac","Ssid", SsidValue (ssid6));
+	NetDeviceContainer wifiApDevs6 =wifi7.Install(phy8,mac,wifiAp.Get(6));
+
+	mac.SetType ("ns3::ApWifiMac","Ssid", SsidValue (ssid7));
+	NetDeviceContainer wifiApDevs7 =wifi8.Install(phy8,mac,wifiAp.Get(7));
+
+	mac.SetType ("ns3::ApWifiMac","Ssid", SsidValue (ssid8));
+	NetDeviceContainer wifiApDevs8 =wifi9.Install(phy9,mac,wifiAp.Get(8));
+
+	mac.SetType ("ns3::ApWifiMac","Ssid", SsidValue (ssid9));
+	NetDeviceContainer wifiApDevs9 =wifi10.Install(phy10,mac,wifiAp.Get(9));
+
+
+	//wifiApDevs.Add(wifiApDevs1);
+	// Install the IP stack on the UEs///////////////////////////////////
+	InternetStackHelper stack;
+	stack.Install (integrated_ue);
+	stack.Install(wifiAp);
+
+	RouterLayer::epc_enb_wifi_netdevice[0]=wifiApDevs0.Get(0);
+	RouterLayer::epc_enb_wifi_netdevice[1]=wifiApDevs1.Get(0);
+	RouterLayer::epc_enb_wifi_netdevice[2]=wifiApDevs2.Get(0);
+	RouterLayer::epc_enb_wifi_netdevice[3]=wifiApDevs3.Get(0);
+	RouterLayer::epc_enb_wifi_netdevice[4]=wifiApDevs4.Get(0);
+	RouterLayer::epc_enb_wifi_netdevice[5]=wifiApDevs5.Get(0);
+	RouterLayer::epc_enb_wifi_netdevice[6]=wifiApDevs6.Get(0);
+	RouterLayer::epc_enb_wifi_netdevice[7]=wifiApDevs7.Get(0);
+	RouterLayer::epc_enb_wifi_netdevice[8]=wifiApDevs8.Get(0);
+	RouterLayer::epc_enb_wifi_netdevice[9]=wifiApDevs9.Get(0);
+
+	//internet.Install (integrated_box);
+	//Ipv4InterfaceContainer ueIpIface;
+	ueIpIface = epcHelper->AssignUeIpv4Address (NetDeviceContainer (ueLteDevs));
+
+	Mac48Address wifiapmacaddress0 = "22:33:44:55:66:09";
+	wifiApDevs0.Get(0)->SetAddress(wifiapmacaddress0);
+	ns3::RouterLayer::wifi_Ap_macaddr[0]=wifiapmacaddress0;
+
+	Mac48Address wifiapmacaddress1 = "22:33:44:55:66:19";
+	wifiApDevs1.Get(0)->SetAddress(wifiapmacaddress1);
+	ns3::RouterLayer::wifi_Ap_macaddr[1]=wifiapmacaddress1;
+
+	Mac48Address wifiapmacaddress2 = "22:33:44:55:66:29";
+	wifiApDevs2.Get(0)->SetAddress(wifiapmacaddress2);
+	ns3::RouterLayer::wifi_Ap_macaddr[2]=wifiapmacaddress2;
+
+	Mac48Address wifiapmacaddress3 = "22:33:44:55:66:39";
+	wifiApDevs3.Get(0)->SetAddress(wifiapmacaddress3);
+	ns3::RouterLayer::wifi_Ap_macaddr[3]=wifiapmacaddress3;
+
+	Mac48Address wifiapmacaddress4 = "22:33:44:55:66:49";
+	wifiApDevs4.Get(0)->SetAddress(wifiapmacaddress4);
+	ns3::RouterLayer::wifi_Ap_macaddr[4]=wifiapmacaddress4;
+
+	Mac48Address wifiapmacaddress5 = "22:33:44:55:66:59";
+	wifiApDevs5.Get(0)->SetAddress(wifiapmacaddress5);
+	ns3::RouterLayer::wifi_Ap_macaddr[5]=wifiapmacaddress5;
+
+	Mac48Address wifiapmacaddress6 = "22:33:44:55:66:69";
+	wifiApDevs6.Get(0)->SetAddress(wifiapmacaddress6);
+	ns3::RouterLayer::wifi_Ap_macaddr[6]=wifiapmacaddress6;
+
+	Mac48Address wifiapmacaddress7 = "22:33:44:55:66:79";
+	wifiApDevs7.Get(0)->SetAddress(wifiapmacaddress7);
+	ns3::RouterLayer::wifi_Ap_macaddr[7]=wifiapmacaddress7;
+
+	Mac48Address wifiapmacaddress8 = "22:33:44:55:66:89";
+	wifiApDevs8.Get(0)->SetAddress(wifiapmacaddress8);
+	ns3::RouterLayer::wifi_Ap_macaddr[8]=wifiapmacaddress8;
+
+	Mac48Address wifiapmacaddress9 = "22:33:44:55:66:99";
+	wifiApDevs9.Get(0)->SetAddress(wifiapmacaddress9);
+	ns3::RouterLayer::wifi_Ap_macaddr[9]=wifiapmacaddress9;
+
+	Mac48Address wifimacaddress;
+	ns3::RouterLayer router;
+
+	// Assign address to clients
+	for(uint16_t i=0;i<numberOfClients;i++) {
+		std::string mac="22:33:44:55:66:";
+		int a = i+10;
+		std::stringstream ss;
+		ss << a;
+		std::string mac_last_prefix = ss.str();
+		mac.append(mac_last_prefix);
+		wifimacaddress=mac.c_str();
+	//	std::cout << "client mac address"<<wifimacaddress << std::endl;
+		wifiDevs[i].Get(0)->SetAddress(wifimacaddress);
+		uint16_t enb_id=0;
+
+		if (i>=0 && i<((numberOfClients/number_of_IBX)*(1))) 
+		{
+			enb_id=0;
+		}
+		if (i>=((numberOfClients/number_of_IBX)*(1)) && i<((numberOfClients/number_of_IBX)*(2))) 
+		{
+			enb_id=1;
+		}
+		if (i>=((numberOfClients/number_of_IBX)*(2)) && i<((numberOfClients/number_of_IBX)*(3))) 
+		{
+			enb_id=2;
+		}
+		if (i>=((numberOfClients/number_of_IBX)*(3)) && i<((numberOfClients/number_of_IBX)*(4))) 
+		{
+			enb_id=3;
+		}
+		if (i>=((numberOfClients/number_of_IBX)*(4)) && i<((numberOfClients/number_of_IBX)*(5))) 
+		{
+			enb_id=4;
+		}
+		if (i>=((numberOfClients/number_of_IBX)*(5)) && i<((numberOfClients/number_of_IBX)*(6))) 
+		{
+			enb_id=5;
+		}
+		if (i>=((numberOfClients/number_of_IBX)*(6)) && i<((numberOfClients/number_of_IBX)*(7))) 
+		{
+			enb_id=6;
+		}
+		if (i>=((numberOfClients/number_of_IBX)*(7)) && i<((numberOfClients/number_of_IBX)*(8))) 
+		{
+			enb_id=7;
+		}
+		if (i>=((numberOfClients/number_of_IBX)*(8)) && i<((numberOfClients/number_of_IBX)*(9))) 
+		{
+			enb_id=8;
+		}
+		if (i>=((numberOfClients/number_of_IBX)*(9)) && i<((numberOfClients/number_of_IBX)*(10))) 
+		{
+			enb_id=9;
+		}
+	
+		router.mapfunc(wifimacaddress,ueIpIface.GetAddress(i),enb_id);
+		//router.mapfunc(wifimacaddress,ueIpIface.GetAddress(i));
+	}
+
+	Ipv4AddressHelper address;
+
+	//Just commented
+	for (uint16_t i = 0; i < numberOfClients; i++)
+	{
+		Ipv4Address adr=ueIpIface.GetAddress(i,0);
+		Ipv4InterfaceContainer ueIpIface1;
+		ueIpIface1=address.assignaddress(wifiDevs[i],adr);
+	//	std::cout<<" UE Interface address"<<ueIpIface.GetAddress(i,0)<<std::endl;
+	//	std::cout<<" Wifi Interface address"<<ueIpIface1.GetAddress(0,0)<<std::endl;
+	}
+
+	// Assign IP address to UEs, and install applications
+	for (uint32_t u = 0; u < numberOfClients; ++u)
+	{
+		Ptr<Node> ueNode = integrated_ue.Get (u);
+		// Set the default gateway for the UE
+		Ptr<Ipv4StaticRouting> ueStaticRouting = ipv4RoutingHelper.GetStaticRouting (ueNode->GetObject<Ipv4> ());
+		ueStaticRouting->SetDefaultRoute (epcHelper->GetUeDefaultGatewayAddress (), 1);
+	}
+	uint16_t ue_num = 0;
+	for(ue_num = 0;ue_num<((numberOfClients/number_of_IBX)*(1));ue_num++) 
+	{
+		lteHelper->Attach (ueLteDevs.Get(ue_num), enbLteDevs.Get(0));
+	}
+	for(ue_num=((numberOfClients/number_of_IBX)*(1));ue_num<((numberOfClients/number_of_IBX)*(2));ue_num++) 
+	{
+		lteHelper->Attach (ueLteDevs.Get(ue_num), enbLteDevs.Get(1));
+	}
+	for(ue_num=((numberOfClients/number_of_IBX)*(2));ue_num<((numberOfClients/number_of_IBX)*(3));ue_num++) 
+	{
+		lteHelper->Attach (ueLteDevs.Get(ue_num), enbLteDevs.Get(2));
+	}
+	for(ue_num=((numberOfClients/number_of_IBX)*(3));ue_num<((numberOfClients/number_of_IBX)*(4));ue_num++) 
+	{
+		lteHelper->Attach (ueLteDevs.Get(ue_num), enbLteDevs.Get(3));
+	}
+	for(ue_num=((numberOfClients/number_of_IBX)*(4));ue_num<((numberOfClients/number_of_IBX)*(5));ue_num++) 
+	{
+		lteHelper->Attach (ueLteDevs.Get(ue_num), enbLteDevs.Get(4));
+	}
+	for(ue_num=((numberOfClients/number_of_IBX)*(5));ue_num<((numberOfClients/number_of_IBX)*(6));ue_num++) 
+	{
+		lteHelper->Attach (ueLteDevs.Get(ue_num), enbLteDevs.Get(5));
+	}
+	for(ue_num=((numberOfClients/number_of_IBX)*(6));ue_num<((numberOfClients/number_of_IBX)*(7));ue_num++) 
+	{
+		lteHelper->Attach (ueLteDevs.Get(ue_num), enbLteDevs.Get(6));
+	}
+	for(ue_num=((numberOfClients/number_of_IBX)*(7));ue_num<((numberOfClients/number_of_IBX)*(8));ue_num++) 
+	{
+		lteHelper->Attach (ueLteDevs.Get(ue_num), enbLteDevs.Get(7));
+	}
+	for(ue_num=((numberOfClients/number_of_IBX)*(8));ue_num<((numberOfClients/number_of_IBX)*(9));ue_num++) 
+	{
+		lteHelper->Attach (ueLteDevs.Get(ue_num), enbLteDevs.Get(8));
+	}
+	for(ue_num=((numberOfClients/number_of_IBX)*(9));ue_num<((numberOfClients/number_of_IBX)*(10));ue_num++) 
+	{
+		lteHelper->Attach (ueLteDevs.Get(ue_num), enbLteDevs.Get(9));
+	}
+
+	// Install and start applications on UEs and remote host
+	//TCP Application============================
+	//std::ostringstream oss;
+
+
+		uint16_t pportU=1000;
+		uint16_t pportU1=1500;
+		uint32_t u;
+		for (u = 0; u < numberOfVoiceUsers; ++u)
+		{			
+		      UdpClientHelper sourceVoice (remoteHostAddr, pportU);
+		      // Set the amount of data to send in bytes.  Zero is unlimited.
+		      sourceVoice.SetAttribute ("Interval", TimeValue (MilliSeconds(20)));
+		      sourceVoice.SetAttribute ("MaxPackets", UintegerValue(100000));
+		      sourceVoice.SetAttribute ("PacketSize", UintegerValue(40));
+		      ApplicationContainer sourceVoiceApps = sourceVoice.Install (integrated_ue.Get(user_id));
+		      sourceVoiceApps.Start (Seconds (1.0));
+		      sourceVoiceApps.Stop (Seconds (simTime));
+		      PacketSinkHelper sinkUDPWeb ("ns3::UdpSocketFactory",InetSocketAddress (Ipv4Address::GetAny (), pportU));
+		      ApplicationContainer sinkUDPWebApps = sinkUDPWeb.Install (remoteHost);
+		      sinkUDPWebApps.Start (Seconds (1.0));
+		      sinkUDPWebApps.Stop (Seconds (simTime));
+		      pportU++;
+
+		      UdpClientHelper sourceVoice1 (ueIpIface.GetAddress (user_id), pportU1);
+		      // Set the amount of data to send in bytes.  Zero is unlimited.
+		      sourceVoice1.SetAttribute ("Interval", TimeValue (MilliSeconds(20)));
+		      sourceVoice1.SetAttribute ("MaxPackets", UintegerValue(100000));
+		      sourceVoice1.SetAttribute ("PacketSize", UintegerValue(40));
+		      ApplicationContainer sourceVoiceApps1 = sourceVoice1.Install (remoteHost);
+		      sourceVoiceApps1.Start (Seconds (1.0));
+		      sourceVoiceApps1.Stop (Seconds (simTime));
+		      PacketSinkHelper sink1 ("ns3::UdpSocketFactory",InetSocketAddress (Ipv4Address::GetAny (), pportU1));
+		      ApplicationContainer sinkVoiceApps1 = sink1.Install (integrated_ue.Get(user_id));
+		      sinkVoiceApps1.Start (Seconds (1.0));
+		      sinkVoiceApps1.Stop (Seconds (simTime));
+		      pportU1++;
+		      user_id+=(numberOfClients/numberOfVoiceUsers);
+		}
+
+
+
+
+// UdpClientHelper sourceUDP Web browsing(UDP)
+
+		//uint16_t portU=2000;
+		user_id=1;
+		uint16_t portU1=2500;
+		for (u = 0; u < numberOfWebUsers; ++u)
+		{	
+
+
+
+			  // Create the OnOff applications to send TCP to the server
+			user_id+=(numberOfClients/numberOfWebUsers);
+			portU1++;
+			schedule_web(portU1,user_id);
+
+
+
+		}
+// UdpClientHelper sourceUDP Youtube(UDP)	
+		
+		//uint32_t portUDP=3000;
+		user_id=2;
+		uint32_t portUDP1=3500;
+		for (u = 0; u < numberOfYoutubeUsers; ++u)
+		{
+			
+			UdpClientHelper sourceUDPyoutube1 (ueIpIface.GetAddress (user_id), portUDP1);
+			// Set the amount of data to send in bytes.  Zero is unlimited.
+			sourceUDPyoutube1.SetAttribute ("Interval", TimeValue (MilliSeconds(20)));
+			sourceUDPyoutube1.SetAttribute ("MaxPackets", UintegerValue(50000));
+			sourceUDPyoutube1.SetAttribute ("PacketSize", UintegerValue(1024));
+			ApplicationContainer sourceUDPyoutubeApps1 = sourceUDPyoutube1.Install (remoteHost);
+			sourceUDPyoutubeApps1.Start (Seconds (1.0));
+			sourceUDPyoutubeApps1.Stop (Seconds (simTime));
+			PacketSinkHelper sinksinkUDPyoutube1 ("ns3::UdpSocketFactory",InetSocketAddress (Ipv4Address::GetAny (), portU1));
+			ApplicationContainer sinkUDPyoutubeApps1 = sinksinkUDPyoutube1.Install (integrated_ue.Get(user_id));
+			sinkUDPyoutubeApps1.Start (Seconds (1.0));
+			sinkUDPyoutubeApps1.Stop (Seconds (simTime));
+			portUDP1++;
+			user_id+=(numberOfClients/numberOfYoutubeUsers);
+		}	
+
+//BulkSendHelper TcpSocketFactory FTP 
+			//uint16_t portB=4000;
+			uint16_t portB1=4500;
+			user_id=0;
+		for (u = 0; u < numberOfFTPUsers; ++u)
+		{
+			
+			BulkSendHelper source1 ("ns3::TcpSocketFactory",InetSocketAddress (ueIpIface.GetAddress (user_id), portB1));
+			// Set the amount of data to send in bytes.  Zero is unlimited.
+			source1.SetAttribute ("MaxBytes", UintegerValue (0));
+			source1.SetAttribute("SendSize",UintegerValue (1024));
+			ApplicationContainer sourceApps1 = source1.Install (remoteHost);
+			sourceApps1.Start (Seconds (1.0));
+			sourceApps1.Stop (Seconds (simTime));
+			PacketSinkHelper sinkB1 ("ns3::TcpSocketFactory",InetSocketAddress (Ipv4Address::GetAny (), portB1));
+			ApplicationContainer sinkBApps1 = sinkB1.Install (integrated_ue.Get(user_id));
+			sinkBApps1.Start (Seconds (1.0));
+			sinkBApps1.Stop (Seconds (simTime));
+			portB1++;
+			user_id+=(numberOfClients/numberOfFTPUsers);
+		}	
+			//uplink
+			user_id=0;
+		for (u = 0; u < numberOfFTPUsers; ++u)
+		{
+			
+			BulkSendHelper source1 ("ns3::TcpSocketFactory",InetSocketAddress (remoteHostAddr, portB1));
+			// Set the amount of data to send in bytes.  Zero is unlimited.
+			source1.SetAttribute ("MaxBytes", UintegerValue (0));
+			source1.SetAttribute("SendSize",UintegerValue (1024));
+			ApplicationContainer sourceApps1 = source1.Install (integrated_ue.Get(user_id));
+			sourceApps1.Start (Seconds (1.0));
+			sourceApps1.Stop (Seconds (simTime));
+			PacketSinkHelper sinkB1 ("ns3::TcpSocketFactory",InetSocketAddress (Ipv4Address::GetAny (), portB1));
+			ApplicationContainer sinkBApps1 = sinkB1.Install (remoteHost);
+			sinkBApps1.Start (Seconds (1.0));
+			sinkBApps1.Stop (Seconds (simTime));
+			portB1++;
+			user_id+=(numberOfClients/numberOfFTPUsers);
+		}	
+
+	
+/*	  PrintGnuplottableBuildingListToFile ("buildings.txt");
+      PrintGnuplottableEnbListToFile ("enbs.txt");
+      PrintGnuplottableUeListToFile ("ues.txt");
+
+	  Ptr<RadioEnvironmentMapHelper> remHelper = CreateObject<RadioEnvironmentMapHelper> ();
+	  remHelper->SetAttribute ("ChannelPath", StringValue ("/ChannelList/11"));
+	  remHelper->SetAttribute ("OutputFile", StringValue ("rem.out"));
+	  remHelper->SetAttribute ("XMin", DoubleValue (-50.0));
+	  remHelper->SetAttribute ("XMax", DoubleValue (200.0));
+	  remHelper->SetAttribute ("YMin", DoubleValue (-50.0));
+	  remHelper->SetAttribute ("YMax", DoubleValue (170.0));
+	  remHelper->SetAttribute ("Z", DoubleValue (10.0));
+	  remHelper->Install ();*/
+	 
+
+	lteHelper->EnableTraces ();
+	FlowMonitorHelper flowmon;
+	Ptr<FlowMonitor> monitor;
+		
+	
+	phy1.EnablePcap ("WifiAp", wifiAp);
+	phy2.EnablePcap ("WifiAp", wifiAp);
+	phy3.EnablePcap ("WifiAp", wifiAp);
+	phy4.EnablePcap ("WifiAp", wifiAp);
+	phy5.EnablePcap ("WifiAp", wifiAp);
+	phy6.EnablePcap ("WifiAp", wifiAp);
+	phy7.EnablePcap ("WifiAp", wifiAp);
+	phy8.EnablePcap ("WifiAp", wifiAp);
+	
+	
+	
+	monitor= flowmon.Install (integrated_ue);
+	flowmon.Install (remoteHost);
+	Simulator::Stop(Seconds(simTime));
+	Simulator::Run();
+	monitor->CheckForLostPackets ();
+	Ptr<Ipv4FlowClassifier> classifier = DynamicCast<Ipv4FlowClassifier> (flowmon.GetClassifier ());
+	std::map<FlowId, FlowMonitor::FlowStats> stats = monitor->GetFlowStats ();
+	//uint32_t lostpkt=0;
+	double Thrpt=0;
+	double systemThrpt=0;
+	double received_bytes=0, received_pkts=0, transmitted_packets=0;ns3::Time total_time;
+	double Delay=0,PLoss=0;
+
+	double thrpt_voice=0;
+	double thrpt_web=0;
+	double thrpt_youtube=0;
+	double thrpt_ftp=0;
+
+	double delay_voice=0;
+	double delay_web=0;
+	double delay_youtube=0;
+	double delay_ftp=0;
+
+	double rcv_pkt_voice=0;
+	double rcv_pkt_web=0;
+	double rcv_pkt_youtube=0;
+	double rcv_pkt_ftp=0;
+
+	double flow_voice=0;
+	double flow_web=0;
+	double flow_youtube=0;
+	double flow_ftp=0;
+
+	double jitter_voice=0;
+	double jitter_web=0;
+	double jitter_youtube=0;
+	double jitter_ftp=0;
+
+	double recvdwebBytes=0;
+
+
+
+
+	 
+
+	for (std::map<FlowId, FlowMonitor::FlowStats>::const_iterator i = stats.begin (); i != stats.end (); ++i)
+	{
+		
+		if (1)
+		{
+			Ipv4FlowClassifier::FiveTuple t = classifier->FindFlow (i->first);
+			std::string interface=(t.destinationPort %2==0 )? "LTE":"Wi-Fi";
+			std::cout << "Flow " << i->first << " (" << t.sourceAddress << "(" << t.sourcePort <<")" << " -> " << t.destinationAddress <<"("<<t.destinationPort<<")"<< interface<<")\n";
+
+			std::cout << "  Tx Bytes:   " << i->second.txBytes << "\n";
+			std::cout << "  Rx Bytes:   " << i->second.rxBytes << "\n";
+			received_bytes+=i->second.rxBytes;
+			std::cout << "  Transmitted Packets: " << i->second.txPackets << std::endl;
+			std::cout << "  Received Packets: " << i->second.rxPackets << std::endl;
+			std::cout << "  First Tx time:   " << i->second.timeFirstTxPacket << "\n";
+			std::cout << "  Last Rx time:   " << i->second.timeLastRxPacket << "\n";
+			std::cout << "  Jitter:         " << (i->second.jitterSum.GetSeconds()/i->second.rxPackets*1000) << "\n";
+			std::cout << "  Delay = " << (i->second.delaySum.GetSeconds()/i->second.rxPackets*1000)<< "msec \n";
+
+			total_time+=i->second.timeLastRxPacket-i->second.timeFirstTxPacket;
+			std::cout << "  Throughput: " << ( ((double)i->second.rxBytes*8) / (i->second.timeLastRxPacket - i->second.timeFirstTxPacket).GetSeconds()/1024/1024 ) << "Mbps" << std::endl;
+			Thrpt +=( ((double)i->second.rxBytes*8) / (i->second.timeLastRxPacket - i->second.timeFirstTxPacket).GetSeconds()/1024/1024 );
+			
+			systemThrpt+=(((double)i->second.rxBytes*8));
+
+			Delay += i->second.delaySum.GetSeconds();
+			received_pkts+=i->second.rxPackets;
+			PLoss+=i->second.txPackets-i->second.rxPackets ;
+			transmitted_packets+=i->second.txPackets;
+
+			double temp_tpt=0;
+			double temp_received_pkts=0;
+			
+			temp_received_pkts=i->second.rxPackets;
+
+			temp_tpt = ( ((double)i->second.rxBytes*8) / (i->second.timeLastRxPacket - i->second.timeFirstTxPacket).GetSeconds()/1024/1024 );
+		//	std::cout<<"Last Received Time : "<<i->second.timeLastRxPacket<< "First Received time :" i->second.timeFirstTxPacket<<std::endl;
+			double temp_delay= i->second.delaySum.GetSeconds();
+
+
+			double temp_jitter= i->second.jitterSum.GetSeconds();
+			if((t.sourcePort>=1000 && t.sourcePort<=1999) || (t.destinationPort>=1000 && t.destinationPort<=1999))
+			{
+					thrpt_voice+=temp_tpt;
+					delay_voice+=temp_delay;
+					rcv_pkt_voice+=temp_received_pkts;
+					jitter_voice+=temp_jitter;
+					flow_voice+=1;
+					std::cout<<"Voice\n";
+			}
+			if( (t.destinationPort>=2000 && t.destinationPort<=2999))
+			{
+					thrpt_web+=temp_tpt;
+					delay_web+=temp_delay;
+					rcv_pkt_web+=temp_received_pkts;
+					jitter_web+=temp_jitter;
+					flow_web+=1;
+					recvdwebBytes+=((double)i->second.rxBytes*8);
+					std::cout<<"Webtraffic\n";
+			}
+
+			if((t.sourcePort>=3000 && t.sourcePort<=3999) || (t.destinationPort>=3000 && t.destinationPort<=3999))
+			{
+					thrpt_youtube+=temp_tpt;
+					delay_youtube+=temp_delay;
+
+					rcv_pkt_youtube+=temp_received_pkts;
+					jitter_youtube+=temp_jitter;
+					flow_youtube+=1;
+					std::cout<<"Youtube\n";
+			}
+
+			if((t.sourcePort>=4000 && t.sourcePort<=4999) || (t.destinationPort>=4000 && t.destinationPort<=4999))
+			{
+				std::cout<<"src ip = "<< t.sourceAddress<< " Integer = "<<t.sourceAddress.Get()<<"Remote host = "<<remoteHostAddr<< " Integer ="<<remoteHostAddr.Get()<<std::endl;
+				//if(t.sourceAddress.Get()<=remoteHostAddr.Get()){
+					thrpt_ftp+=temp_tpt;
+					delay_ftp+=temp_delay;
+					rcv_pkt_ftp+=temp_received_pkts;
+					jitter_ftp+=temp_jitter;
+					flow_ftp+=1;
+					std::cout<<"FTP\n";
+				//}
+			}
+
+		}
+	}
+
+	std::cout << " **************************** "<< "\n";
+	std::cout << "  Voice throuput = " << (thrpt_voice)<< "\n";
+	std::cout << "  Voice Jitter = " << (jitter_voice/rcv_pkt_voice*1000)<< " msec \n";	
+	std::cout << "  Voice delay = " << (delay_voice/rcv_pkt_voice*1000)<< " msec" << "\n";
+    std::cout << " **************************** "<< "\n";
+
+
+	std::cout << " **************************** "<< "\n";
+	std::cout << "   web throuput = " << recvdwebBytes/(simTime)<< "\n";
+	std::cout << "   web Jitter = " << (jitter_web/rcv_pkt_voice*1000) << " msec \n";
+	std::cout << "   web delay = " << (delay_web/rcv_pkt_web*1000)<< " msec" << "\n";
+    std::cout << " **************************** "<< "\n";
+
+
+	std::cout << " **************************** "<< "\n";
+	std::cout << "   youtube throuput = " << thrpt_youtube<< "\n";
+	std::cout << "   youtube Jitter = " << (jitter_youtube/rcv_pkt_voice*1000)<< " msec \n";	
+	std::cout << "   youtube delay = " << (delay_youtube/rcv_pkt_youtube*1000)<< " msec" << "\n";
+    std::cout << " **************************** "<< "\n";
+
+
+	std::cout << " **************************** "<< "\n";
+	std::cout << "   ftp throuput = " << thrpt_ftp<< "\n";
+	std::cout << "   ftp Jitter = " << (jitter_ftp/rcv_pkt_voice*1000) << " msec \n";
+	std::cout << "   ftp delay = " << (delay_ftp/rcv_pkt_ftp*1000)<< " msec" << "\n";
+    std::cout << " **************************** "<< "\n";
+
+
+	std::cout << "  Packet loss = " << PLoss<< "\n";
+	std::cout << "Percentage of Lost packets = "<<((PLoss/transmitted_packets)*100)<<std::endl;
+	std::cout << "Total  Delay = " << (Delay/received_pkts*1000)<< " msec" << " "<< UDP <<" "<< queue_size_lte_rlc_um<< " "<< MaxDelay_in_wifi_queue<<" " <<lte << " interPacketInterval = " <<interPacketInterval<<"\n";
+	std::cout << " Total Rx Bytes: " << received_bytes;
+	std::cout << " Total Throughput: " << Thrpt << " interPacketInterval = " <<interPacketInterval<<"\n"  <<std::endl;
+    std::cout << " Total System Throughput: " << (systemThrpt/(simTime-1)) << std::endl;
+	Simulator::Destroy();
+	return 0;
+}
+
+
+void schedule_web(uint32_t portU1,uint32_t user_id)
+{
+
+			BulkSendHelper sourceTCPWeb1 ("ns3::TcpSocketFactory",InetSocketAddress (ueIpIface.GetAddress (user_id), portU1));
+			// Set the amount of data to send in bytes.  Zero is unlimited.
+			sourceTCPWeb1.SetAttribute ("MaxBytes", UintegerValue (512000));
+			sourceTCPWeb1.SetAttribute("SendSize",UintegerValue (1024));
+			ApplicationContainer sourceTCPWebApps1 = sourceTCPWeb1.Install (remoteHost);
+			sourceTCPWebApps1.Start (Seconds (1.0));
+			
+			PacketSinkHelper sinkTCPB1 ("ns3::TcpSocketFactory",InetSocketAddress (Ipv4Address::GetAny (), portU1));
+			ApplicationContainer sinkTCPWebApps1 = sinkTCPB1.Install (integrated_ue.Get(user_id));
+			sinkTCPWebApps1.Start (Seconds (1.0));
+			portU1++;
+        Simulator::Schedule(MilliSeconds(5000),&schedule_web,portU1,user_id);
+
+}

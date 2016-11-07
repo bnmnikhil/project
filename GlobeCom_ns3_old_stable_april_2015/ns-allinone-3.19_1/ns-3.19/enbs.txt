@@ -1,0 +1,7 @@
+set label "4" at 0,0 left font "Helvetica,4" textcolor rgb "white" front  point pt 2 ps 0.3 lc rgb "white" offset 0,0
+set label "1" at 86.6,50 left font "Helvetica,4" textcolor rgb "white" front  point pt 2 ps 0.3 lc rgb "white" offset 0,0
+set label "5" at 86.6,-50 left font "Helvetica,4" textcolor rgb "white" front  point pt 2 ps 0.3 lc rgb "white" offset 0,0
+set label "2" at -86.6,50 left font "Helvetica,4" textcolor rgb "white" front  point pt 2 ps 0.3 lc rgb "white" offset 0,0
+set label "6" at 0,100 left font "Helvetica,4" textcolor rgb "white" front  point pt 2 ps 0.3 lc rgb "white" offset 0,0
+set label "3" at 0,-100 left font "Helvetica,4" textcolor rgb "white" front  point pt 2 ps 0.3 lc rgb "white" offset 0,0
+set label "7" at -86.6,-50 left font "Helvetica,4" textcolor rgb "white" front  point pt 2 ps 0.3 lc rgb "white" offset 0,0

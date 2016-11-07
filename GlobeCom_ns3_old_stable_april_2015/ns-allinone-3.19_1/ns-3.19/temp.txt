@@ -1,0 +1,1920 @@
+./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.011956
+./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0145046
+./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0134506
+./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0135046
+./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0163773
+./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0132781
+./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0129364
+./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0136409
+./Delay.txt:./ltewifi_1_position_2.log:  Delay = 0.109649
+./Delay.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.809207
+./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.0220979
+./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.60246
+./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.0218925
+./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.852228
+./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.790647
+./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.786165
+./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.927313
+./Delay.txt:./ltewifi_20_position_1.log:  Delay = 4.81201
+./Delay.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.015933
+./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0145046
+./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.01886
+./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0135046
+./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0154293
+./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0162635
+./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0157711
+./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0197416
+./Delay.txt:./ltewifi_1_position_3.log:  Delay = 0.130008
+./Delay.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.911694
+./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.0213765
+./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.916962
+./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.0213518
+./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.934771
+./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.666143
+./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 1.16633
+./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.893591
+./Delay.txt:./ltewifi_10_position_4.log:  Delay = 5.53222
+./Delay.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 1.05748
+./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.0222141
+./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.995422
+./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.0222087
+./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 1.03996
+./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.882627
+./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.967386
+./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.985058
+./Delay.txt:./ltewifi_40_position_3.log:  Delay = 5.97236
+./Delay.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.801625
+./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.0213765
+./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.612571
+./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.0213518
+./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.788325
+./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.726943
+./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.847089
+./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.858502
+./Delay.txt:./ltewifi_10_position_1.log:  Delay = 4.67778
+./Delay.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.840251
+./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.0221874
+./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.59518
+./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.022185
+./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.049
+./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.01362
+./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.98971
+./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.00574
+./Delay.txt:./ltewifi_60_position_2.log:  Delay = 5.53787
+./Delay.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.968734
+./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.0222141
+./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.974002
+./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.0222087
+./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 1.01072
+./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.725973
+./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 1.22988
+./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.970161
+./Delay.txt:./ltewifi_40_position_4.log:  Delay = 5.92389
+./Delay.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.950334
+./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.0220979
+./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.955602
+./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.0218925
+./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.986221
+./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.706673
+./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 1.20938
+./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.945461
+./Delay.txt:./ltewifi_20_position_4.log:  Delay = 5.79766
+./Delay.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.974898
+./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.0221874
+./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.980166
+./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.022185
+./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 1.01893
+./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.732438
+./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 1.23675
+./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.978435
+./Delay.txt:./ltewifi_60_position_4.log:  Delay = 5.96598
+./Delay.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.10152
+./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.0221874
+./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.00202
+./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.022185
+./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.04575
+./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.86739
+./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.969832
+./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.01517
+./Delay.txt:./ltewifi_60_position_3.log:  Delay = 6.04605
+./Delay.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.758885
+./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.0140013
+./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.643521
+./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.0140026
+./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.568743
+./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.513334
+./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.650838
+./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.598933
+./Delay.txt:./ltewifi_5_position_1.log:  Delay = 3.76226
+./Delay.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0128736
+./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0145046
+./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0142171
+./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0135046
+./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0130575
+./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0121665
+./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.013153
+./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0129328
+./Delay.txt:./ltewifi_1_position_1.log:  Delay = 0.10641
+./Delay.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.844724
+./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.0222141
+./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.614986
+./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.0222087
+./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.880324
+./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.812889
+./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.957434
+./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.956997
+./Delay.txt:./ltewifi_40_position_1.log:  Delay = 5.11178
+./Delay.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.836346
+./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.0140013
+./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.841614
+./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.0140026
+./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.834443
+./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.587109
+./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 1.08238
+./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.792444
+./Delay.txt:./ltewifi_5_position_4.log:  Delay = 5.00234
+./Delay.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.852297
+./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.0222141
+./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.599363
+./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.0222087
+./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 1.08354
+./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 1.01999
+./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.88103
+./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.977805
+./Delay.txt:./ltewifi_40_position_2.log:  Delay = 5.45845
+./Delay.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.823852
+./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.0220979
+./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.57604
+./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.0218925
+./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.990354
+./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.945635
+./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.955879
+./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.94617
+./Delay.txt:./ltewifi_20_position_2.log:  Delay = 5.28192
+./Delay.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.880116
+./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.0140013
+./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.885687
+./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.0140026
+./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.744513
+./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.680608
+./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.762033
+./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.813807
+./Delay.txt:./ltewifi_5_position_3.log:  Delay = 4.79477
+./Delay.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.232088
+./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0145046
+./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.237289
+./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0135046
+./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.102655
+./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0356166
+./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.128142
+./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.251882
+./Delay.txt:./ltewifi_1_position_4.log:  Delay = 1.01568
+./Delay.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.820078
+./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.0221874
+./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.623672
+./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.022185
+./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.892604
+./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.830983
+./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.958192
+./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.976916
+./Delay.txt:./ltewifi_60_position_1.log:  Delay = 5.14682
+./Delay.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.814042
+./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.0213765
+./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.58473
+./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.0213518
+./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.933123
+./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.877213
+./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.865517
+./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.831683
+./Delay.txt:./ltewifi_10_position_2.log:  Delay = 4.94904
+./Delay.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.96693
+./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.0213765
+./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.972501
+./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.0213518
+./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.911589
+./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.788716
+./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.873417
+./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.91741
+./Delay.txt:./ltewifi_10_position_3.log:  Delay = 5.47329
+./Delay.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 1.06464
+./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.0220979
+./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.991892
+./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.0218925
+./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.995188
+./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.870733
+./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.916487
+./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.967079
+./Delay.txt:./ltewifi_20_position_3.log:  Delay = 5.85001
+./Delay.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.731681
+./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.0140013
+./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.611341
+./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.0140026
+./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.786455
+./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.725577
+./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.70396
+./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.553877
+./Delay.txt:./ltewifi_5_position_2.log:  Delay = 4.1409
+./Delay.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./ltewifi_1_position_2.log:  local Delay = 0.011956
+./ltewifi_1_position_2.log:  local Delay = 0.0145046
+./ltewifi_1_position_2.log:  local Delay = 0.0134506
+./ltewifi_1_position_2.log:  local Delay = 0.0135046
+./ltewifi_1_position_2.log:  local Delay = 0.0163773
+./ltewifi_1_position_2.log:  local Delay = 0.0132781
+./ltewifi_1_position_2.log:  local Delay = 0.0129364
+./ltewifi_1_position_2.log:  local Delay = 0.0136409
+./ltewifi_1_position_2.log:  Delay = 0.109649
+./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./ltewifi_20_position_1.log:  local Delay = 0.809207
+./ltewifi_20_position_1.log:  local Delay = 0.0220979
+./ltewifi_20_position_1.log:  local Delay = 0.60246
+./ltewifi_20_position_1.log:  local Delay = 0.0218925
+./ltewifi_20_position_1.log:  local Delay = 0.852228
+./ltewifi_20_position_1.log:  local Delay = 0.790647
+./ltewifi_20_position_1.log:  local Delay = 0.786165
+./ltewifi_20_position_1.log:  local Delay = 0.927313
+./ltewifi_20_position_1.log:  Delay = 4.81201
+./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./ltewifi_1_position_3.log:  local Delay = 0.015933
+./ltewifi_1_position_3.log:  local Delay = 0.0145046
+./ltewifi_1_position_3.log:  local Delay = 0.01886
+./ltewifi_1_position_3.log:  local Delay = 0.0135046
+./ltewifi_1_position_3.log:  local Delay = 0.0154293
+./ltewifi_1_position_3.log:  local Delay = 0.0162635
+./ltewifi_1_position_3.log:  local Delay = 0.0157711
+./ltewifi_1_position_3.log:  local Delay = 0.0197416
+./ltewifi_1_position_3.log:  Delay = 0.130008
+./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./ltewifi_10_position_4.log:  local Delay = 0.911694
+./ltewifi_10_position_4.log:  local Delay = 0.0213765
+./ltewifi_10_position_4.log:  local Delay = 0.916962
+./ltewifi_10_position_4.log:  local Delay = 0.0213518
+./ltewifi_10_position_4.log:  local Delay = 0.934771
+./ltewifi_10_position_4.log:  local Delay = 0.666143
+./ltewifi_10_position_4.log:  local Delay = 1.16633
+./ltewifi_10_position_4.log:  local Delay = 0.893591
+./ltewifi_10_position_4.log:  Delay = 5.53222
+./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./temp.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.011956
+./temp.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0145046
+./temp.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0134506
+./temp.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0135046
+./temp.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0163773
+./temp.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0132781
+./temp.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0129364
+./temp.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0136409
+./temp.txt:./Delay.txt:./ltewifi_1_position_2.log:  Delay = 0.109649
+./temp.txt:./Delay.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./temp.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.809207
+./temp.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.0220979
+./temp.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.60246
+./temp.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.0218925
+./temp.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.852228
+./temp.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.790647
+./temp.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.786165
+./temp.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.927313
+./temp.txt:./Delay.txt:./ltewifi_20_position_1.log:  Delay = 4.81201
+./temp.txt:./Delay.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./temp.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.015933
+./temp.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0145046
+./temp.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.01886
+./temp.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0135046
+./temp.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0154293
+./temp.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0162635
+./temp.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0157711
+./temp.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0197416
+./temp.txt:./Delay.txt:./ltewifi_1_position_3.log:  Delay = 0.130008
+./temp.txt:./Delay.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./temp.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.911694
+./temp.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.0213765
+./temp.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.916962
+./temp.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.0213518
+./temp.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.934771
+./temp.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.666143
+./temp.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 1.16633
+./temp.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.893591
+./temp.txt:./Delay.txt:./ltewifi_10_position_4.log:  Delay = 5.53222
+./temp.txt:./Delay.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./temp.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 1.05748
+./temp.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.0222141
+./temp.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.995422
+./temp.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.0222087
+./temp.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 1.03996
+./temp.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.882627
+./temp.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.967386
+./temp.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.985058
+./temp.txt:./Delay.txt:./ltewifi_40_position_3.log:  Delay = 5.97236
+./temp.txt:./Delay.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./temp.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.801625
+./temp.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.0213765
+./temp.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.612571
+./temp.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.0213518
+./temp.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.788325
+./temp.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.726943
+./temp.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.847089
+./temp.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.858502
+./temp.txt:./Delay.txt:./ltewifi_10_position_1.log:  Delay = 4.67778
+./temp.txt:./Delay.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./temp.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.840251
+./temp.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.0221874
+./temp.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.59518
+./temp.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.022185
+./temp.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.049
+./temp.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.01362
+./temp.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.98971
+./temp.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.00574
+./temp.txt:./Delay.txt:./ltewifi_60_position_2.log:  Delay = 5.53787
+./temp.txt:./Delay.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./temp.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.968734
+./temp.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.0222141
+./temp.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.974002
+./temp.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.0222087
+./temp.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 1.01072
+./temp.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.725973
+./temp.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 1.22988
+./temp.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.970161
+./temp.txt:./Delay.txt:./ltewifi_40_position_4.log:  Delay = 5.92389
+./temp.txt:./Delay.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.950334
+./temp.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.0220979
+./temp.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.955602
+./temp.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.0218925
+./temp.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.986221
+./temp.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.706673
+./temp.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 1.20938
+./temp.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.945461
+./temp.txt:./Delay.txt:./ltewifi_20_position_4.log:  Delay = 5.79766
+./temp.txt:./Delay.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.974898
+./temp.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.0221874
+./temp.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.980166
+./temp.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.022185
+./temp.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 1.01893
+./temp.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.732438
+./temp.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 1.23675
+./temp.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.978435
+./temp.txt:./Delay.txt:./ltewifi_60_position_4.log:  Delay = 5.96598
+./temp.txt:./Delay.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.10152
+./temp.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.0221874
+./temp.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.00202
+./temp.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.022185
+./temp.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.04575
+./temp.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.86739
+./temp.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.969832
+./temp.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.01517
+./temp.txt:./Delay.txt:./ltewifi_60_position_3.log:  Delay = 6.04605
+./temp.txt:./Delay.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./temp.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.758885
+./temp.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.0140013
+./temp.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.643521
+./temp.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.0140026
+./temp.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.568743
+./temp.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.513334
+./temp.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.650838
+./temp.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.598933
+./temp.txt:./Delay.txt:./ltewifi_5_position_1.log:  Delay = 3.76226
+./temp.txt:./Delay.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./temp.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0128736
+./temp.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0145046
+./temp.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0142171
+./temp.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0135046
+./temp.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0130575
+./temp.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0121665
+./temp.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.013153
+./temp.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0129328
+./temp.txt:./Delay.txt:./ltewifi_1_position_1.log:  Delay = 0.10641
+./temp.txt:./Delay.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./temp.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.844724
+./temp.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.0222141
+./temp.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.614986
+./temp.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.0222087
+./temp.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.880324
+./temp.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.812889
+./temp.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.957434
+./temp.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.956997
+./temp.txt:./Delay.txt:./ltewifi_40_position_1.log:  Delay = 5.11178
+./temp.txt:./Delay.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./temp.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.836346
+./temp.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.0140013
+./temp.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.841614
+./temp.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.0140026
+./temp.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.834443
+./temp.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.587109
+./temp.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 1.08238
+./temp.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.792444
+./temp.txt:./Delay.txt:./ltewifi_5_position_4.log:  Delay = 5.00234
+./temp.txt:./Delay.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./temp.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.852297
+./temp.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.0222141
+./temp.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.599363
+./temp.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.0222087
+./temp.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 1.08354
+./temp.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 1.01999
+./temp.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.88103
+./temp.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.977805
+./temp.txt:./Delay.txt:./ltewifi_40_position_2.log:  Delay = 5.45845
+./temp.txt:./Delay.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./temp.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.823852
+./temp.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.0220979
+./temp.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.57604
+./temp.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.0218925
+./temp.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.990354
+./temp.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.945635
+./temp.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.955879
+./temp.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.94617
+./temp.txt:./Delay.txt:./ltewifi_20_position_2.log:  Delay = 5.28192
+./temp.txt:./Delay.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./temp.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.880116
+./temp.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.0140013
+./temp.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.885687
+./temp.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.0140026
+./temp.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.744513
+./temp.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.680608
+./temp.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.762033
+./temp.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.813807
+./temp.txt:./Delay.txt:./ltewifi_5_position_3.log:  Delay = 4.79477
+./temp.txt:./Delay.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./temp.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.232088
+./temp.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0145046
+./temp.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.237289
+./temp.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0135046
+./temp.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.102655
+./temp.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0356166
+./temp.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.128142
+./temp.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.251882
+./temp.txt:./Delay.txt:./ltewifi_1_position_4.log:  Delay = 1.01568
+./temp.txt:./Delay.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./temp.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.820078
+./temp.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.0221874
+./temp.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.623672
+./temp.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.022185
+./temp.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.892604
+./temp.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.830983
+./temp.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.958192
+./temp.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.976916
+./temp.txt:./Delay.txt:./ltewifi_60_position_1.log:  Delay = 5.14682
+./temp.txt:./Delay.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./temp.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.814042
+./temp.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.0213765
+./temp.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.58473
+./temp.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.0213518
+./temp.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.933123
+./temp.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.877213
+./temp.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.865517
+./temp.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.831683
+./temp.txt:./Delay.txt:./ltewifi_10_position_2.log:  Delay = 4.94904
+./temp.txt:./Delay.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./temp.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.96693
+./temp.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.0213765
+./temp.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.972501
+./temp.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.0213518
+./temp.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.911589
+./temp.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.788716
+./temp.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.873417
+./temp.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.91741
+./temp.txt:./Delay.txt:./ltewifi_10_position_3.log:  Delay = 5.47329
+./temp.txt:./Delay.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./temp.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 1.06464
+./temp.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.0220979
+./temp.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.991892
+./temp.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.0218925
+./temp.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.995188
+./temp.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.870733
+./temp.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.916487
+./temp.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.967079
+./temp.txt:./Delay.txt:./ltewifi_20_position_3.log:  Delay = 5.85001
+./temp.txt:./Delay.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./temp.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.731681
+./temp.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.0140013
+./temp.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.611341
+./temp.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.0140026
+./temp.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.786455
+./temp.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.725577
+./temp.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.70396
+./temp.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.553877
+./temp.txt:./Delay.txt:./ltewifi_5_position_2.log:  Delay = 4.1409
+./temp.txt:./Delay.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./temp.txt:./ltewifi_1_position_2.log:  local Delay = 0.011956
+./temp.txt:./ltewifi_1_position_2.log:  local Delay = 0.0145046
+./temp.txt:./ltewifi_1_position_2.log:  local Delay = 0.0134506
+./temp.txt:./ltewifi_1_position_2.log:  local Delay = 0.0135046
+./temp.txt:./ltewifi_1_position_2.log:  local Delay = 0.0163773
+./temp.txt:./ltewifi_1_position_2.log:  local Delay = 0.0132781
+./temp.txt:./ltewifi_1_position_2.log:  local Delay = 0.0129364
+./temp.txt:./ltewifi_1_position_2.log:  local Delay = 0.0136409
+./temp.txt:./ltewifi_1_position_2.log:  Delay = 0.109649
+./temp.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./temp.txt:./ltewifi_20_position_1.log:  local Delay = 0.809207
+./temp.txt:./ltewifi_20_position_1.log:  local Delay = 0.0220979
+./temp.txt:./ltewifi_20_position_1.log:  local Delay = 0.60246
+./temp.txt:./ltewifi_20_position_1.log:  local Delay = 0.0218925
+./temp.txt:./ltewifi_20_position_1.log:  local Delay = 0.852228
+./temp.txt:./ltewifi_20_position_1.log:  local Delay = 0.790647
+./temp.txt:./ltewifi_20_position_1.log:  local Delay = 0.786165
+./temp.txt:./ltewifi_20_position_1.log:  local Delay = 0.927313
+./temp.txt:./ltewifi_20_position_1.log:  Delay = 4.81201
+./temp.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./temp.txt:./ltewifi_1_position_3.log:  local Delay = 0.015933
+./temp.txt:./ltewifi_1_position_3.log:  local Delay = 0.0145046
+./temp.txt:./ltewifi_1_position_3.log:  local Delay = 0.01886
+./temp.txt:./ltewifi_1_position_3.log:  local Delay = 0.0135046
+./temp.txt:./ltewifi_1_position_3.log:  local Delay = 0.0154293
+./temp.txt:./ltewifi_1_position_3.log:  local Delay = 0.0162635
+./temp.txt:./ltewifi_1_position_3.log:  local Delay = 0.0157711
+./temp.txt:./ltewifi_1_position_3.log:  local Delay = 0.0197416
+./temp.txt:./ltewifi_1_position_3.log:  Delay = 0.130008
+./temp.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./temp.txt:./ltewifi_10_position_4.log:  local Delay = 0.911694
+./temp.txt:./ltewifi_10_position_4.log:  local Delay = 0.0213765
+./temp.txt:./ltewifi_10_position_4.log:  local Delay = 0.916962
+./temp.txt:./ltewifi_10_position_4.log:  local Delay = 0.0213518
+./temp.txt:./ltewifi_10_position_4.log:  local Delay = 0.934771
+./temp.txt:./ltewifi_10_position_4.log:  local Delay = 0.666143
+./temp.txt:./ltewifi_10_position_4.log:  local Delay = 1.16633
+./temp.txt:./ltewifi_10_position_4.log:  local Delay = 0.893591
+./temp.txt:./ltewifi_10_position_4.log:  Delay = 5.53222
+./temp.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.011956
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0145046
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0134506
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0135046
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0163773
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0132781
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0129364
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0136409
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  Delay = 0.109649
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.809207
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.0220979
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.60246
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.0218925
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.852228
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.790647
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.786165
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.927313
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  Delay = 4.81201
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.015933
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0145046
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.01886
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0135046
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0154293
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0162635
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0157711
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0197416
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  Delay = 0.130008
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.911694
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.0213765
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.916962
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.0213518
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.934771
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.666143
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 1.16633
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.893591
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  Delay = 5.53222
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 1.05748
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.0222141
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.995422
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.0222087
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 1.03996
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.882627
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.967386
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.985058
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  Delay = 5.97236
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.801625
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.0213765
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.612571
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.0213518
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.788325
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.726943
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.847089
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.858502
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  Delay = 4.67778
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.840251
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.0221874
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.59518
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.022185
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.049
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.01362
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.98971
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.00574
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  Delay = 5.53787
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.968734
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.0222141
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.974002
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.0222087
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 1.01072
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.725973
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 1.22988
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.970161
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  Delay = 5.92389
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.950334
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.0220979
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.955602
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.0218925
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.986221
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.706673
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 1.20938
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.945461
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  Delay = 5.79766
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.974898
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.0221874
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.980166
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.022185
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 1.01893
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.732438
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 1.23675
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.978435
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  Delay = 5.96598
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.10152
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.0221874
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.00202
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.022185
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.04575
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.86739
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.969832
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.01517
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  Delay = 6.04605
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.758885
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.0140013
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.643521
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.0140026
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.568743
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.513334
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.650838
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.598933
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  Delay = 3.76226
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0128736
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0145046
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0142171
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0135046
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0130575
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0121665
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.013153
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0129328
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  Delay = 0.10641
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.844724
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.0222141
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.614986
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.0222087
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.880324
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.812889
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.957434
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.956997
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  Delay = 5.11178
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.836346
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.0140013
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.841614
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.0140026
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.834443
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.587109
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 1.08238
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.792444
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  Delay = 5.00234
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.852297
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.0222141
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.599363
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.0222087
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 1.08354
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 1.01999
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.88103
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.977805
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  Delay = 5.45845
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.823852
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.0220979
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.57604
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.0218925
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.990354
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.945635
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.955879
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.94617
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  Delay = 5.28192
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.880116
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.0140013
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.885687
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.0140026
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.744513
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.680608
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.762033
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.813807
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  Delay = 4.79477
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.232088
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0145046
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.237289
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0135046
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.102655
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0356166
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.128142
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.251882
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  Delay = 1.01568
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.820078
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.0221874
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.623672
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.022185
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.892604
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.830983
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.958192
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.976916
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  Delay = 5.14682
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.814042
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.0213765
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.58473
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.0213518
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.933123
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.877213
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.865517
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.831683
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  Delay = 4.94904
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.96693
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.0213765
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.972501
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.0213518
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.911589
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.788716
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.873417
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.91741
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  Delay = 5.47329
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 1.06464
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.0220979
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.991892
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.0218925
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.995188
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.870733
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.916487
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.967079
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  Delay = 5.85001
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.731681
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.0140013
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.611341
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.0140026
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.786455
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.725577
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.70396
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.553877
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  Delay = 4.1409
+./temp.txt:./delay.txt:./Delay.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./temp.txt:./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.011956
+./temp.txt:./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0145046
+./temp.txt:./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0134506
+./temp.txt:./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0135046
+./temp.txt:./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0163773
+./temp.txt:./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0132781
+./temp.txt:./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0129364
+./temp.txt:./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0136409
+./temp.txt:./delay.txt:./ltewifi_1_position_2.log:  Delay = 0.109649
+./temp.txt:./delay.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./temp.txt:./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.809207
+./temp.txt:./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.0220979
+./temp.txt:./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.60246
+./temp.txt:./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.0218925
+./temp.txt:./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.852228
+./temp.txt:./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.790647
+./temp.txt:./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.786165
+./temp.txt:./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.927313
+./temp.txt:./delay.txt:./ltewifi_20_position_1.log:  Delay = 4.81201
+./temp.txt:./delay.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./temp.txt:./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.015933
+./temp.txt:./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0145046
+./temp.txt:./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.01886
+./temp.txt:./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0135046
+./temp.txt:./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0154293
+./temp.txt:./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0162635
+./temp.txt:./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0157711
+./temp.txt:./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0197416
+./temp.txt:./delay.txt:./ltewifi_1_position_3.log:  Delay = 0.130008
+./temp.txt:./delay.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./temp.txt:./delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.911694
+./temp.txt:./delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.0213765
+./temp.txt:./delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.916962
+./temp.txt:./delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.0213518
+./temp.txt:./delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.934771
+./temp.txt:./delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.666143
+./temp.txt:./delay.txt:./ltewifi_10_position_4.log:  local Delay = 1.16633
+./temp.txt:./delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.893591
+./temp.txt:./delay.txt:./ltewifi_10_position_4.log:  Delay = 5.53222
+./temp.txt:./delay.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./temp.txt:./delay.txt:./ltewifi_40_position_3.log:  local Delay = 1.05748
+./temp.txt:./delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.0222141
+./temp.txt:./delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.995422
+./temp.txt:./delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.0222087
+./temp.txt:./delay.txt:./ltewifi_40_position_3.log:  local Delay = 1.03996
+./temp.txt:./delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.882627
+./temp.txt:./delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.967386
+./temp.txt:./delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.985058
+./temp.txt:./delay.txt:./ltewifi_40_position_3.log:  Delay = 5.97236
+./temp.txt:./delay.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./temp.txt:./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.801625
+./temp.txt:./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.0213765
+./temp.txt:./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.612571
+./temp.txt:./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.0213518
+./temp.txt:./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.788325
+./temp.txt:./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.726943
+./temp.txt:./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.847089
+./temp.txt:./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.858502
+./temp.txt:./delay.txt:./ltewifi_10_position_1.log:  Delay = 4.67778
+./temp.txt:./delay.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./temp.txt:./delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.840251
+./temp.txt:./delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.0221874
+./temp.txt:./delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.59518
+./temp.txt:./delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.022185
+./temp.txt:./delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.049
+./temp.txt:./delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.01362
+./temp.txt:./delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.98971
+./temp.txt:./delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.00574
+./temp.txt:./delay.txt:./ltewifi_60_position_2.log:  Delay = 5.53787
+./temp.txt:./delay.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./temp.txt:./delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.968734
+./temp.txt:./delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.0222141
+./temp.txt:./delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.974002
+./temp.txt:./delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.0222087
+./temp.txt:./delay.txt:./ltewifi_40_position_4.log:  local Delay = 1.01072
+./temp.txt:./delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.725973
+./temp.txt:./delay.txt:./ltewifi_40_position_4.log:  local Delay = 1.22988
+./temp.txt:./delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.970161
+./temp.txt:./delay.txt:./ltewifi_40_position_4.log:  Delay = 5.92389
+./temp.txt:./delay.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.950334
+./temp.txt:./delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.0220979
+./temp.txt:./delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.955602
+./temp.txt:./delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.0218925
+./temp.txt:./delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.986221
+./temp.txt:./delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.706673
+./temp.txt:./delay.txt:./ltewifi_20_position_4.log:  local Delay = 1.20938
+./temp.txt:./delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.945461
+./temp.txt:./delay.txt:./ltewifi_20_position_4.log:  Delay = 5.79766
+./temp.txt:./delay.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.974898
+./temp.txt:./delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.0221874
+./temp.txt:./delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.980166
+./temp.txt:./delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.022185
+./temp.txt:./delay.txt:./ltewifi_60_position_4.log:  local Delay = 1.01893
+./temp.txt:./delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.732438
+./temp.txt:./delay.txt:./ltewifi_60_position_4.log:  local Delay = 1.23675
+./temp.txt:./delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.978435
+./temp.txt:./delay.txt:./ltewifi_60_position_4.log:  Delay = 5.96598
+./temp.txt:./delay.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.10152
+./temp.txt:./delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.0221874
+./temp.txt:./delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.00202
+./temp.txt:./delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.022185
+./temp.txt:./delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.04575
+./temp.txt:./delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.86739
+./temp.txt:./delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.969832
+./temp.txt:./delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.01517
+./temp.txt:./delay.txt:./ltewifi_60_position_3.log:  Delay = 6.04605
+./temp.txt:./delay.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./temp.txt:./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.758885
+./temp.txt:./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.0140013
+./temp.txt:./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.643521
+./temp.txt:./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.0140026
+./temp.txt:./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.568743
+./temp.txt:./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.513334
+./temp.txt:./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.650838
+./temp.txt:./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.598933
+./temp.txt:./delay.txt:./ltewifi_5_position_1.log:  Delay = 3.76226
+./temp.txt:./delay.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./temp.txt:./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0128736
+./temp.txt:./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0145046
+./temp.txt:./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0142171
+./temp.txt:./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0135046
+./temp.txt:./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0130575
+./temp.txt:./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0121665
+./temp.txt:./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.013153
+./temp.txt:./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0129328
+./temp.txt:./delay.txt:./ltewifi_1_position_1.log:  Delay = 0.10641
+./temp.txt:./delay.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./temp.txt:./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.844724
+./temp.txt:./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.0222141
+./temp.txt:./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.614986
+./temp.txt:./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.0222087
+./temp.txt:./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.880324
+./temp.txt:./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.812889
+./temp.txt:./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.957434
+./temp.txt:./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.956997
+./temp.txt:./delay.txt:./ltewifi_40_position_1.log:  Delay = 5.11178
+./temp.txt:./delay.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./temp.txt:./delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.836346
+./temp.txt:./delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.0140013
+./temp.txt:./delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.841614
+./temp.txt:./delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.0140026
+./temp.txt:./delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.834443
+./temp.txt:./delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.587109
+./temp.txt:./delay.txt:./ltewifi_5_position_4.log:  local Delay = 1.08238
+./temp.txt:./delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.792444
+./temp.txt:./delay.txt:./ltewifi_5_position_4.log:  Delay = 5.00234
+./temp.txt:./delay.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./temp.txt:./delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.852297
+./temp.txt:./delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.0222141
+./temp.txt:./delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.599363
+./temp.txt:./delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.0222087
+./temp.txt:./delay.txt:./ltewifi_40_position_2.log:  local Delay = 1.08354
+./temp.txt:./delay.txt:./ltewifi_40_position_2.log:  local Delay = 1.01999
+./temp.txt:./delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.88103
+./temp.txt:./delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.977805
+./temp.txt:./delay.txt:./ltewifi_40_position_2.log:  Delay = 5.45845
+./temp.txt:./delay.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./temp.txt:./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.823852
+./temp.txt:./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.0220979
+./temp.txt:./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.57604
+./temp.txt:./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.0218925
+./temp.txt:./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.990354
+./temp.txt:./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.945635
+./temp.txt:./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.955879
+./temp.txt:./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.94617
+./temp.txt:./delay.txt:./ltewifi_20_position_2.log:  Delay = 5.28192
+./temp.txt:./delay.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./temp.txt:./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.880116
+./temp.txt:./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.0140013
+./temp.txt:./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.885687
+./temp.txt:./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.0140026
+./temp.txt:./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.744513
+./temp.txt:./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.680608
+./temp.txt:./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.762033
+./temp.txt:./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.813807
+./temp.txt:./delay.txt:./ltewifi_5_position_3.log:  Delay = 4.79477
+./temp.txt:./delay.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./temp.txt:./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.232088
+./temp.txt:./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0145046
+./temp.txt:./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.237289
+./temp.txt:./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0135046
+./temp.txt:./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.102655
+./temp.txt:./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0356166
+./temp.txt:./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.128142
+./temp.txt:./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.251882
+./temp.txt:./delay.txt:./ltewifi_1_position_4.log:  Delay = 1.01568
+./temp.txt:./delay.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./temp.txt:./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.820078
+./temp.txt:./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.0221874
+./temp.txt:./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.623672
+./temp.txt:./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.022185
+./temp.txt:./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.892604
+./temp.txt:./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.830983
+./temp.txt:./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.958192
+./temp.txt:./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.976916
+./temp.txt:./delay.txt:./ltewifi_60_position_1.log:  Delay = 5.14682
+./temp.txt:./delay.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./temp.txt:./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.814042
+./temp.txt:./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.0213765
+./temp.txt:./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.58473
+./temp.txt:./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.0213518
+./temp.txt:./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.933123
+./temp.txt:./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.877213
+./temp.txt:./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.865517
+./temp.txt:./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.831683
+./temp.txt:./delay.txt:./ltewifi_10_position_2.log:  Delay = 4.94904
+./temp.txt:./delay.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./temp.txt:./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.96693
+./temp.txt:./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.0213765
+./temp.txt:./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.972501
+./temp.txt:./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.0213518
+./temp.txt:./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.911589
+./temp.txt:./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.788716
+./temp.txt:./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.873417
+./temp.txt:./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.91741
+./temp.txt:./delay.txt:./ltewifi_10_position_3.log:  Delay = 5.47329
+./temp.txt:./delay.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./temp.txt:./delay.txt:./ltewifi_20_position_3.log:  local Delay = 1.06464
+./temp.txt:./delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.0220979
+./temp.txt:./delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.991892
+./temp.txt:./delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.0218925
+./temp.txt:./delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.995188
+./temp.txt:./delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.870733
+./temp.txt:./delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.916487
+./temp.txt:./delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.967079
+./temp.txt:./delay.txt:./ltewifi_20_position_3.log:  Delay = 5.85001
+./temp.txt:./delay.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./temp.txt:./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.731681
+./temp.txt:./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.0140013
+./temp.txt:./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.611341
+./temp.txt:./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.0140026
+./temp.txt:./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.786455
+./temp.txt:./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.725577
+./temp.txt:./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.70396
+./temp.txt:./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.553877
+./temp.txt:./delay.txt:./ltewifi_5_position_2.log:  Delay = 4.1409
+./temp.txt:./delay.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./temp.txt:./ltewifi_40_position_3.log:  local Delay = 1.05748
+./temp.txt:./ltewifi_40_position_3.log:  local Delay = 0.0222141
+./temp.txt:./ltewifi_40_position_3.log:  local Delay = 0.995422
+./temp.txt:./ltewifi_40_position_3.log:  local Delay = 0.0222087
+./temp.txt:./ltewifi_40_position_3.log:  local Delay = 1.03996
+./temp.txt:./ltewifi_40_position_3.log:  local Delay = 0.882627
+./temp.txt:./ltewifi_40_position_3.log:  local Delay = 0.967386
+./temp.txt:./ltewifi_40_position_3.log:  local Delay = 0.985058
+./temp.txt:./ltewifi_40_position_3.log:  Delay = 5.97236
+./temp.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./temp.txt:./ltewifi_10_position_1.log:  local Delay = 0.801625
+./temp.txt:./ltewifi_10_position_1.log:  local Delay = 0.0213765
+./temp.txt:./ltewifi_10_position_1.log:  local Delay = 0.612571
+./temp.txt:./ltewifi_10_position_1.log:  local Delay = 0.0213518
+./temp.txt:./ltewifi_10_position_1.log:  local Delay = 0.788325
+./temp.txt:./ltewifi_10_position_1.log:  local Delay = 0.726943
+./temp.txt:./ltewifi_10_position_1.log:  local Delay = 0.847089
+./temp.txt:./ltewifi_10_position_1.log:  local Delay = 0.858502
+./temp.txt:./ltewifi_10_position_1.log:  Delay = 4.67778
+./temp.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./temp.txt:./ltewifi_60_position_2.log:  local Delay = 0.840251
+./temp.txt:./ltewifi_60_position_2.log:  local Delay = 0.0221874
+./temp.txt:./ltewifi_60_position_2.log:  local Delay = 0.59518
+./temp.txt:./ltewifi_60_position_2.log:  local Delay = 0.022185
+./temp.txt:./ltewifi_60_position_2.log:  local Delay = 1.049
+./temp.txt:./ltewifi_60_position_2.log:  local Delay = 1.01362
+./temp.txt:./ltewifi_60_position_2.log:  local Delay = 0.98971
+./temp.txt:./ltewifi_60_position_2.log:  local Delay = 1.00574
+./temp.txt:./ltewifi_60_position_2.log:  Delay = 5.53787
+./temp.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./temp.txt:./ltewifi_40_position_4.log:  local Delay = 0.968734
+./temp.txt:./ltewifi_40_position_4.log:  local Delay = 0.0222141
+./temp.txt:./ltewifi_40_position_4.log:  local Delay = 0.974002
+./temp.txt:./ltewifi_40_position_4.log:  local Delay = 0.0222087
+./temp.txt:./ltewifi_40_position_4.log:  local Delay = 1.01072
+./temp.txt:./ltewifi_40_position_4.log:  local Delay = 0.725973
+./temp.txt:./ltewifi_40_position_4.log:  local Delay = 1.22988
+./temp.txt:./ltewifi_40_position_4.log:  local Delay = 0.970161
+./temp.txt:./ltewifi_40_position_4.log:  Delay = 5.92389
+./temp.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./ltewifi_20_position_4.log:  local Delay = 0.950334
+./temp.txt:./ltewifi_20_position_4.log:  local Delay = 0.0220979
+./temp.txt:./ltewifi_20_position_4.log:  local Delay = 0.955602
+./temp.txt:./ltewifi_20_position_4.log:  local Delay = 0.0218925
+./temp.txt:./ltewifi_20_position_4.log:  local Delay = 0.986221
+./temp.txt:./ltewifi_20_position_4.log:  local Delay = 0.706673
+./temp.txt:./ltewifi_20_position_4.log:  local Delay = 1.20938
+./temp.txt:./ltewifi_20_position_4.log:  local Delay = 0.945461
+./temp.txt:./ltewifi_20_position_4.log:  Delay = 5.79766
+./temp.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./ltewifi_60_position_4.log:  local Delay = 0.974898
+./temp.txt:./ltewifi_60_position_4.log:  local Delay = 0.0221874
+./temp.txt:./ltewifi_60_position_4.log:  local Delay = 0.980166
+./temp.txt:./ltewifi_60_position_4.log:  local Delay = 0.022185
+./temp.txt:./ltewifi_60_position_4.log:  local Delay = 1.01893
+./temp.txt:./ltewifi_60_position_4.log:  local Delay = 0.732438
+./temp.txt:./ltewifi_60_position_4.log:  local Delay = 1.23675
+./temp.txt:./ltewifi_60_position_4.log:  local Delay = 0.978435
+./temp.txt:./ltewifi_60_position_4.log:  Delay = 5.96598
+./temp.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./temp.txt:./ltewifi_60_position_3.log:  local Delay = 1.10152
+./temp.txt:./ltewifi_60_position_3.log:  local Delay = 0.0221874
+./temp.txt:./ltewifi_60_position_3.log:  local Delay = 1.00202
+./temp.txt:./ltewifi_60_position_3.log:  local Delay = 0.022185
+./temp.txt:./ltewifi_60_position_3.log:  local Delay = 1.04575
+./temp.txt:./ltewifi_60_position_3.log:  local Delay = 0.86739
+./temp.txt:./ltewifi_60_position_3.log:  local Delay = 0.969832
+./temp.txt:./ltewifi_60_position_3.log:  local Delay = 1.01517
+./temp.txt:./ltewifi_60_position_3.log:  Delay = 6.04605
+./temp.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./temp.txt:./ltewifi_5_position_1.log:  local Delay = 0.758885
+./temp.txt:./ltewifi_5_position_1.log:  local Delay = 0.0140013
+./temp.txt:./ltewifi_5_position_1.log:  local Delay = 0.643521
+./temp.txt:./ltewifi_5_position_1.log:  local Delay = 0.0140026
+./temp.txt:./ltewifi_5_position_1.log:  local Delay = 0.568743
+./temp.txt:./ltewifi_5_position_1.log:  local Delay = 0.513334
+./temp.txt:./ltewifi_5_position_1.log:  local Delay = 0.650838
+./temp.txt:./ltewifi_5_position_1.log:  local Delay = 0.598933
+./temp.txt:./ltewifi_5_position_1.log:  Delay = 3.76226
+./temp.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./temp.txt:./ltewifi_1_position_1.log:  local Delay = 0.0128736
+./temp.txt:./ltewifi_1_position_1.log:  local Delay = 0.0145046
+./temp.txt:./ltewifi_1_position_1.log:  local Delay = 0.0142171
+./temp.txt:./ltewifi_1_position_1.log:  local Delay = 0.0135046
+./temp.txt:./ltewifi_1_position_1.log:  local Delay = 0.0130575
+./temp.txt:./ltewifi_1_position_1.log:  local Delay = 0.0121665
+./temp.txt:./ltewifi_1_position_1.log:  local Delay = 0.013153
+./temp.txt:./ltewifi_1_position_1.log:  local Delay = 0.0129328
+./temp.txt:./ltewifi_1_position_1.log:  Delay = 0.10641
+./temp.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./temp.txt:./ltewifi_40_position_1.log:  local Delay = 0.844724
+./temp.txt:./ltewifi_40_position_1.log:  local Delay = 0.0222141
+./temp.txt:./ltewifi_40_position_1.log:  local Delay = 0.614986
+./temp.txt:./ltewifi_40_position_1.log:  local Delay = 0.0222087
+./temp.txt:./ltewifi_40_position_1.log:  local Delay = 0.880324
+./temp.txt:./ltewifi_40_position_1.log:  local Delay = 0.812889
+./temp.txt:./ltewifi_40_position_1.log:  local Delay = 0.957434
+./temp.txt:./ltewifi_40_position_1.log:  local Delay = 0.956997
+./temp.txt:./ltewifi_40_position_1.log:  Delay = 5.11178
+./temp.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./temp.txt:./ltewifi_5_position_4.log:  local Delay = 0.836346
+./temp.txt:./ltewifi_5_position_4.log:  local Delay = 0.0140013
+./temp.txt:./ltewifi_5_position_4.log:  local Delay = 0.841614
+./temp.txt:./ltewifi_5_position_4.log:  local Delay = 0.0140026
+./temp.txt:./ltewifi_5_position_4.log:  local Delay = 0.834443
+./temp.txt:./ltewifi_5_position_4.log:  local Delay = 0.587109
+./temp.txt:./ltewifi_5_position_4.log:  local Delay = 1.08238
+./temp.txt:./ltewifi_5_position_4.log:  local Delay = 0.792444
+./temp.txt:./ltewifi_5_position_4.log:  Delay = 5.00234
+./temp.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./temp.txt:./ltewifi_40_position_2.log:  local Delay = 0.852297
+./temp.txt:./ltewifi_40_position_2.log:  local Delay = 0.0222141
+./temp.txt:./ltewifi_40_position_2.log:  local Delay = 0.599363
+./temp.txt:./ltewifi_40_position_2.log:  local Delay = 0.0222087
+./temp.txt:./ltewifi_40_position_2.log:  local Delay = 1.08354
+./temp.txt:./ltewifi_40_position_2.log:  local Delay = 1.01999
+./temp.txt:./ltewifi_40_position_2.log:  local Delay = 0.88103
+./temp.txt:./ltewifi_40_position_2.log:  local Delay = 0.977805
+./temp.txt:./ltewifi_40_position_2.log:  Delay = 5.45845
+./temp.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./temp.txt:./ltewifi_20_position_2.log:  local Delay = 0.823852
+./temp.txt:./ltewifi_20_position_2.log:  local Delay = 0.0220979
+./temp.txt:./ltewifi_20_position_2.log:  local Delay = 0.57604
+./temp.txt:./ltewifi_20_position_2.log:  local Delay = 0.0218925
+./temp.txt:./ltewifi_20_position_2.log:  local Delay = 0.990354
+./temp.txt:./ltewifi_20_position_2.log:  local Delay = 0.945635
+./temp.txt:./ltewifi_20_position_2.log:  local Delay = 0.955879
+./temp.txt:./ltewifi_20_position_2.log:  local Delay = 0.94617
+./temp.txt:./ltewifi_20_position_2.log:  Delay = 5.28192
+./temp.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./temp.txt:./ltewifi_5_position_3.log:  local Delay = 0.880116
+./temp.txt:./ltewifi_5_position_3.log:  local Delay = 0.0140013
+./temp.txt:./ltewifi_5_position_3.log:  local Delay = 0.885687
+./temp.txt:./ltewifi_5_position_3.log:  local Delay = 0.0140026
+./temp.txt:./ltewifi_5_position_3.log:  local Delay = 0.744513
+./temp.txt:./ltewifi_5_position_3.log:  local Delay = 0.680608
+./temp.txt:./ltewifi_5_position_3.log:  local Delay = 0.762033
+./temp.txt:./ltewifi_5_position_3.log:  local Delay = 0.813807
+./temp.txt:./ltewifi_5_position_3.log:  Delay = 4.79477
+./temp.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./temp.txt:./ltewifi_1_position_4.log:  local Delay = 0.232088
+./temp.txt:./ltewifi_1_position_4.log:  local Delay = 0.0145046
+./temp.txt:./ltewifi_1_position_4.log:  local Delay = 0.237289
+./temp.txt:./ltewifi_1_position_4.log:  local Delay = 0.0135046
+./temp.txt:./ltewifi_1_position_4.log:  local Delay = 0.102655
+./temp.txt:./ltewifi_1_position_4.log:  local Delay = 0.0356166
+./temp.txt:./ltewifi_1_position_4.log:  local Delay = 0.128142
+./temp.txt:./ltewifi_1_position_4.log:  local Delay = 0.251882
+./temp.txt:./ltewifi_1_position_4.log:  Delay = 1.01568
+./temp.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./temp.txt:./ltewifi_60_position_1.log:  local Delay = 0.820078
+./temp.txt:./ltewifi_60_position_1.log:  local Delay = 0.0221874
+./temp.txt:./ltewifi_60_position_1.log:  local Delay = 0.623672
+./temp.txt:./ltewifi_60_position_1.log:  local Delay = 0.022185
+./temp.txt:./ltewifi_60_position_1.log:  local Delay = 0.892604
+./temp.txt:./ltewifi_60_position_1.log:  local Delay = 0.830983
+./temp.txt:./ltewifi_60_position_1.log:  local Delay = 0.958192
+./temp.txt:./ltewifi_60_position_1.log:  local Delay = 0.976916
+./temp.txt:./ltewifi_60_position_1.log:  Delay = 5.14682
+./temp.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./temp.txt:./ltewifi_10_position_2.log:  local Delay = 0.814042
+./temp.txt:./ltewifi_10_position_2.log:  local Delay = 0.0213765
+./temp.txt:./ltewifi_10_position_2.log:  local Delay = 0.58473
+./temp.txt:./ltewifi_10_position_2.log:  local Delay = 0.0213518
+./temp.txt:./ltewifi_10_position_2.log:  local Delay = 0.933123
+./temp.txt:./ltewifi_10_position_2.log:  local Delay = 0.877213
+./temp.txt:./ltewifi_10_position_2.log:  local Delay = 0.865517
+./temp.txt:./ltewifi_10_position_2.log:  local Delay = 0.831683
+./temp.txt:./ltewifi_10_position_2.log:  Delay = 4.94904
+./temp.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./temp.txt:./ltewifi_10_position_3.log:  local Delay = 0.96693
+./temp.txt:./ltewifi_10_position_3.log:  local Delay = 0.0213765
+./temp.txt:./ltewifi_10_position_3.log:  local Delay = 0.972501
+./temp.txt:./ltewifi_10_position_3.log:  local Delay = 0.0213518
+./temp.txt:./ltewifi_10_position_3.log:  local Delay = 0.911589
+./temp.txt:./ltewifi_10_position_3.log:  local Delay = 0.788716
+./temp.txt:./ltewifi_10_position_3.log:  local Delay = 0.873417
+./temp.txt:./ltewifi_10_position_3.log:  local Delay = 0.91741
+./temp.txt:./ltewifi_10_position_3.log:  Delay = 5.47329
+./temp.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./temp.txt:./ltewifi_20_position_3.log:  local Delay = 1.06464
+./temp.txt:./ltewifi_20_position_3.log:  local Delay = 0.0220979
+./temp.txt:./ltewifi_20_position_3.log:  local Delay = 0.991892
+./temp.txt:./ltewifi_20_position_3.log:  local Delay = 0.0218925
+./temp.txt:./ltewifi_20_position_3.log:  local Delay = 0.995188
+./temp.txt:./ltewifi_20_position_3.log:  local Delay = 0.870733
+./temp.txt:./ltewifi_20_position_3.log:  local Delay = 0.916487
+./temp.txt:./ltewifi_20_position_3.log:  local Delay = 0.967079
+./temp.txt:./ltewifi_20_position_3.log:  Delay = 5.85001
+./temp.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./temp.txt:./ltewifi_5_position_2.log:  local Delay = 0.731681
+./temp.txt:./ltewifi_5_position_2.log:  local Delay = 0.0140013
+./temp.txt:./ltewifi_5_position_2.log:  local Delay = 0.611341
+./temp.txt:./ltewifi_5_position_2.log:  local Delay = 0.0140026
+./temp.txt:./ltewifi_5_position_2.log:  local Delay = 0.786455
+./temp.txt:./ltewifi_5_position_2.log:  local Delay = 0.725577
+./temp.txt:./ltewifi_5_position_2.log:  local Delay = 0.70396
+./temp.txt:./ltewifi_5_position_2.log:  local Delay = 0.553877
+./temp.txt:./ltewifi_5_position_2.log:  Delay = 4.1409
+./temp.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.011956
+./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0145046
+./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0134506
+./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0135046
+./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0163773
+./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0132781
+./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0129364
+./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0136409
+./delay.txt:./Delay.txt:./ltewifi_1_position_2.log:  Delay = 0.109649
+./delay.txt:./Delay.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.809207
+./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.0220979
+./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.60246
+./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.0218925
+./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.852228
+./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.790647
+./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.786165
+./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.927313
+./delay.txt:./Delay.txt:./ltewifi_20_position_1.log:  Delay = 4.81201
+./delay.txt:./Delay.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.015933
+./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0145046
+./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.01886
+./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0135046
+./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0154293
+./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0162635
+./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0157711
+./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0197416
+./delay.txt:./Delay.txt:./ltewifi_1_position_3.log:  Delay = 0.130008
+./delay.txt:./Delay.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.911694
+./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.0213765
+./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.916962
+./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.0213518
+./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.934771
+./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.666143
+./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 1.16633
+./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.893591
+./delay.txt:./Delay.txt:./ltewifi_10_position_4.log:  Delay = 5.53222
+./delay.txt:./Delay.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 1.05748
+./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.0222141
+./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.995422
+./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.0222087
+./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 1.03996
+./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.882627
+./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.967386
+./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.985058
+./delay.txt:./Delay.txt:./ltewifi_40_position_3.log:  Delay = 5.97236
+./delay.txt:./Delay.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.801625
+./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.0213765
+./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.612571
+./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.0213518
+./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.788325
+./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.726943
+./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.847089
+./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.858502
+./delay.txt:./Delay.txt:./ltewifi_10_position_1.log:  Delay = 4.67778
+./delay.txt:./Delay.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.840251
+./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.0221874
+./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.59518
+./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.022185
+./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.049
+./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.01362
+./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.98971
+./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.00574
+./delay.txt:./Delay.txt:./ltewifi_60_position_2.log:  Delay = 5.53787
+./delay.txt:./Delay.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.968734
+./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.0222141
+./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.974002
+./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.0222087
+./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 1.01072
+./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.725973
+./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 1.22988
+./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.970161
+./delay.txt:./Delay.txt:./ltewifi_40_position_4.log:  Delay = 5.92389
+./delay.txt:./Delay.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.950334
+./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.0220979
+./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.955602
+./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.0218925
+./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.986221
+./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.706673
+./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 1.20938
+./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.945461
+./delay.txt:./Delay.txt:./ltewifi_20_position_4.log:  Delay = 5.79766
+./delay.txt:./Delay.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.974898
+./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.0221874
+./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.980166
+./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.022185
+./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 1.01893
+./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.732438
+./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 1.23675
+./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.978435
+./delay.txt:./Delay.txt:./ltewifi_60_position_4.log:  Delay = 5.96598
+./delay.txt:./Delay.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.10152
+./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.0221874
+./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.00202
+./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.022185
+./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.04575
+./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.86739
+./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.969832
+./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.01517
+./delay.txt:./Delay.txt:./ltewifi_60_position_3.log:  Delay = 6.04605
+./delay.txt:./Delay.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.758885
+./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.0140013
+./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.643521
+./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.0140026
+./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.568743
+./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.513334
+./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.650838
+./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.598933
+./delay.txt:./Delay.txt:./ltewifi_5_position_1.log:  Delay = 3.76226
+./delay.txt:./Delay.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0128736
+./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0145046
+./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0142171
+./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0135046
+./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0130575
+./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0121665
+./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.013153
+./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0129328
+./delay.txt:./Delay.txt:./ltewifi_1_position_1.log:  Delay = 0.10641
+./delay.txt:./Delay.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.844724
+./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.0222141
+./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.614986
+./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.0222087
+./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.880324
+./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.812889
+./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.957434
+./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.956997
+./delay.txt:./Delay.txt:./ltewifi_40_position_1.log:  Delay = 5.11178
+./delay.txt:./Delay.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.836346
+./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.0140013
+./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.841614
+./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.0140026
+./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.834443
+./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.587109
+./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 1.08238
+./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.792444
+./delay.txt:./Delay.txt:./ltewifi_5_position_4.log:  Delay = 5.00234
+./delay.txt:./Delay.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.852297
+./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.0222141
+./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.599363
+./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.0222087
+./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 1.08354
+./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 1.01999
+./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.88103
+./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.977805
+./delay.txt:./Delay.txt:./ltewifi_40_position_2.log:  Delay = 5.45845
+./delay.txt:./Delay.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.823852
+./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.0220979
+./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.57604
+./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.0218925
+./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.990354
+./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.945635
+./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.955879
+./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.94617
+./delay.txt:./Delay.txt:./ltewifi_20_position_2.log:  Delay = 5.28192
+./delay.txt:./Delay.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.880116
+./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.0140013
+./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.885687
+./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.0140026
+./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.744513
+./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.680608
+./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.762033
+./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.813807
+./delay.txt:./Delay.txt:./ltewifi_5_position_3.log:  Delay = 4.79477
+./delay.txt:./Delay.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.232088
+./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0145046
+./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.237289
+./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0135046
+./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.102655
+./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0356166
+./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.128142
+./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.251882
+./delay.txt:./Delay.txt:./ltewifi_1_position_4.log:  Delay = 1.01568
+./delay.txt:./Delay.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.820078
+./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.0221874
+./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.623672
+./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.022185
+./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.892604
+./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.830983
+./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.958192
+./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.976916
+./delay.txt:./Delay.txt:./ltewifi_60_position_1.log:  Delay = 5.14682
+./delay.txt:./Delay.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.814042
+./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.0213765
+./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.58473
+./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.0213518
+./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.933123
+./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.877213
+./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.865517
+./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.831683
+./delay.txt:./Delay.txt:./ltewifi_10_position_2.log:  Delay = 4.94904
+./delay.txt:./Delay.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.96693
+./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.0213765
+./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.972501
+./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.0213518
+./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.911589
+./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.788716
+./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.873417
+./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.91741
+./delay.txt:./Delay.txt:./ltewifi_10_position_3.log:  Delay = 5.47329
+./delay.txt:./Delay.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 1.06464
+./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.0220979
+./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.991892
+./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.0218925
+./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.995188
+./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.870733
+./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.916487
+./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.967079
+./delay.txt:./Delay.txt:./ltewifi_20_position_3.log:  Delay = 5.85001
+./delay.txt:./Delay.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.731681
+./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.0140013
+./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.611341
+./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.0140026
+./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.786455
+./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.725577
+./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.70396
+./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.553877
+./delay.txt:./Delay.txt:./ltewifi_5_position_2.log:  Delay = 4.1409
+./delay.txt:./Delay.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.011956
+./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0145046
+./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0134506
+./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0135046
+./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0163773
+./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0132781
+./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0129364
+./delay.txt:./ltewifi_1_position_2.log:  local Delay = 0.0136409
+./delay.txt:./ltewifi_1_position_2.log:  Delay = 0.109649
+./delay.txt:./ltewifi_1_position_2.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15961814772.0ns Total Throughput: 7.82006
+./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.809207
+./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.0220979
+./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.60246
+./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.0218925
+./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.852228
+./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.790647
+./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.786165
+./delay.txt:./ltewifi_20_position_1.log:  local Delay = 0.927313
+./delay.txt:./ltewifi_20_position_1.log:  Delay = 4.81201
+./delay.txt:./ltewifi_20_position_1.log: Total Rx Bytes: 7.7827e+06 Total Delay : +15538119599.0ns Total Throughput: 30.0021
+./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.015933
+./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0145046
+./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.01886
+./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0135046
+./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0154293
+./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0162635
+./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0157711
+./delay.txt:./ltewifi_1_position_3.log:  local Delay = 0.0197416
+./delay.txt:./ltewifi_1_position_3.log:  Delay = 0.130008
+./delay.txt:./ltewifi_1_position_3.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15969829172.0ns Total Throughput: 7.81614
+./delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.911694
+./delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.0213765
+./delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.916962
+./delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.0213518
+./delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.934771
+./delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.666143
+./delay.txt:./ltewifi_10_position_4.log:  local Delay = 1.16633
+./delay.txt:./ltewifi_10_position_4.log:  local Delay = 0.893591
+./delay.txt:./ltewifi_10_position_4.log:  Delay = 5.53222
+./delay.txt:./ltewifi_10_position_4.log: Total Rx Bytes: 5.67344e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9158
+./delay.txt:./ltewifi_40_position_3.log:  local Delay = 1.05748
+./delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.0222141
+./delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.995422
+./delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.0222087
+./delay.txt:./ltewifi_40_position_3.log:  local Delay = 1.03996
+./delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.882627
+./delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.967386
+./delay.txt:./ltewifi_40_position_3.log:  local Delay = 0.985058
+./delay.txt:./ltewifi_40_position_3.log:  Delay = 5.97236
+./delay.txt:./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.801625
+./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.0213765
+./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.612571
+./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.0213518
+./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.788325
+./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.726943
+./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.847089
+./delay.txt:./ltewifi_10_position_1.log:  local Delay = 0.858502
+./delay.txt:./ltewifi_10_position_1.log:  Delay = 4.67778
+./delay.txt:./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.840251
+./delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.0221874
+./delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.59518
+./delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.022185
+./delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.049
+./delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.01362
+./delay.txt:./ltewifi_60_position_2.log:  local Delay = 0.98971
+./delay.txt:./ltewifi_60_position_2.log:  local Delay = 1.00574
+./delay.txt:./ltewifi_60_position_2.log:  Delay = 5.53787
+./delay.txt:./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.968734
+./delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.0222141
+./delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.974002
+./delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.0222087
+./delay.txt:./ltewifi_40_position_4.log:  local Delay = 1.01072
+./delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.725973
+./delay.txt:./ltewifi_40_position_4.log:  local Delay = 1.22988
+./delay.txt:./ltewifi_40_position_4.log:  local Delay = 0.970161
+./delay.txt:./ltewifi_40_position_4.log:  Delay = 5.92389
+./delay.txt:./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.950334
+./delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.0220979
+./delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.955602
+./delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.0218925
+./delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.986221
+./delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.706673
+./delay.txt:./ltewifi_20_position_4.log:  local Delay = 1.20938
+./delay.txt:./ltewifi_20_position_4.log:  local Delay = 0.945461
+./delay.txt:./ltewifi_20_position_4.log:  Delay = 5.79766
+./delay.txt:./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.974898
+./delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.0221874
+./delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.980166
+./delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.022185
+./delay.txt:./ltewifi_60_position_4.log:  local Delay = 1.01893
+./delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.732438
+./delay.txt:./ltewifi_60_position_4.log:  local Delay = 1.23675
+./delay.txt:./ltewifi_60_position_4.log:  local Delay = 0.978435
+./delay.txt:./ltewifi_60_position_4.log:  Delay = 5.96598
+./delay.txt:./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.10152
+./delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.0221874
+./delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.00202
+./delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.022185
+./delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.04575
+./delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.86739
+./delay.txt:./ltewifi_60_position_3.log:  local Delay = 0.969832
+./delay.txt:./ltewifi_60_position_3.log:  local Delay = 1.01517
+./delay.txt:./ltewifi_60_position_3.log:  Delay = 6.04605
+./delay.txt:./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.758885
+./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.0140013
+./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.643521
+./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.0140026
+./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.568743
+./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.513334
+./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.650838
+./delay.txt:./ltewifi_5_position_1.log:  local Delay = 0.598933
+./delay.txt:./ltewifi_5_position_1.log:  Delay = 3.76226
+./delay.txt:./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0128736
+./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0145046
+./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0142171
+./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0135046
+./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0130575
+./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0121665
+./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.013153
+./delay.txt:./ltewifi_1_position_1.log:  local Delay = 0.0129328
+./delay.txt:./ltewifi_1_position_1.log:  Delay = 0.10641
+./delay.txt:./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.844724
+./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.0222141
+./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.614986
+./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.0222087
+./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.880324
+./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.812889
+./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.957434
+./delay.txt:./ltewifi_40_position_1.log:  local Delay = 0.956997
+./delay.txt:./ltewifi_40_position_1.log:  Delay = 5.11178
+./delay.txt:./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.836346
+./delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.0140013
+./delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.841614
+./delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.0140026
+./delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.834443
+./delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.587109
+./delay.txt:./ltewifi_5_position_4.log:  local Delay = 1.08238
+./delay.txt:./ltewifi_5_position_4.log:  local Delay = 0.792444
+./delay.txt:./ltewifi_5_position_4.log:  Delay = 5.00234
+./delay.txt:./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.852297
+./delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.0222141
+./delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.599363
+./delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.0222087
+./delay.txt:./ltewifi_40_position_2.log:  local Delay = 1.08354
+./delay.txt:./ltewifi_40_position_2.log:  local Delay = 1.01999
+./delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.88103
+./delay.txt:./ltewifi_40_position_2.log:  local Delay = 0.977805
+./delay.txt:./ltewifi_40_position_2.log:  Delay = 5.45845
+./delay.txt:./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.823852
+./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.0220979
+./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.57604
+./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.0218925
+./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.990354
+./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.945635
+./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.955879
+./delay.txt:./ltewifi_20_position_2.log:  local Delay = 0.94617
+./delay.txt:./ltewifi_20_position_2.log:  Delay = 5.28192
+./delay.txt:./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.880116
+./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.0140013
+./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.885687
+./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.0140026
+./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.744513
+./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.680608
+./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.762033
+./delay.txt:./ltewifi_5_position_3.log:  local Delay = 0.813807
+./delay.txt:./ltewifi_5_position_3.log:  Delay = 4.79477
+./delay.txt:./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.232088
+./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0145046
+./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.237289
+./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0135046
+./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.102655
+./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.0356166
+./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.128142
+./delay.txt:./ltewifi_1_position_4.log:  local Delay = 0.251882
+./delay.txt:./ltewifi_1_position_4.log:  Delay = 1.01568
+./delay.txt:./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.820078
+./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.0221874
+./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.623672
+./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.022185
+./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.892604
+./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.830983
+./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.958192
+./delay.txt:./ltewifi_60_position_1.log:  local Delay = 0.976916
+./delay.txt:./ltewifi_60_position_1.log:  Delay = 5.14682
+./delay.txt:./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.814042
+./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.0213765
+./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.58473
+./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.0213518
+./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.933123
+./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.877213
+./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.865517
+./delay.txt:./ltewifi_10_position_2.log:  local Delay = 0.831683
+./delay.txt:./ltewifi_10_position_2.log:  Delay = 4.94904
+./delay.txt:./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.96693
+./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.0213765
+./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.972501
+./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.0213518
+./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.911589
+./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.788716
+./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.873417
+./delay.txt:./ltewifi_10_position_3.log:  local Delay = 0.91741
+./delay.txt:./ltewifi_10_position_3.log:  Delay = 5.47329
+./delay.txt:./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./delay.txt:./ltewifi_20_position_3.log:  local Delay = 1.06464
+./delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.0220979
+./delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.991892
+./delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.0218925
+./delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.995188
+./delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.870733
+./delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.916487
+./delay.txt:./ltewifi_20_position_3.log:  local Delay = 0.967079
+./delay.txt:./ltewifi_20_position_3.log:  Delay = 5.85001
+./delay.txt:./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.731681
+./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.0140013
+./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.611341
+./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.0140026
+./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.786455
+./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.725577
+./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.70396
+./delay.txt:./ltewifi_5_position_2.log:  local Delay = 0.553877
+./delay.txt:./ltewifi_5_position_2.log:  Delay = 4.1409
+./delay.txt:./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744
+./ltewifi_40_position_3.log:  local Delay = 1.05748
+./ltewifi_40_position_3.log:  local Delay = 0.0222141
+./ltewifi_40_position_3.log:  local Delay = 0.995422
+./ltewifi_40_position_3.log:  local Delay = 0.0222087
+./ltewifi_40_position_3.log:  local Delay = 1.03996
+./ltewifi_40_position_3.log:  local Delay = 0.882627
+./ltewifi_40_position_3.log:  local Delay = 0.967386
+./ltewifi_40_position_3.log:  local Delay = 0.985058
+./ltewifi_40_position_3.log:  Delay = 5.97236
+./ltewifi_40_position_3.log: Total Rx Bytes: 6.05742e+06 Total Delay : +15858658242.0ns Total Throughput: 23.1736
+./ltewifi_10_position_1.log:  local Delay = 0.801625
+./ltewifi_10_position_1.log:  local Delay = 0.0213765
+./ltewifi_10_position_1.log:  local Delay = 0.612571
+./ltewifi_10_position_1.log:  local Delay = 0.0213518
+./ltewifi_10_position_1.log:  local Delay = 0.788325
+./ltewifi_10_position_1.log:  local Delay = 0.726943
+./ltewifi_10_position_1.log:  local Delay = 0.847089
+./ltewifi_10_position_1.log:  local Delay = 0.858502
+./ltewifi_10_position_1.log:  Delay = 4.67778
+./ltewifi_10_position_1.log: Total Rx Bytes: 7.72063e+06 Total Delay : +15869769279.0ns Total Throughput: 29.5278
+./ltewifi_60_position_2.log:  local Delay = 0.840251
+./ltewifi_60_position_2.log:  local Delay = 0.0221874
+./ltewifi_60_position_2.log:  local Delay = 0.59518
+./ltewifi_60_position_2.log:  local Delay = 0.022185
+./ltewifi_60_position_2.log:  local Delay = 1.049
+./ltewifi_60_position_2.log:  local Delay = 1.01362
+./ltewifi_60_position_2.log:  local Delay = 0.98971
+./ltewifi_60_position_2.log:  local Delay = 1.00574
+./ltewifi_60_position_2.log:  Delay = 5.53787
+./ltewifi_60_position_2.log: Total Rx Bytes: 6.88218e+06 Total Delay : +15555009615.0ns Total Throughput: 26.5037
+./ltewifi_40_position_4.log:  local Delay = 0.968734
+./ltewifi_40_position_4.log:  local Delay = 0.0222141
+./ltewifi_40_position_4.log:  local Delay = 0.974002
+./ltewifi_40_position_4.log:  local Delay = 0.0222087
+./ltewifi_40_position_4.log:  local Delay = 1.01072
+./ltewifi_40_position_4.log:  local Delay = 0.725973
+./ltewifi_40_position_4.log:  local Delay = 1.22988
+./ltewifi_40_position_4.log:  local Delay = 0.970161
+./ltewifi_40_position_4.log:  Delay = 5.92389
+./ltewifi_40_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./ltewifi_20_position_4.log:  local Delay = 0.950334
+./ltewifi_20_position_4.log:  local Delay = 0.0220979
+./ltewifi_20_position_4.log:  local Delay = 0.955602
+./ltewifi_20_position_4.log:  local Delay = 0.0218925
+./ltewifi_20_position_4.log:  local Delay = 0.986221
+./ltewifi_20_position_4.log:  local Delay = 0.706673
+./ltewifi_20_position_4.log:  local Delay = 1.20938
+./ltewifi_20_position_4.log:  local Delay = 0.945461
+./ltewifi_20_position_4.log:  Delay = 5.79766
+./ltewifi_20_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./ltewifi_60_position_4.log:  local Delay = 0.974898
+./ltewifi_60_position_4.log:  local Delay = 0.0221874
+./ltewifi_60_position_4.log:  local Delay = 0.980166
+./ltewifi_60_position_4.log:  local Delay = 0.022185
+./ltewifi_60_position_4.log:  local Delay = 1.01893
+./ltewifi_60_position_4.log:  local Delay = 0.732438
+./ltewifi_60_position_4.log:  local Delay = 1.23675
+./ltewifi_60_position_4.log:  local Delay = 0.978435
+./ltewifi_60_position_4.log:  Delay = 5.96598
+./ltewifi_60_position_4.log: Total Rx Bytes: 5.67449e+06 Total Delay : +15481576111.0ns Total Throughput: 21.9198
+./ltewifi_60_position_3.log:  local Delay = 1.10152
+./ltewifi_60_position_3.log:  local Delay = 0.0221874
+./ltewifi_60_position_3.log:  local Delay = 1.00202
+./ltewifi_60_position_3.log:  local Delay = 0.022185
+./ltewifi_60_position_3.log:  local Delay = 1.04575
+./ltewifi_60_position_3.log:  local Delay = 0.86739
+./ltewifi_60_position_3.log:  local Delay = 0.969832
+./ltewifi_60_position_3.log:  local Delay = 1.01517
+./ltewifi_60_position_3.log:  Delay = 6.04605
+./ltewifi_60_position_3.log: Total Rx Bytes: 6.06373e+06 Total Delay : +15936302722.0ns Total Throughput: 23.166
+./ltewifi_5_position_1.log:  local Delay = 0.758885
+./ltewifi_5_position_1.log:  local Delay = 0.0140013
+./ltewifi_5_position_1.log:  local Delay = 0.643521
+./ltewifi_5_position_1.log:  local Delay = 0.0140026
+./ltewifi_5_position_1.log:  local Delay = 0.568743
+./ltewifi_5_position_1.log:  local Delay = 0.513334
+./ltewifi_5_position_1.log:  local Delay = 0.650838
+./ltewifi_5_position_1.log:  local Delay = 0.598933
+./ltewifi_5_position_1.log:  Delay = 3.76226
+./ltewifi_5_position_1.log: Total Rx Bytes: 5.88384e+06 Total Delay : +15792958208.0ns Total Throughput: 22.6588
+./ltewifi_1_position_1.log:  local Delay = 0.0128736
+./ltewifi_1_position_1.log:  local Delay = 0.0145046
+./ltewifi_1_position_1.log:  local Delay = 0.0142171
+./ltewifi_1_position_1.log:  local Delay = 0.0135046
+./ltewifi_1_position_1.log:  local Delay = 0.0130575
+./ltewifi_1_position_1.log:  local Delay = 0.0121665
+./ltewifi_1_position_1.log:  local Delay = 0.013153
+./ltewifi_1_position_1.log:  local Delay = 0.0129328
+./ltewifi_1_position_1.log:  Delay = 0.10641
+./ltewifi_1_position_1.log: Total Rx Bytes: 2.04509e+06 Total Delay : +15956978109.0ns Total Throughput: 7.82243
+./ltewifi_40_position_1.log:  local Delay = 0.844724
+./ltewifi_40_position_1.log:  local Delay = 0.0222141
+./ltewifi_40_position_1.log:  local Delay = 0.614986
+./ltewifi_40_position_1.log:  local Delay = 0.0222087
+./ltewifi_40_position_1.log:  local Delay = 0.880324
+./ltewifi_40_position_1.log:  local Delay = 0.812889
+./ltewifi_40_position_1.log:  local Delay = 0.957434
+./ltewifi_40_position_1.log:  local Delay = 0.956997
+./ltewifi_40_position_1.log:  Delay = 5.11178
+./ltewifi_40_position_1.log: Total Rx Bytes: 7.74167e+06 Total Delay : +15800246850.0ns Total Throughput: 29.6331
+./ltewifi_5_position_4.log:  local Delay = 0.836346
+./ltewifi_5_position_4.log:  local Delay = 0.0140013
+./ltewifi_5_position_4.log:  local Delay = 0.841614
+./ltewifi_5_position_4.log:  local Delay = 0.0140026
+./ltewifi_5_position_4.log:  local Delay = 0.834443
+./ltewifi_5_position_4.log:  local Delay = 0.587109
+./ltewifi_5_position_4.log:  local Delay = 1.08238
+./ltewifi_5_position_4.log:  local Delay = 0.792444
+./ltewifi_5_position_4.log:  Delay = 5.00234
+./ltewifi_5_position_4.log: Total Rx Bytes: 3.88083e+06 Total Delay : +15481576111.0ns Total Throughput: 15.0759
+./ltewifi_40_position_2.log:  local Delay = 0.852297
+./ltewifi_40_position_2.log:  local Delay = 0.0222141
+./ltewifi_40_position_2.log:  local Delay = 0.599363
+./ltewifi_40_position_2.log:  local Delay = 0.0222087
+./ltewifi_40_position_2.log:  local Delay = 1.08354
+./ltewifi_40_position_2.log:  local Delay = 1.01999
+./ltewifi_40_position_2.log:  local Delay = 0.88103
+./ltewifi_40_position_2.log:  local Delay = 0.977805
+./ltewifi_40_position_2.log:  Delay = 5.45845
+./ltewifi_40_position_2.log: Total Rx Bytes: 6.88324e+06 Total Delay : +15591760075.0ns Total Throughput: 26.524
+./ltewifi_20_position_2.log:  local Delay = 0.823852
+./ltewifi_20_position_2.log:  local Delay = 0.0220979
+./ltewifi_20_position_2.log:  local Delay = 0.57604
+./ltewifi_20_position_2.log:  local Delay = 0.0218925
+./ltewifi_20_position_2.log:  local Delay = 0.990354
+./ltewifi_20_position_2.log:  local Delay = 0.945635
+./ltewifi_20_position_2.log:  local Delay = 0.955879
+./ltewifi_20_position_2.log:  local Delay = 0.94617
+./ltewifi_20_position_2.log:  Delay = 5.28192
+./ltewifi_20_position_2.log: Total Rx Bytes: 6.87587e+06 Total Delay : +15108650150.0ns Total Throughput: 26.887
+./ltewifi_5_position_3.log:  local Delay = 0.880116
+./ltewifi_5_position_3.log:  local Delay = 0.0140013
+./ltewifi_5_position_3.log:  local Delay = 0.885687
+./ltewifi_5_position_3.log:  local Delay = 0.0140026
+./ltewifi_5_position_3.log:  local Delay = 0.744513
+./ltewifi_5_position_3.log:  local Delay = 0.680608
+./ltewifi_5_position_3.log:  local Delay = 0.762033
+./ltewifi_5_position_3.log:  local Delay = 0.813807
+./ltewifi_5_position_3.log:  Delay = 4.79477
+./ltewifi_5_position_3.log: Total Rx Bytes: 4.2627e+06 Total Delay : +15934409803.0ns Total Throughput: 16.2965
+./ltewifi_1_position_4.log:  local Delay = 0.232088
+./ltewifi_1_position_4.log:  local Delay = 0.0145046
+./ltewifi_1_position_4.log:  local Delay = 0.237289
+./ltewifi_1_position_4.log:  local Delay = 0.0135046
+./ltewifi_1_position_4.log:  local Delay = 0.102655
+./ltewifi_1_position_4.log:  local Delay = 0.0356166
+./ltewifi_1_position_4.log:  local Delay = 0.128142
+./ltewifi_1_position_4.log:  local Delay = 0.251882
+./ltewifi_1_position_4.log:  Delay = 1.01568
+./ltewifi_1_position_4.log: Total Rx Bytes: 1.82627e+06 Total Delay : +15846464022.0ns Total Throughput: 7.03438
+./ltewifi_60_position_1.log:  local Delay = 0.820078
+./ltewifi_60_position_1.log:  local Delay = 0.0221874
+./ltewifi_60_position_1.log:  local Delay = 0.623672
+./ltewifi_60_position_1.log:  local Delay = 0.022185
+./ltewifi_60_position_1.log:  local Delay = 0.892604
+./ltewifi_60_position_1.log:  local Delay = 0.830983
+./ltewifi_60_position_1.log:  local Delay = 0.958192
+./ltewifi_60_position_1.log:  local Delay = 0.976916
+./ltewifi_60_position_1.log:  Delay = 5.14682
+./ltewifi_60_position_1.log: Total Rx Bytes: 7.73851e+06 Total Delay : +15894385191.0ns Total Throughput: 29.5734
+./ltewifi_10_position_2.log:  local Delay = 0.814042
+./ltewifi_10_position_2.log:  local Delay = 0.0213765
+./ltewifi_10_position_2.log:  local Delay = 0.58473
+./ltewifi_10_position_2.log:  local Delay = 0.0213518
+./ltewifi_10_position_2.log:  local Delay = 0.933123
+./ltewifi_10_position_2.log:  local Delay = 0.877213
+./ltewifi_10_position_2.log:  local Delay = 0.865517
+./ltewifi_10_position_2.log:  local Delay = 0.831683
+./ltewifi_10_position_2.log:  Delay = 4.94904
+./ltewifi_10_position_2.log: Total Rx Bytes: 6.87692e+06 Total Delay : +15893522782.0ns Total Throughput: 26.2968
+./ltewifi_10_position_3.log:  local Delay = 0.96693
+./ltewifi_10_position_3.log:  local Delay = 0.0213765
+./ltewifi_10_position_3.log:  local Delay = 0.972501
+./ltewifi_10_position_3.log:  local Delay = 0.0213518
+./ltewifi_10_position_3.log:  local Delay = 0.911589
+./ltewifi_10_position_3.log:  local Delay = 0.788716
+./ltewifi_10_position_3.log:  local Delay = 0.873417
+./ltewifi_10_position_3.log:  local Delay = 0.91741
+./ltewifi_10_position_3.log:  Delay = 5.47329
+./ltewifi_10_position_3.log: Total Rx Bytes: 6.05531e+06 Total Delay : +15934409803.0ns Total Throughput: 23.1365
+./ltewifi_20_position_3.log:  local Delay = 1.06464
+./ltewifi_20_position_3.log:  local Delay = 0.0220979
+./ltewifi_20_position_3.log:  local Delay = 0.991892
+./ltewifi_20_position_3.log:  local Delay = 0.0218925
+./ltewifi_20_position_3.log:  local Delay = 0.995188
+./ltewifi_20_position_3.log:  local Delay = 0.870733
+./ltewifi_20_position_3.log:  local Delay = 0.916487
+./ltewifi_20_position_3.log:  local Delay = 0.967079
+./ltewifi_20_position_3.log:  Delay = 5.85001
+./ltewifi_20_position_3.log: Total Rx Bytes: 6.06688e+06 Total Delay : +15900602390.0ns Total Throughput: 23.1946
+./ltewifi_5_position_2.log:  local Delay = 0.731681
+./ltewifi_5_position_2.log:  local Delay = 0.0140013
+./ltewifi_5_position_2.log:  local Delay = 0.611341
+./ltewifi_5_position_2.log:  local Delay = 0.0140026
+./ltewifi_5_position_2.log:  local Delay = 0.786455
+./ltewifi_5_position_2.log:  local Delay = 0.725577
+./ltewifi_5_position_2.log:  local Delay = 0.70396
+./ltewifi_5_position_2.log:  local Delay = 0.553877
+./ltewifi_5_position_2.log:  Delay = 4.1409
+./ltewifi_5_position_2.log: Total Rx Bytes: 5.08432e+06 Total Delay : +15558588894.0ns Total Throughput: 19.7744

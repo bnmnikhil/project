@@ -1,0 +1,6 @@
+./lte_40_position_.log: Total Rx Bytes: 8.93674e+06 Total Throughput: 33.796
+./lte_60_position_.log: Total Rx Bytes: 8.93674e+06 Total Throughput: 33.796
+./lte_5_position_.log: Total Rx Bytes: 5.13481e+06 Total Throughput: 19.4471
+./lte_20_position_.log: Total Rx Bytes: 8.93674e+06 Total Throughput: 33.796
+./lte_10_position_.log: Total Rx Bytes: 8.93674e+06 Total Throughput: 33.796
+./lte_1_position_.log: Total Rx Bytes: 1.03096e+06 Total Throughput: 3.90071

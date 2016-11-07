@@ -1,0 +1,12 @@
+./log_lteUL-wifiDL_10_position_.log: Total Rx Bytes: 1.40072e+08 Total Throughput: 56.2517
+./log_lteUL-wifiDL_20_position_.log: Total Rx Bytes: 1.40072e+08 Total Throughput: 56.2502
+./log_lteUL-wifiDL_40_position_.log: Total Rx Bytes: 1.40072e+08 Total Throughput: 56.2514
+./lteUL-wifiDL_60_position_.log: Total Rx Bytes: 1.55149e+07 Total Throughput: 65.4172
+./log_lteUL-wifiDL_60_position_.log: Total Rx Bytes: 1.40072e+08 Total Throughput: 56.2493
+./lteUL-wifiDL_20_position_.log: Total Rx Bytes: 1.55117e+07 Total Throughput: 57.2235
+./log_lteUL-wifiDL_1_position_.log: Total Rx Bytes: 3.90155e+07 Total Throughput: 15.6704
+./log_lteUL-wifiDL_5_position_.log: Total Rx Bytes: 1.40072e+08 Total Throughput: 56.249
+./lteUL-wifiDL_1_position_.log: Total Rx Bytes: 1.03096e+06 Total Throughput: 3.90341
+./lteUL-wifiDL_5_position_.log: Total Rx Bytes: 5.13481e+06 Total Throughput: 19.4621
+./lteUL-wifiDL_40_position_.log: Total Rx Bytes: 1.55149e+07 Total Throughput: 65.4845
+./lteUL-wifiDL_10_position_.log: Total Rx Bytes: 1.02538e+07 Total Throughput: 38.8701

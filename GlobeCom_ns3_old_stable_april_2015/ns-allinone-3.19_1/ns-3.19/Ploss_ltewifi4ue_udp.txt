@@ -1,0 +1,6 @@
+./ltewifi4ue_60_position_.log:Percentage of Lost packets = 95.1581
+./ltewifi4ue_20_position_.log:Percentage of Lost packets = 85.4363
+./ltewifi4ue_5_position_.log:Percentage of Lost packets = 40.387
+./ltewifi4ue_40_position_.log:Percentage of Lost packets = 92.7188
+./ltewifi4ue_10_position_.log:Percentage of Lost packets = 70.1562
+./ltewifi4ue_1_position_.log:Percentage of Lost packets = 0.204082

@@ -1,0 +1,6 @@
+./log_lte1ue_40_position_.log:Percentage of Lost packets = 78.7795
+./log_lte1ue_5_position_.log:Percentage of Lost packets = 0.0797895
+./log_lte1ue_60_position_.log:Percentage of Lost packets = 85.8884
+./log_lte1ue_1_position_.log:Percentage of Lost packets = 0.107759
+./log_lte1ue_20_position_.log:Percentage of Lost packets = 57.5589
+./log_lte1ue_10_position_.log:Percentage of Lost packets = 12.9968

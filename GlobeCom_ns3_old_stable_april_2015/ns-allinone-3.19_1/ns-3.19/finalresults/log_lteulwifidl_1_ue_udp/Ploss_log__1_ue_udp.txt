@@ -1,0 +1,8 @@
+./log_1ue_96_position.log:Percentage of Lost packets = 39.2689
+./log_1ue_4_position.log:Percentage of Lost packets = 0.0454959
+./log_1ue_24_position.log:Percentage of Lost packets = 0.0568699
+./Ploss_log__1_ue_udp.txt:./log_1ue_96_position.log:Percentage of Lost packets = 56.9829
+./Ploss_log__1_ue_udp.txt:./log_1ue_4_position.log:Percentage of Lost packets = 0.0454959
+./Ploss_log__1_ue_udp.txt:./log_1ue_24_position.log:Percentage of Lost packets = 0.0530786
+./Ploss_log__1_ue_udp.txt:./log_1ue_48_position.log:Percentage of Lost packets = 13.9691
+./log_1ue_48_position.log:Percentage of Lost packets = 13.0693

@@ -1,0 +1,6 @@
+./wifi_1_position_.log:  Packet loss = 0
+./wifi_20_position_.log:  Packet loss = 13865
+./wifi_10_position_.log:  Packet loss = 3623
+./wifi_40_position_.log:  Packet loss = 33863
+./wifi_60_position_.log:  Packet loss = 54015
+./wifi_5_position_.log:  Packet loss = 0

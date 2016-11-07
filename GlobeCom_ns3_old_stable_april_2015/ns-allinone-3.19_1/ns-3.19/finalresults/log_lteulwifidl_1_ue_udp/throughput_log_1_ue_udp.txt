@@ -1,0 +1,8 @@
+./log_1ue_96_position.log: Total Rx Bytes: 6.7449e+07 Total Throughput: 57.1777
+./log_1ue_4_position.log: Total Rx Bytes: 4.62249e+06 Total Throughput: 3.91953
+./log_1ue_24_position.log: Total Rx Bytes: 2.77318e+07 Total Throughput: 23.5088
+./log_1ue_48_position.log: Total Rx Bytes: 4.82752e+07 Total Throughput: 40.9237
+./throughput_log__1_ue_udp.txt:./log_1ue_96_position.log: Total Rx Bytes: 4.77755e+07 Total Throughput: 40.5009
+./throughput_log__1_ue_udp.txt:./log_1ue_4_position.log: Total Rx Bytes: 4.62249e+06 Total Throughput: 3.91981
+./throughput_log__1_ue_udp.txt:./log_1ue_24_position.log: Total Rx Bytes: 2.77328e+07 Total Throughput: 23.5106
+./throughput_log__1_ue_udp.txt:./log_1ue_48_position.log: Total Rx Bytes: 4.77755e+07 Total Throughput: 40.5008

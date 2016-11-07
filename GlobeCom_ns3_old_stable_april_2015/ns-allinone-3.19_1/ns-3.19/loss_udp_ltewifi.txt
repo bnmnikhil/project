@@ -1,0 +1,16 @@
+./ltewifi_20_position_1.log:  Packet loss = 32602
+./ltewifi_40_position_3.log:  Packet loss = 74242
+./ltewifi_40_position_4.log:  Packet loss = 74606
+./ltewifi_60_position_4.log:  Packet loss = 114910
+./ltewifi_60_position_3.log:  Packet loss = 114540
+./ltewifi_5_position_1.log:  Packet loss = 4175
+./ltewifi_1_position_1.log:  Packet loss = 16
+./ltewifi_5_position_4.log:  Packet loss = 6079
+./ltewifi_40_position_2.log:  Packet loss = 73457
+./ltewifi_20_position_2.log:  Packet loss = 33464
+./ltewifi_1_position_4.log:  Packet loss = 224
+./ltewifi_60_position_1.log:  Packet loss = 112948
+./ltewifi_10_position_3.log:  Packet loss = 13764
+./ltewifi_60_position_0.log:  Packet loss = 112160
+./ltewifi_20_position_3.log:  Packet loss = 34233
+./ltewifi_5_position_2.log:  Packet loss = 4935

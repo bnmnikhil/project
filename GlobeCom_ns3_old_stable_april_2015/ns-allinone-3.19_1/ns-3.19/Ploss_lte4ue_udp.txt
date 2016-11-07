@@ -1,0 +1,6 @@
+./lte4ue_20_position_.log:Percentage of Lost packets = 89.5537
+./lte4ue_60_position_.log:Percentage of Lost packets = 96.5267
+./lte4ue_1_position_.log:Percentage of Lost packets = 0
+./lte4ue_40_position_.log:Percentage of Lost packets = 94.7769
+./lte4ue_5_position_.log:Percentage of Lost packets = 57.2379
+./lte4ue_10_position_.log:Percentage of Lost packets = 78.5938

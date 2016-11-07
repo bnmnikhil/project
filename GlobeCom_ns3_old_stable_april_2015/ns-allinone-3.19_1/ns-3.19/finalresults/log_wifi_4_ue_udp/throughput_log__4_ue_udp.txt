@@ -1,0 +1,4 @@
+./log_4ue_96_position.log: Total Rx Bytes: 6.28675e+06 Total Throughput: 5.55961
+./log_4ue_16_position.log: Total Rx Bytes: 6.41825e+06 Total Throughput: 5.46046
+./log_4ue_32_position.log: Total Rx Bytes: 6.13e+06 Total Throughput: 5.21179
+./log_4ue_64_position.log: Total Rx Bytes: 6.44771e+06 Total Throughput: 5.49295
