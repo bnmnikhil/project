@@ -66,16 +66,16 @@ public:
   static std::map<Mac48Address,double> rssi;
   static std::map<Mac48Address,Ipv4Address> macipmap;
   void SendToS1uSocket (Ptr<Packet> packet, uint32_t teid);
-  void resetfunc();
+   void resetfunc();
   void udpstats(uint32_t fid,uint32_t pid, double recvbytes, double time);
   void updatewifiload(double load);
   void updatewifisinrper(double sinr,double per, Mac48Address macaddr);
-  void updateltesinrper(std::string context,uint16_t cellid,uint16_t rnti, double sinr, double avgsinr);
+  static void updateltesinrper(std::string context,uint16_t cellid,uint16_t rnti, double sinr, double avgsinr);
   void addbearer(Ipv4Address ip, EpsBearer bearer,double interpacketinterval);
  // static double uplinkthrpt_lte;
-  static double uplinkthrpt_wifi;
-  static double uplinksendpkt;
-  static double lte_usedrbs;
+  double uplinkthrpt_wifi;
+  double uplinksendpkt;
+   
   //static double ulfirstpktsend;
   //void algo();
   /*
@@ -269,9 +269,9 @@ private:
    * 
    */
   std::map<uint64_t, uint16_t> m_imsiRntiMap;
-
+  
   uint16_t m_cellId;
- 
+  
 };
 
 } //namespace ns3

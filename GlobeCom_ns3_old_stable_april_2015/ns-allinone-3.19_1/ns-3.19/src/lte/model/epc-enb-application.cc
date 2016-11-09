@@ -194,7 +194,7 @@ std::map<Mac48Address,Ipv4Address> EpcEnbApplication::macipmap;
 //std::map<Mac48Address,std::map<double,double> > EpcEnbApplication::snr_per;
 std::map<Mac48Address,double> EpcEnbApplication::rssi;
 uint32_t current_value=0,past_value=0;
-uint64_t past=0;
+uint64_t lreset=0;
 int count=-1;
 //THomas -- User defined class for collecting stats for TCP Window
 RouterLayer router;
@@ -258,18 +258,18 @@ std::map<Ipv4Address, sinrperinfo> per_table;
 std::map<uint32_t, Ipv4Address> rntiipmap;
 std::map<Ipv4Address, EpsBearer> ipbearermap;
 std::map<Ipv4Address, double> ipdatarate;
+int64_t past=0;
 int flag=0;
 int mxpt=0;
 int fair=0; 
 bool tcp=false;
 double uplinkthrpt_lte=0;
+double lte_usedrbs;
 double wifitpt=0;
 double ltetpt=0;
-double EpcEnbApplication::uplinkthrpt_wifi=0;
 double uplinkthrpt=0;
-double EpcEnbApplication::uplinksendpkt=0;
 double ullastpktrecv=0;
-double EpcEnbApplication::lte_usedrbs=0;
+
 
 std::ofstream total ("logs/exp3_4.txt");
 std::ofstream flows ("logs/trailtpSINR3f.txt");
@@ -333,6 +333,7 @@ EpcEnbApplication::EpcEnbApplication (Ptr<Socket> lteSocket, Ptr<Socket> s1uSock
   m_s1SapUser (0),
   m_s1apSapMme (0),
   m_cellId (cellId)
+  
 {
         std::cout<<"  epc created --------"<<std::endl;
 	NS_LOG_FUNCTION (this << lteSocket << s1uSocket << sgwS1uAddress);
@@ -340,6 +341,10 @@ EpcEnbApplication::EpcEnbApplication (Ptr<Socket> lteSocket, Ptr<Socket> s1uSock
 	m_lteSocket->SetRecvCallback (MakeCallback (&EpcEnbApplication::RecvFromLteSocket, this));
 	m_s1SapProvider = new MemberEpcEnbS1SapProvider<EpcEnbApplication> (this);
 	m_s1apSapEnb = new MemberEpcS1apSapEnb<EpcEnbApplication> (this);
+       // void resetfunc();
+        //uplinkthrpt_wifi=0;
+        uplinkthrpt_wifi=0;
+        uplinksendpkt=0;
 }
 
 
@@ -644,10 +649,14 @@ EpcEnbApplication::RecvFromLteSocket (Ptr<Socket> socket)
 void 
 EpcEnbApplication::RecvFromS1uSocket (Ptr<Socket> socket)
 {
+
+        uint64_t pt= Simulator::Now ().GetMilliSeconds();
 	//////std::cout << "flag " << flag << std::endl;
-	if(flag==0) {
+	if(pt>(lreset+uint64_t(300))) {
 		////std::cout<<"RecvFromS1uSocket";
-		flag=1;
+                        lreset=Simulator::Now ().GetMilliSeconds();
+                        std::cout <<this<<"  "<< Simulator::Now ().GetMilliSeconds()<< std::endl;
+		//flag=1;
 		resetfunc();
 	}
 	////
@@ -754,9 +763,12 @@ void EpcEnbApplication::updatewifisinrper(double sinr,double per, Mac48Address m
 void 
 EpcEnbApplication::SendToLteSocket (Ptr<Packet> packet, uint16_t rnti, uint8_t bid)
 {
-	if(flag==0) {
+        uint64_t pt= Simulator::Now ().GetMilliSeconds();
+	if(pt>(lreset+uint64_t(300))) {
 		//////std::cout << "-------------------------------- start sendtoltesocket--------------------------------" << std::endl;
-		flag=1;
+                      lreset=Simulator::Now ().GetMilliSeconds();
+                        std::cout <<this<<"  "<< Simulator::Now ().GetMilliSeconds()<< std::endl;
+		//flag=1;
 		resetfunc();
 	}
 	Ipv4Header ipv4Header;
@@ -1353,7 +1365,7 @@ bool checkNGBR(uint32_t currentinterface) {
 	return false;
 }
 void maximizethrpt() {
-	double lteload=EpcEnbApplication::lte_usedrbs/150;
+	double lteload=lte_usedrbs/150;
 	double wifiload=wifi_load*66;
          //std::cout << "maximize throughput is called "<<mxpt++<< std::endl;
 	////std::cout << "lteload " << lteload << " wifiload " << wifiload << std::endl;
@@ -1882,7 +1894,7 @@ void algoall() {
 }
 
 void algo_naive() {
-	double lteload=EpcEnbApplication::lte_usedrbs/150;
+	double lteload=lte_usedrbs/150;
 	double wifiload=wifi_load*100;
 //	std::cout << "lteload " << lteload << " wifiload " << wifiload << std::endl;
 	if(lteload-wifiload>20) {
@@ -2000,7 +2012,7 @@ void algo_SINR(){
 
 void algo_LOAD(){
 //std::cout<<"1 th is called==============================\n";
-           double lteload=EpcEnbApplication::lte_usedrbs/15000;
+           double lteload=lte_usedrbs/15000;
 	   double wifiload=wifi_load*100/100;
            //double canbmovedwifi=(((lteload-wifiload)/2)*(wifitpt/wifiload));
            //double canbmovedlte=(((wifiload-lteload)/2)*(ltetpt/lteload));
@@ -2066,7 +2078,7 @@ void algo_LOAD(){
 
 void algo_LOAD1(){
 //std::cout<<"1 th is called==============================\n";
-           double lteload=EpcEnbApplication::lte_usedrbs/15000;
+           double lteload=lte_usedrbs/15000;
 	   double wifiload=wifi_load*100/100;
            double canbmovedwifi=(((lteload-wifiload)/2)*(wifitpt/wifiload));
            double canbmovedlte=(((wifiload-lteload)/2)*(ltetpt/lteload));
@@ -2152,7 +2164,7 @@ double nGflowstp(uint32_t current_interface, double QOS) {
 }
 void EpcEnbApplication::resetfunc(void) {
 
-	std::cout <<this<< "---------------------------reset-------------------------------\n\n";
+	//std::cout <<this<< "---------------------------reset-------------------------------\n\n";
 	double tthrpt=0;
         double ltthrpt=0;
         double wtthrpt=0; 
@@ -2348,7 +2360,7 @@ void EpcEnbApplication::resetfunc(void) {
 	udp_sendbytes.clear();
 	//flowtable.clear();
 	//ulfirstpktsend=-1;
-	Simulator::Schedule(Seconds(duration),&resetfunc);
+	//Simulator::Schedule(Seconds(duration),&resetfunc);
 }
 
 void

@@ -176,7 +176,7 @@ main (int argc, char *argv[])
 
 	//LogComponentEnable("MinstrelWifiManager",LOG_LEVEL_ALL);
 
-	int lte=1;
+	int lte=2;
 	uint16_t numberOfNodes = 7;
 
 	uint16_t numberOfClients=70;//50;//Users

@@ -445,7 +445,8 @@ Ipv4Interface::Send (Ptr<Packet> p, Ipv4Address dest)
 				//  std::cout << "lte+wifi" << std::endl;
 				//int pkt=rand();
 				//std::cout << "ltewifi in sendtoltesocket\n" <<std::endl;
-				EpcEnbApplication::uplinksendpkt+=p->GetSize();
+                                EpcEnbApplication epcenbapp;
+				epcenbapp.uplinksendpkt+=p->GetSize();
 				if(desport%2==0)
 				{
 
