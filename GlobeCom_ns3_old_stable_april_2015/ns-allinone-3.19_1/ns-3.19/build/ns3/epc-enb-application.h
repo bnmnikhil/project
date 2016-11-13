@@ -66,16 +66,16 @@ public:
   static std::map<Mac48Address,double> rssi;
   static std::map<Mac48Address,Ipv4Address> macipmap;
   void SendToS1uSocket (Ptr<Packet> packet, uint32_t teid);
-   void resetfunc();
+ //  void resetfunc();
+ 
   void udpstats(uint32_t fid,uint32_t pid, double recvbytes, double time);
   void updatewifiload(double load);
   void updatewifisinrper(double sinr,double per, Mac48Address macaddr);
   static void updateltesinrper(std::string context,uint16_t cellid,uint16_t rnti, double sinr, double avgsinr);
   void addbearer(Ipv4Address ip, EpsBearer bearer,double interpacketinterval);
  // static double uplinkthrpt_lte;
-  double uplinkthrpt_wifi;
-  double uplinksendpkt;
-   
+ 
+
   //static double ulfirstpktsend;
   //void algo();
   /*
@@ -185,8 +185,33 @@ private:
    * \param bid the EPS Bearer IDentifier
    */
   void SendToLteSocket (Ptr<Packet> packet, uint16_t rnti, uint8_t bid);
+  void resetfunc();
+   void maximizethrpt();
+   void movefairly();
+  void algo();
+  void algoall();
+  void algo_naive();
+  void algo_SINR();
+  void algo_LOAD();
+  void algo_LOAD1();
+
+ 
 
 
+ uint32_t  topsis(uint32_t gbr, uint32_t currentinterface,uint32_t rank);
+ uint32_t  topsis1(uint32_t gbr, uint32_t currentinterface,uint32_t rank);
+ int  GBR_lte();
+ int  gbr_ensured(uint32_t current_interface);
+ double  sum(uint32_t current_interface, uint32_t gbr);
+ double  sum1(uint32_t current_interface);
+ bool checkNGBR(uint32_t currentinterface);
+ 
+ int nflows(uint32_t current_interface);
+ Ipv4Address lessenergyue();
+ Ipv4Address  moreenergyue();
+ int no_gbrnotensured(uint32_t current_interface);
+ int nGflows(uint32_t current_interface, double QOS);
+ double nGflowstp(uint32_t current_interface, double QOS);
   /** 
    * Send a packet to the SGW via the S1-U interface
    * 
@@ -271,6 +296,17 @@ private:
   std::map<uint64_t, uint16_t> m_imsiRntiMap;
   
   uint16_t m_cellId;
+  uint64_t lreset;
+  double lte_usedrbs;
+public:
+   double uplinkthrpt_wifi;
+  double uplinksendpkt;
+  double uplinkthrpt_lte;
+  
+  double wifitpt;
+  double ltetpt;
+  double uplinkthrpt;
+  double ullastpktrecv;
   
 };
 

@@ -194,7 +194,7 @@ std::map<Mac48Address,Ipv4Address> EpcEnbApplication::macipmap;
 //std::map<Mac48Address,std::map<double,double> > EpcEnbApplication::snr_per;
 std::map<Mac48Address,double> EpcEnbApplication::rssi;
 uint32_t current_value=0,past_value=0;
-uint64_t lreset=0;
+
 int count=-1;
 //THomas -- User defined class for collecting stats for TCP Window
 RouterLayer router;
@@ -263,12 +263,7 @@ int flag=0;
 int mxpt=0;
 int fair=0; 
 bool tcp=false;
-double uplinkthrpt_lte=0;
-double lte_usedrbs;
-double wifitpt=0;
-double ltetpt=0;
-double uplinkthrpt=0;
-double ullastpktrecv=0;
+
 
 
 std::ofstream total ("logs/exp3_4.txt");
@@ -332,7 +327,16 @@ EpcEnbApplication::EpcEnbApplication (Ptr<Socket> lteSocket, Ptr<Socket> s1uSock
   m_gtpuUdpPort (2152), // fixed by the standard
   m_s1SapUser (0),
   m_s1apSapMme (0),
-  m_cellId (cellId)
+  m_cellId (cellId),
+  lreset(0),
+  lte_usedrbs(0),
+  uplinkthrpt_wifi(0),
+  uplinksendpkt(0),
+  uplinkthrpt_lte(0),
+  wifitpt(0),
+  ltetpt(0),
+  uplinkthrpt(0),
+  ullastpktrecv(0)
   
 {
         std::cout<<"  epc created --------"<<std::endl;
@@ -520,6 +524,8 @@ EpcEnbApplication::RecvFromLteSocket (Ptr<Socket> socket)
 	TcpHeader seqheader;
 	packet->PeekHeader(seqheader);
 	packet->AddHeader(ipv4Header);
+
+
 	if(seqheader.GetAckNumber().GetValue()!=1) {
 		for(std::list<pkt_info>::iterator it=pkt_list.begin();it!=pkt_list.end();) {
 			//////std::cout << "src port " << seqheader.GetSourcePort() << "it dest porrt " <<it->dest_port  << std::endl;
@@ -655,7 +661,7 @@ EpcEnbApplication::RecvFromS1uSocket (Ptr<Socket> socket)
 	if(pt>(lreset+uint64_t(300))) {
 		////std::cout<<"RecvFromS1uSocket";
                         lreset=Simulator::Now ().GetMilliSeconds();
-                        std::cout << Simulator::Now ().GetMilliSeconds()<< std::endl;
+                        std::cout <<this<<"  "<< Simulator::Now ().GetMilliSeconds()<< std::endl;
 		//flag=1;
 		resetfunc();
 	}
@@ -763,10 +769,12 @@ void EpcEnbApplication::updatewifisinrper(double sinr,double per, Mac48Address m
 void 
 EpcEnbApplication::SendToLteSocket (Ptr<Packet> packet, uint16_t rnti, uint8_t bid)
 {
-	if(flag==0) {
+        uint64_t pt= Simulator::Now ().GetMilliSeconds();
+	if(pt>(lreset+uint64_t(300))) {
 		//////std::cout << "-------------------------------- start sendtoltesocket--------------------------------" << std::endl;
-                       std::cout << Simulator::Now ().GetSeconds()<< std::endl;
-		flag=1;
+                      lreset=Simulator::Now ().GetMilliSeconds();
+                        std::cout <<this<<"  "<< Simulator::Now ().GetMilliSeconds()<< std::endl;
+		//flag=1;
 		resetfunc();
 	}
 	Ipv4Header ipv4Header;
@@ -921,7 +929,7 @@ EpcEnbApplication::SendToLteSocket (Ptr<Packet> packet, uint16_t rnti, uint8_t b
 		flowtable[flowprobe.GetFlowId()]=flow;
 	}
 }
-uint32_t topsis(uint32_t gbr, uint32_t currentinterface,uint32_t rank) {
+uint32_t EpcEnbApplication::topsis(uint32_t gbr, uint32_t currentinterface,uint32_t rank) {
 	////std::cout << "reached here" << std::endl;
 	double sinrltesum=0,sinrwifisum=0,perwifisum=0;
 	double table[flowtable.size()][5];//=new double[flowtable.size()][4];
@@ -1075,7 +1083,7 @@ uint32_t topsis(uint32_t gbr, uint32_t currentinterface,uint32_t rank) {
 	}
 }
 
-uint32_t topsis1(uint32_t gbr, uint32_t currentinterface,uint32_t rank) {
+uint32_t EpcEnbApplication::topsis1(uint32_t gbr, uint32_t currentinterface,uint32_t rank) {
 	////std::cout << "reached here" << std::endl;
 	double sinrltesum=0,sinrwifisum=0,perwifisum=0,energysum=0;
 	double table[flowtable.size()][6];//=new double[flowtable.size()][4];
@@ -1273,7 +1281,7 @@ uint32_t topsis1(uint32_t gbr, uint32_t currentinterface,uint32_t rank) {
 		return -1;
 	}
 }
-int GBR_lte() {
+int EpcEnbApplication::GBR_lte() {
 	int lte=0;
 	std::map<uint32_t, flowtable_info>::iterator it;
 	for(it=flowtable.begin();it!=flowtable.end();it++) {
@@ -1296,7 +1304,7 @@ int GBR_lte() {
 	}
 	return lte;
 }
-int gbr_ensured(uint32_t current_interface) {
+int EpcEnbApplication::gbr_ensured(uint32_t current_interface) {
 	int gbr_ensured=1;
 	std::map<uint32_t, flowtable_info>::iterator it;
 	for(it=flowtable.begin();it!=flowtable.end();it++) {
@@ -1312,7 +1320,7 @@ int gbr_ensured(uint32_t current_interface) {
 //std::cout<<"---------"<<current_interface<<"   "<<gbr_ensured<<"\n";
 	return gbr_ensured;
 }
-double sum(uint32_t current_interface, uint32_t gbr) {
+double EpcEnbApplication::sum(uint32_t current_interface, uint32_t gbr) {
 	double sum=0;
 	int count=0;
 	std::map<uint32_t, flowtable_info>::iterator it;
@@ -1336,7 +1344,7 @@ double sum(uint32_t current_interface, uint32_t gbr) {
 	else
 		return 0;
 }
-double sum1(uint32_t current_interface) {
+double EpcEnbApplication::sum1(uint32_t current_interface) {
 	double tsum=0;
 	//int count=0;
 	std::map<uint32_t, flowtable_info>::iterator it;
@@ -1349,7 +1357,7 @@ double sum1(uint32_t current_interface) {
 	}
 	return tsum*8/duration/1000/1000;
 }
-bool checkNGBR(uint32_t currentinterface) {
+bool EpcEnbApplication::checkNGBR(uint32_t currentinterface) {
 	std::map<uint32_t, flowtable_info>::iterator it;
 	/*for(it=flowtable.begin();it!=flowtable.end();it++) {
 		std::cout << it->first << " " << it->second.Qos_Enabled << " " << it->second.current_interface << std::endl;
@@ -1362,7 +1370,7 @@ bool checkNGBR(uint32_t currentinterface) {
 	}
 	return false;
 }
-void maximizethrpt() {
+void EpcEnbApplication::maximizethrpt() {
 	double lteload=lte_usedrbs/150;
 	double wifiload=wifi_load*66;
          //std::cout << "maximize throughput is called "<<mxpt++<< std::endl;
@@ -1448,7 +1456,7 @@ void maximizethrpt() {
 		}
 	}
 }
-void movefairly() {
+void EpcEnbApplication::movefairly() {
 	double tsum=0;
 	double isum=0;
         //std::cout << "move fairly is called "<<fair++<< std::endl;
@@ -1508,7 +1516,7 @@ void movefairly() {
 		}
 	}
 }
-int nflows(uint32_t current_interface) {
+int EpcEnbApplication::nflows(uint32_t current_interface) {
 	int count=0;
 	std::map<uint32_t, flowtable_info>::iterator it;
 	for(it=flowtable.begin();it!=flowtable.end();it++) {
@@ -1518,7 +1526,7 @@ int nflows(uint32_t current_interface) {
 	}
 	return count;
 }
-void algo() {
+void EpcEnbApplication::algo() {
 	int gbr_lte=GBR_lte();
 	// no GBR flows
 	if(gbr_lte==0) {
@@ -1672,7 +1680,7 @@ void algo() {
 		}
 	}
 }
-void algoall() {
+void EpcEnbApplication::algoall() {
 	int gbr_lte=GBR_lte();
 	// no GBR flows
 	if(gbr_lte==0) {
@@ -1891,7 +1899,7 @@ void algoall() {
 	}
 }
 
-void algo_naive() {
+void EpcEnbApplication::algo_naive() {
 	double lteload=lte_usedrbs/150;
 	double wifiload=wifi_load*100;
 //	std::cout << "lteload " << lteload << " wifiload " << wifiload << std::endl;
@@ -1917,7 +1925,7 @@ void algo_naive() {
 		}
 	}
 }
- Ipv4Address lessenergyue(){
+ Ipv4Address EpcEnbApplication::lessenergyue(){
 std::map<Ipv4Address,double > energy_table=ns3::LteHelper::iptoenergymap;
 double leastE=31752;
 Ipv4Address ip;
@@ -1936,7 +1944,7 @@ for(it=flowtable.begin();it!=flowtable.end();it++) {
 
 return ip;
 }
-Ipv4Address  moreenergyue(){
+Ipv4Address  EpcEnbApplication::moreenergyue(){
 std::map<Ipv4Address,double > energy_table=ns3::LteHelper::iptoenergymap;
 double moreE=0;
 Ipv4Address ip;
@@ -1955,7 +1963,7 @@ for(it=flowtable.begin();it!=flowtable.end();it++) {
 
 return ip;
 }
-void algo_SINR(){
+void EpcEnbApplication::algo_SINR(){
      int flags=0;
      Ipv4Address iphigh=moreenergyue(); 
      Ipv4Address iplow=lessenergyue();
@@ -2008,7 +2016,7 @@ void algo_SINR(){
 
 }
 
-void algo_LOAD(){
+void EpcEnbApplication::algo_LOAD(){
 //std::cout<<"1 th is called==============================\n";
            double lteload=lte_usedrbs/15000;
 	   double wifiload=wifi_load*100/100;
@@ -2074,7 +2082,7 @@ void algo_LOAD(){
 
 }
 
-void algo_LOAD1(){
+void EpcEnbApplication:: algo_LOAD1(){
 //std::cout<<"1 th is called==============================\n";
            double lteload=lte_usedrbs/15000;
 	   double wifiload=wifi_load*100/100;
@@ -2140,7 +2148,7 @@ int no_gbrnotensured(uint32_t current_interface) {
 	}
 	return count;
 }
-int nGflows(uint32_t current_interface, double QOS) {
+int EpcEnbApplication::nGflows(uint32_t current_interface, double QOS) {
 	int count=0;
 	std::map<uint32_t, flowtable_info>::iterator it;
 	for(it=flowtable.begin();it!=flowtable.end();it++) {
@@ -2150,7 +2158,7 @@ int nGflows(uint32_t current_interface, double QOS) {
 	}
 	return count;
 }
-double nGflowstp(uint32_t current_interface, double QOS) {
+double EpcEnbApplication::nGflowstp(uint32_t current_interface, double QOS) {
 	double count=0;
 	std::map<uint32_t, flowtable_info>::iterator it;
 	for(it=flowtable.begin();it!=flowtable.end();it++) {
@@ -2373,10 +2381,12 @@ EpcEnbApplication::SendToS1uSocket (Ptr<Packet> packet, uint32_t teid)
 	ullastpktrecv=Simulator::Now().GetSeconds();
 	GtpuHeader gtpu;
 	gtpu.SetTeid (teid);
+
 	// From 3GPP TS 29.281 v10.0.0 Section 5.1
 	// Length of the payload + the non obligatory GTP-U header
 	gtpu.SetLength (packet->GetSize () + gtpu.GetSerializedSize () - 8);
 	packet->AddHeader (gtpu);
+//std::cout<<"IP =" <<m_sgwS1uAddress<<"m_gtpuUdpPort :" <<m_gtpuUdpPort<<std::endl;
 	uint32_t flags = 0;
 	m_s1uSocket->SendTo (packet, flags, InetSocketAddress(m_sgwS1uAddress, m_gtpuUdpPort));
 

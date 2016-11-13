@@ -1,4 +1,4 @@
-# project ns (3.19) configured on Fri Oct 21 15:41:51 2016 by
+# project ns (3.19) configured on Thu Nov 10 19:45:44 2016 by
 # waf 1.7.13 (abi 98, python 20706f0 on linux2)
 # using waf configure --with-pybindgen ../pybindgen-0.16.0.834
 #
@@ -105,48 +105,15 @@ int main(int argc, char **argv) {
 [2/2] [33mcxxprogram: build/.conf_check_3b2479b91ea1f8aedc2bbc867fa4858e/testbuild/test.cpp.1.o -> build/.conf_check_3b2479b91ea1f8aedc2bbc867fa4858e/testbuild/testprog
 [0m
 ['/usr/bin/g++', '-Wl,-Bsymbolic-functions', '-Wl,-z,relro', 'test.cpp.1.o', '-o', '/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/build/.conf_check_3b2479b91ea1f8aedc2bbc867fa4858e/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib', '-lpython2.7']
-err: /usr/bin/ld: cannot find -lpython2.7
-collect2: error: ld returned 1 exit status
-
-from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/bindings/python: Test does not build: Traceback (most recent call last):
-  File "/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/.waf-1.7.13-5a064c2686fe54de4e11018d22148cfc/waflib/Tools/c_config.py", line 459, in run_c_code
-    bld.compile()
-  File "/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/.waf-1.7.13-5a064c2686fe54de4e11018d22148cfc/waflib/Build.py", line 188, in compile
-    raise Errors.BuildError(self.producer.error)
-BuildError: Build failed
- -> task in 'testprog' failed (exit status 1): 
-	{task 139689329281552: cxxprogram test.cpp.1.o -> testprog}
-['/usr/bin/g++', '-Wl,-Bsymbolic-functions', '-Wl,-z,relro', 'test.cpp.1.o', '-o', '/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/build/.conf_check_3b2479b91ea1f8aedc2bbc867fa4858e/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib', '-lpython2.7']
-
-not found
-from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/bindings/python: The configuration failed
-
-
-# try again with -L$python_LIBPL (some systems don't install the python library in $prefix/lib)
-
----------------------------------------------------------
-Checking for library python2.7 in python_LIBPL
-==>
-
-int main(int argc, char **argv) {
-	(void)argc; (void)argv;
-	return 0;
-}
-
-<==
-[1/2] [32mcxx: build/.conf_check_d17a70babee59afe3e1c1c75ef40e077/test.cpp -> build/.conf_check_d17a70babee59afe3e1c1c75ef40e077/testbuild/test.cpp.1.o
-[0m
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-fno-strict-aliasing', '-fwrapv', '-fstack-protector', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
-[2/2] [33mcxxprogram: build/.conf_check_d17a70babee59afe3e1c1c75ef40e077/testbuild/test.cpp.1.o -> build/.conf_check_d17a70babee59afe3e1c1c75ef40e077/testbuild/testprog
-[0m
-['/usr/bin/g++', '-Wl,-Bsymbolic-functions', '-Wl,-z,relro', 'test.cpp.1.o', '-o', '/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/build/.conf_check_d17a70babee59afe3e1c1c75ef40e077/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib/python2.7/config-x86_64-linux-gnu', '-lpython2.7']
 yes
 ------------------------------------------------------------------------------------------------
 Checking for program /usr/bin/python-config,python2.7-config,python-config-2.7,python2.7m-config
-not found
-find program=['/usr/bin/python-config', 'python2.7-config', 'python-config-2.7', 'python2.7m-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='PYTHON_CONFIG' -> ''
-from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/bindings/python: Could not find the program /usr/bin/python-config,python2.7-config,python-config-2.7,python2.7m-config
-Include path for Python extensions (found via distutils module): '/usr/include/python2.7'
+/usr/bin/python-config
+find program=['/usr/bin/python-config', 'python2.7-config', 'python-config-2.7', 'python2.7m-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='PYTHON_CONFIG' -> '/usr/bin/python-config'
+['/usr/bin/python-config', '--includes']
+out: -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu/python2.7
+
+Include path for Python extensions (found via python-config --includes): ['/usr/include/python2.7', '/usr/include/x86_64-linux-gnu/python2.7']
 
 ------------------------------------------------------------------------------------------------
 Checking for header Python.h
@@ -172,11 +139,91 @@ int main(int argc, char **argv)
 <==
 [1/2] [32mcxx: build/.conf_check_1f933b02106127ce3a9f4633a0e368e7/test.cpp -> build/.conf_check_1f933b02106127ce3a9f4633a0e368e7/testbuild/test.cpp.1.o
 [0m
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-fno-strict-aliasing', '-fwrapv', '-fstack-protector', '-fno-strict-aliasing', '-I/usr/include/python2.7', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
-err: ../test.cpp:2:20: fatal error: Python.h: No such file or directory
- #include <Python.h>
-                    ^
-compilation terminated.
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-fno-strict-aliasing', '-fwrapv', '-fstack-protector', '-fno-strict-aliasing', '-I/usr/include/python2.7', '-I/usr/include/x86_64-linux-gnu/python2.7', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_1f933b02106127ce3a9f4633a0e368e7/testbuild/test.cpp.1.o -> build/.conf_check_1f933b02106127ce3a9f4633a0e368e7/testbuild/testprog
+[0m
+['/usr/bin/g++', '-Wl,-Bsymbolic-functions', '-Wl,-z,relro', 'test.cpp.1.o', '-o', '/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/build/.conf_check_1f933b02106127ce3a9f4633a0e368e7/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib', '-lpython2.7']
+yes
+------------------------------------------------------------------------------------------------
+Checking for compilation flag -fvisibility=hidden... support
+==>
+#include <stdio.h>
+int main() { return 0; }
+
+<==
+[1/2] [32mcxx: build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/test.cc -> build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/test.cc.1.o
+[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-fvisibility=hidden', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DHAVE_PYTHON_H=1', '../test.cc', '-c', '-o', 'test.cc.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/test.cc.1.o -> build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/testprog
+[0m
+['/usr/bin/g++', 'test.cc.1.o', '-o', '/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+ok
+------------------------------------------------------------------------------------------------
+Checking for compilation flag -Wno-array-bounds... support
+==>
+#include <stdio.h>
+int main() { return 0; }
+
+<==
+[1/2] [32mcxx: build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/test.cc -> build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/test.cc.1.o
+[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-array-bounds', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DHAVE_PYTHON_H=1', '../test.cc', '-c', '-o', 'test.cc.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/test.cc.1.o -> build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/testprog
+[0m
+['/usr/bin/g++', 'test.cc.1.o', '-o', '/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+ok
+------------------------------------------------------------------------------------------------
+Checking for pybindgen location
+../pybindgen-0.16.0.834 (given)
+------------------------------------------------------------------------------------------------
+Python module pybindgen
+['/usr/bin/python', '-c', "\nimport pybindgen as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n    print(str(version))\nelse:\n    print('unknown version')\n"]
+out: unknown version
+
+ok
+------------------------------------------------------------------------------------------------
+Checking for pybindgen version
+0.16.0.834
+==>
+
+#include <stdint.h>
+#include <vector>
+
+int main ()
+{
+   std::vector< uint64_t > t = std::vector< unsigned long > ();
+   return 0;
+}
+
+<==
+[1/2] [32mcxx: build/.conf_check_efd20fc635aad783e4d3953701740533/test.cc -> build/.conf_check_efd20fc635aad783e4d3953701740533/testbuild/test.cc.1.o
+[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DHAVE_PYTHON_H=1', '../test.cc', '-c', '-o', 'test.cc.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_efd20fc635aad783e4d3953701740533/testbuild/test.cc.1.o -> build/.conf_check_efd20fc635aad783e4d3953701740533/testbuild/testprog
+[0m
+['/usr/bin/g++', 'test.cc.1.o', '-o', '/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/build/.conf_check_efd20fc635aad783e4d3953701740533/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+------------------------------------------------------------------------------------------------
+Checking for types uint64_t and unsigned long equivalence
+yes
+==>
+
+#include <stdint.h>
+#include <vector>
+
+int main ()
+{
+   std::vector< uint64_t > t = std::vector< unsigned long long > ();
+   return 0;
+}
+
+<==
+[1/2] [32mcxx: build/.conf_check_355be13189b7b0ddfb123175e2bb33a5/test.cc -> build/.conf_check_355be13189b7b0ddfb123175e2bb33a5/testbuild/test.cc.1.o
+[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DHAVE_PYTHON_H=1', '../test.cc', '-c', '-o', 'test.cc.1.o']
+err: ../test.cc: In function ‘int main()’:
+../test.cc:7:67: error: conversion from ‘std::vector<long long unsigned int>’ to non-scalar type ‘std::vector<long unsigned int>’ requested
+    std::vector< uint64_t > t = std::vector< unsigned long long > ();
+                                                                   ^
 
 from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/bindings/python: Test does not build: Traceback (most recent call last):
   File "/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/.waf-1.7.13-5a064c2686fe54de4e11018d22148cfc/waflib/Tools/c_config.py", line 459, in run_c_code
@@ -185,16 +232,50 @@ from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 139689335104976: cxx test.cpp -> test.cpp.1.o}
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-fno-strict-aliasing', '-fwrapv', '-fstack-protector', '-fno-strict-aliasing', '-I/usr/include/python2.7', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+	{task 140039055177424: cxx test.cc -> test.cc.1.o}
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DHAVE_PYTHON_H=1', '../test.cc', '-c', '-o', 'test.cc.1.o']
 
-:-(
-from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/bindings/python: The configuration failed
 ------------------------------------------------------------------------------------------------
-Asking python-config for pyembed --cflags flags
-[[], '--cflags']
-not found
-from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/bindings/python: The configuration failed
+Checking for types uint64_t and unsigned long long equivalence
+no
+------------------------------------------------------------------------------------------------
+Checking for the apidefs that can be used for Python bindings
+gcc-LP64
+------------------------------------------------------------------------------------------------
+Checking for internal GCC cxxabi
+==>
+
+# include <cxxabi.h>
+int main ()
+{
+   const abi::__si_class_type_info *_typeinfo  __attribute__((unused)) = NULL;
+   return 0;
+}
+
+<==
+[1/2] [32mcxx: build/.conf_check_97f735b5464546b54ea13ec62d1c17e5/test.cpp -> build/.conf_check_97f735b5464546b54ea13ec62d1c17e5/testbuild/test.cpp.1.o
+[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_97f735b5464546b54ea13ec62d1c17e5/testbuild/test.cpp.1.o -> build/.conf_check_97f735b5464546b54ea13ec62d1c17e5/testbuild/testprog
+[0m
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/build/.conf_check_97f735b5464546b54ea13ec62d1c17e5/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+complete
+------------------------------------------------------------------------------------------------
+Python module pygccxml
+['/usr/bin/python', '-c', "\nimport pygccxml as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n    print(str(version))\nelse:\n    print('unknown version')\n"]
+out: 1.0.0
+
+1.0.0
+------------------------------------------------------------------------------------------------
+Checking for pygccxml version
+1.0.0
+------------------------------------------------------------------------------------------------
+Checking for program gccxml
+/usr/bin/gccxml
+find program=['gccxml'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='GCCXML' -> '/usr/bin/gccxml'
+------------------------------------------------------------------------------------------------
+Checking for gccxml version
+0.9.0
 ------------------------------------------------------------------------------------------------
 Checking boost includes
 from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/src: headers not found, please provide a --boost-includes argument (see help)
@@ -213,13 +294,17 @@ find program=['pkg-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sb
 ------------------------------------------------------------------------------------------------
 Checking for 'gtk+-2.0' >= 2.12
 ['/usr/bin/pkg-config', '--atleast-version=2.12', 'gtk+-2.0']
-not found
-from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/src/config-store: The configuration failed
+['/usr/bin/pkg-config', '--cflags', '--libs', 'gtk+-2.0']
+out: -pthread -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz  -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfontconfig -lgobject-2.0 -lglib-2.0 -lfreetype  
+
+yes
 ------------------------------------------------------------------------------------------------
 Checking for 'libxml-2.0' >= 2.7
 ['/usr/bin/pkg-config', '--atleast-version=2.7', 'libxml-2.0']
-not found
-from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/src/config-store: The configuration failed
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libxml-2.0']
+out: -I/usr/include/libxml2  -lxml2  
+
+yes
 ------------------------------------------------------------------------------------------------
 Checking for type uint128_t
 ==>
@@ -257,7 +342,7 @@ from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 139689335103568: cxx test.cpp -> test.cpp.1.o}
+	{task 140039054850384: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 not found
@@ -347,7 +432,7 @@ from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 139689328816656: cxx test.cpp -> test.cpp.1.o}
+	{task 140039054904528: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 not found
@@ -524,7 +609,7 @@ from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 139689328739792: cxx test.cpp -> test.cpp.1.o}
+	{task 140039020196880: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 not found
@@ -660,13 +745,9 @@ not found
 ------------------------------------------------------------------------------------------------
 Checking for 'sqlite3'
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'sqlite3']
-err: Package sqlite3 was not found in the pkg-config search path.
-Perhaps you should add the directory containing `sqlite3.pc'
-to the PKG_CONFIG_PATH environment variable
-No package 'sqlite3' found
+out:  -lsqlite3  
 
-not found
-from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/src/stats: The configuration failed
+yes
 ------------------------------------------------------------------------------------------------
 Checking for header linux/if_tun.h
 ==>
@@ -680,30 +761,43 @@ int main(int argc, char **argv) {
 <==
 [1/2] [32mcxx: build/.conf_check_79f849e1774b3cde8897857e178c7c8c/test.cpp -> build/.conf_check_79f849e1774b3cde8897857e178c7c8c/testbuild/test.cpp.1.o
 [0m
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_SQLITE3=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_79f849e1774b3cde8897857e178c7c8c/testbuild/test.cpp.1.o -> build/.conf_check_79f849e1774b3cde8897857e178c7c8c/testbuild/testprog
 [0m
 ['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/build/.conf_check_79f849e1774b3cde8897857e178c7c8c/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
+------------------------------------------------------------------------------------------------
+Python module gtk
+['/usr/bin/python', '-c', "\nimport gtk as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n    print(str(version))\nelse:\n    print('unknown version')\n"]
+out: unknown version
+
+ok
+------------------------------------------------------------------------------------------------
+Python module goocanvas
+['/usr/bin/python', '-c', "\nimport goocanvas as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n    print(str(version))\nelse:\n    print('unknown version')\n"]
+out: 0.14.1
+
+0.14.1
+------------------------------------------------------------------------------------------------
+Python module pygraphviz
+['/usr/bin/python', '-c', "\nimport pygraphviz as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n    print(str(version))\nelse:\n    print('unknown version')\n"]
+out: 1.2
+
+1.2
 ------------------------------------------------------------------------------------------------
 Checking for program sudo
 /usr/bin/sudo
 find program=['sudo'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='SUDO' -> '/usr/bin/sudo'
 ------------------------------------------------------------------------------------------------
 Checking for program valgrind
-not found
-find program=['valgrind'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='VALGRIND' -> ''
-from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19: Could not find the program valgrind
+/usr/bin/valgrind
+find program=['valgrind'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='VALGRIND' -> '/usr/bin/valgrind'
 ------------------------------------------------------------------------------------------------
 Checking for 'gsl'
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'gsl']
-err: Package gsl was not found in the pkg-config search path.
-Perhaps you should add the directory containing `gsl.pc'
-to the PKG_CONFIG_PATH environment variable
-No package 'gsl' found
+out:  -lgsl -lgslcblas -lm  
 
-not found
-from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19: The configuration failed
+yes
 ------------------------------------------------------------------------------------------------
 Checking for compilation flag -Wno-error=deprecated-d... support
 ==>
@@ -713,7 +807,7 @@ int main() { return 0; }
 <==
 [1/2] [32mcxx: build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/test.cc -> build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/test.cc.1.o
 [0m
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-error=deprecated-declarations', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cc', '-c', '-o', 'test.cc.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-error=deprecated-declarations', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_SQLITE3=1', '-DHAVE_IF_TUN_H=1', '-DHAVE_GSL=1', '../test.cc', '-c', '-o', 'test.cc.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/test.cc.1.o -> build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/testprog
 [0m
 ['/usr/bin/g++', 'test.cc.1.o', '-o', '/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
@@ -727,7 +821,7 @@ int main() { return 0; }
 <==
 [1/2] [32mc: build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/test.c -> build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/test.c.1.o
 [0m
-['/usr/bin/gcc', '-Wno-error=deprecated-declarations', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.c', '-c', '-o', 'test.c.1.o']
+['/usr/bin/gcc', '-Wno-error=deprecated-declarations', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_SQLITE3=1', '-DHAVE_IF_TUN_H=1', '-DHAVE_GSL=1', '../test.c', '-c', '-o', 'test.c.1.o']
 [2/2] [33mcprogram: build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/test.c.1.o -> build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/testprog
 [0m
 ['/usr/bin/gcc', 'test.c.1.o', '-o', '/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
@@ -741,7 +835,7 @@ int main() { return 0; }
 <==
 [1/2] [32mcxx: build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/test.cc -> build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/test.cc.1.o
 [0m
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-error=deprecated-declarations', '-fstrict-aliasing', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cc', '-c', '-o', 'test.cc.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-error=deprecated-declarations', '-fstrict-aliasing', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_SQLITE3=1', '-DHAVE_IF_TUN_H=1', '-DHAVE_GSL=1', '../test.cc', '-c', '-o', 'test.cc.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/test.cc.1.o -> build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/testprog
 [0m
 ['/usr/bin/g++', 'test.cc.1.o', '-o', '/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
@@ -755,7 +849,7 @@ int main() { return 0; }
 <==
 [1/2] [32mc: build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/test.c -> build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/test.c.1.o
 [0m
-['/usr/bin/gcc', '-fstrict-aliasing', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.c', '-c', '-o', 'test.c.1.o']
+['/usr/bin/gcc', '-fstrict-aliasing', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_SQLITE3=1', '-DHAVE_IF_TUN_H=1', '-DHAVE_GSL=1', '../test.c', '-c', '-o', 'test.c.1.o']
 [2/2] [33mcprogram: build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/test.c.1.o -> build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/testprog
 [0m
 ['/usr/bin/gcc', 'test.c.1.o', '-o', '/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
@@ -769,7 +863,7 @@ int main() { return 0; }
 <==
 [1/2] [32mcxx: build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/test.cc -> build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/test.cc.1.o
 [0m
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-error=deprecated-declarations', '-fstrict-aliasing', '-Wstrict-aliasing', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cc', '-c', '-o', 'test.cc.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-error=deprecated-declarations', '-fstrict-aliasing', '-Wstrict-aliasing', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_SQLITE3=1', '-DHAVE_IF_TUN_H=1', '-DHAVE_GSL=1', '../test.cc', '-c', '-o', 'test.cc.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/test.cc.1.o -> build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/testprog
 [0m
 ['/usr/bin/g++', 'test.cc.1.o', '-o', '/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
@@ -783,13 +877,12 @@ int main() { return 0; }
 <==
 [1/2] [32mc: build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/test.c -> build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/test.c.1.o
 [0m
-['/usr/bin/gcc', '-Wstrict-aliasing', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.c', '-c', '-o', 'test.c.1.o']
+['/usr/bin/gcc', '-Wstrict-aliasing', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_SQLITE3=1', '-DHAVE_IF_TUN_H=1', '-DHAVE_GSL=1', '../test.c', '-c', '-o', 'test.c.1.o']
 [2/2] [33mcprogram: build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/test.c.1.o -> build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/testprog
 [0m
 ['/usr/bin/gcc', 'test.c.1.o', '-o', '/home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19/build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 ok
 ------------------------------------------------------------------------------------------------
 Checking for program doxygen
-not found
-find program=['doxygen'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='DOXYGEN' -> ''
-from /home/lab1/nikhil/nikhilbabu12-lwip_code_from_nitg-68aba4e0e471/GlobeCom_ns3_old_stable_april_2015/ns-allinone-3.19_1/ns-3.19: Could not find the program doxygen
+/usr/bin/doxygen
+find program=['doxygen'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='DOXYGEN' -> '/usr/bin/doxygen'

@@ -176,7 +176,7 @@ main (int argc, char *argv[])
 
 	//LogComponentEnable("MinstrelWifiManager",LOG_LEVEL_ALL);
 
-	int lte=1;
+	int lte=2;
 	uint16_t numberOfNodes = 7;
 
 	uint16_t numberOfClients=70;//50;//Users
@@ -241,7 +241,7 @@ main (int argc, char *argv[])
 	ipv4h.SetBase ("1.0.0.0", "255.0.0.0");
 	Ipv4InterfaceContainer internetIpIfaces = ipv4h.Assign (internetDevices);
 	// interface 0 is localhost, 1 is the p2p device
-	Ipv4Address remoteHostAddr = internetIpIfaces.GetAddress (1);
+	//Ipv4Address remoteHostAddr = internetIpIfaces.GetAddress (1);
 	
 	
 	
@@ -800,7 +800,7 @@ for (uint32_t i=0;i<integrated_ue.Get(0)->GetNDevices();i++){
 		ueStaticRouting->SetDefaultRoute (epcHelper->GetUeDefaultGatewayAddress (), 1);
 	}
 
-
+       // lteHelper->AttachToClosestEnb (ueLteDevs, enbLteDevs);
         uint16_t ue_num = 0;
         for(ue_num = 0;ue_num<10;ue_num++) 
 	{
@@ -1193,10 +1193,10 @@ Ptr<RadioEnvironmentMapHelper> remHelper = CreateObject<RadioEnvironmentMapHelpe
 	//UDP Application======================================
 
 
- uint16_t port=2000;
+ //uint16_t port=2000;
 	uint16_t port1=1001;
 	double count=0;
-	for (uint32_t u = 0; u <8; u++)
+/*	for (uint32_t u = 0; u <8; u++)
 	{
 		UdpClientHelper source (remoteHostAddr, port);
 		// Set the amount of data to send in bytes.  Zero is unlimited.
@@ -1213,7 +1213,7 @@ Ptr<RadioEnvironmentMapHelper> remHelper = CreateObject<RadioEnvironmentMapHelpe
 
 		////std::cout<<"Uplink UE = "<<u<<" Source Port "<<port<<std::endl;
 		port++;
-	}
+	}*/
         
 	//count=0;
 	
@@ -1238,7 +1238,8 @@ Ptr<RadioEnvironmentMapHelper> remHelper = CreateObject<RadioEnvironmentMapHelpe
 		port1++;
 		//-----------------------------try
 		
-	}for (uint32_t u = 0; u <numberOfClients ; u++)
+	}
+  /*         for (uint32_t u = 0; u <numberOfClients ; u++)
 	{
 		//------------------------test
 		//if(u<32) {
@@ -1260,7 +1261,7 @@ Ptr<RadioEnvironmentMapHelper> remHelper = CreateObject<RadioEnvironmentMapHelpe
 		port1++;
 		//-----------------------------try
 	}
-     for (uint32_t u = 0; u <numberOfClients ; u++)
+    for (uint32_t u = 0; u <numberOfClients ; u++)
 	{//------------------------test
 		//if(u<32) {
 		UdpClientHelper source11 (ueIpIface.GetAddress (u), port1);
@@ -1447,7 +1448,7 @@ Ptr<RadioEnvironmentMapHelper> remHelper = CreateObject<RadioEnvironmentMapHelpe
 		port1++;
 
 		//-----------------------------try
-	}
+	}*/
 
 
 
