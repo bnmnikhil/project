@@ -53,7 +53,9 @@ void RouterLayer::SendDownlink(Ptr<Packet> packet,uint16_t protocolNumber,Ptr<Ne
 void RouterLayer::mapfunc(Mac48Address macaddr,Ipv4Address ipv4address, uint16_t enb) {
 	mapaddress[ipv4address]=macaddr;
 	mapenbtowifi[ipv4address]=enb;
-	ns3::EpcEnbApplication::macipmap[macaddr]=ipv4address;
+        EpcEnbApplication epcenbapp;
+	epcenbapp.macipmap[macaddr]=ipv4address;
+	//ns3::EpcEnbApplication::macipmap[macaddr]=ipv4address;
 }
 void RouterLayer::senduplink(Ptr<Packet> p,Ptr<NetDevice> m_device,uint16_t protocolNumber) {
 	m_device->Send(p,wifi_Ap_macaddr[0],protocolNumber);

@@ -241,7 +241,7 @@ main (int argc, char *argv[])
 	ipv4h.SetBase ("1.0.0.0", "255.0.0.0");
 	Ipv4InterfaceContainer internetIpIfaces = ipv4h.Assign (internetDevices);
 	// interface 0 is localhost, 1 is the p2p device
-	//Ipv4Address remoteHostAddr = internetIpIfaces.GetAddress (1);
+	Ipv4Address remoteHostAddr = internetIpIfaces.GetAddress (1);
 	
 	
 	
@@ -1193,7 +1193,7 @@ Ptr<RadioEnvironmentMapHelper> remHelper = CreateObject<RadioEnvironmentMapHelpe
 	//UDP Application======================================
 
 
- //uint16_t port=2000;
+ uint16_t port=2000;
 	uint16_t port1=1001;
 	double count=0;
 /*	for (uint32_t u = 0; u <8; u++)
@@ -1348,7 +1348,7 @@ Ptr<RadioEnvironmentMapHelper> remHelper = CreateObject<RadioEnvironmentMapHelpe
 		port1++;
 		//-----------------------------try
 	}
-	//temp=count;
+	//temp=count;*/
 	for(uint32_t u=36;u<41;u++) {
 		BulkSendHelper source ("ns3::TcpSocketFactory",InetSocketAddress (remoteHostAddr, port));
 		// Set the amount of data to send in bytes.  Zero is unlimited.
@@ -1365,7 +1365,7 @@ Ptr<RadioEnvironmentMapHelper> remHelper = CreateObject<RadioEnvironmentMapHelpe
 			count=count+0.3;
 		////std::cout<<"Uplink UE = "<<u<<" Source Port "<<port<<std::endl;
 		port++;
-	}
+	}/*
          for(uint32_t u=36;u<41;u++) {
 
                      UdpClientHelper source11 (ueIpIface.GetAddress (u), port1);

@@ -645,6 +645,8 @@ LteHelper::InstallSingleUeDevice (Ptr<Node> n)
     }
 
   dev->Initialize ();
+
+ // EpcEnbApplication epcenbapp;
   phy->TraceConnectWithoutContext("m_reportCurrentCellRsrpSinrTrace",MakeCallback(EpcEnbApplication::updateltesinrper));
   return dev;
 }

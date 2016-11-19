@@ -184,21 +184,22 @@ Ipv4FlowProbeTag::GetPacketSize (void) const
 {
 	return m_packetSize;
 }
-NS_LOG_COMPONENT_DEFINE ("EpcEnbApplication")
-;uint64_t nmb=0;
+NS_LOG_COMPONENT_DEFINE ("EpcEnbApplication");
+/* uint64_t nmb=0;
 //uint32_t pkt_cnt=0;
 uint32_t packtno=0;
-uint16_t temp_port=0;
+uint16_t temp_port=0;*/
 uint32_t EpcEnbApplication::onlylte=1;
-std::map<Mac48Address,Ipv4Address> EpcEnbApplication::macipmap;
+/*std::map<Mac48Address,Ipv4Address> EpcEnbApplication::macipmap;
 //std::map<Mac48Address,std::map<double,double> > EpcEnbApplication::snr_per;
-std::map<Mac48Address,double> EpcEnbApplication::rssi;
-uint32_t current_value=0,past_value=0;
+std::map<Mac48Address,double> EpcEnbApplication::rssi;*/
+//uint32_t current_value=0,past_value=0;
 
-int count=-1;
+//int count=-1;
 //THomas -- User defined class for collecting stats for TCP Window
 RouterLayer router;
-double  wifi_load;
+//double  wifi_load;
+/*
 struct time_info{
 	uint32_t source_port;
 	int64_t past;
@@ -257,14 +258,11 @@ std::map<Ipv4Address, sinrperinfo> sinr_table;
 std::map<Ipv4Address, sinrperinfo> per_table;
 std::map<uint32_t, Ipv4Address> rntiipmap;
 std::map<Ipv4Address, EpsBearer> ipbearermap;
-std::map<Ipv4Address, double> ipdatarate;
-int64_t past=0;
-int flag=0;
-int mxpt=0;
-int fair=0; 
-bool tcp=false;
+std::map<Ipv4Address, double> ipdatarate;*/
 
 
+std::map<Ipv4Address, EpcEnbApplication::sinrperinfo> sinr_table;
+std::map<uint32_t, Ipv4Address> rntiipmap;
 
 std::ofstream total ("logs/exp3_4.txt");
 std::ofstream flows ("logs/trailtpSINR3f.txt");
@@ -339,7 +337,7 @@ EpcEnbApplication::EpcEnbApplication (Ptr<Socket> lteSocket, Ptr<Socket> s1uSock
   ullastpktrecv(0)
   
 {
-        std::cout<<"  epc created --------"<<std::endl;
+        std::cout<<this<<"  epc created --------"<<std::endl;
 	NS_LOG_FUNCTION (this << lteSocket << s1uSocket << sgwS1uAddress);
 	m_s1uSocket->SetRecvCallback (MakeCallback (&EpcEnbApplication::RecvFromS1uSocket, this));
 	m_lteSocket->SetRecvCallback (MakeCallback (&EpcEnbApplication::RecvFromLteSocket, this));
@@ -349,6 +347,19 @@ EpcEnbApplication::EpcEnbApplication (Ptr<Socket> lteSocket, Ptr<Socket> s1uSock
         //uplinkthrpt_wifi=0;
         uplinkthrpt_wifi=0;
         uplinksendpkt=0;
+        past=0;
+        flag=0;
+        mxpt=0;
+        fair=0; 
+        tcp=false;
+        nmb=0;
+        //uint32_t pkt_cnt=0;
+        packtno=0;
+        temp_port=0;
+        current_value=0;
+        past_value=0;
+        count=-1;
+        wifi_load=0;
 }
 
 
@@ -689,8 +700,9 @@ EpcEnbApplication::RecvFromS1uSocket (Ptr<Socket> socket)
 	SendToLteSocket (packet, it->second.m_rnti, it->second.m_bid);
 }
 void EpcEnbApplication::udpstats(uint32_t fid,uint32_t pid, double recvbytes, double time) {
-
-	for(std::list<udp_pktinfo>::iterator it=udp_pktlist.begin();it!=udp_pktlist.end();) {
+        
+	for(std::list<EpcEnbApplication::udp_pktinfo>::iterator it=udp_pktlist.begin();it!=udp_pktlist.end();) {
+                        std::cout <<"i am getting called-----------------------------------------"<<std::endl;
 		if(it->fid==fid && it->pid==pid) {
 			//std::cout << it->fid  << " recvbytes " << recvbytes << std::endl;
 			udp_recvbytes[fid]+=recvbytes;
@@ -725,10 +737,10 @@ void EpcEnbApplication::updateltesinrper(std::string context, uint16_t cellid,ui
 	Ipv4Address ip=rntiipmap[rnti];
 	//////std::cout << "ip " << ip << std::endl;
 	if(sinr_table.find(ip)!=sinr_table.end()) {
-		sinrperinfo s=sinr_table[ip];
-		s.lteval=avgsinr;
-		sinr_table[ip]=s;
-
+	//	sinrperinfo stemp=sinr_table[ip];
+	//	stemp.lteval=avgsinr;
+	//	sinr_table[ip]=stemp;
+                sinr_table[ip].lteval=avgsinr;
 	} else {
 		sinrperinfo s;
 		s.lteval=avgsinr;
@@ -799,7 +811,7 @@ EpcEnbApplication::SendToLteSocket (Ptr<Packet> packet, uint16_t rnti, uint8_t b
 	BEARER_ID_UE_IP_MAP[rnti]=ipv4Header.GetSource();
 
 	if(flowtable.find(flowprobe.GetFlowId())==flowtable.end() && ipv4Header.GetSource()!="2.0.0.2") {
-
+              //  std::cout <<"new flow created---------- "<<std::endl;
 		flowtable_info f;
 		f.current_interface=1;
 		EpsBearer eps=ipbearermap[ipv4Header.GetDestination()];
@@ -868,13 +880,13 @@ EpcEnbApplication::SendToLteSocket (Ptr<Packet> packet, uint16_t rnti, uint8_t b
 
 			fid=flowprobe.GetFlowId();
 			pid=flowprobe.GetPacketId();
-			//////std::cout << "fid " << fid << " pid " << pid << std::endl;
+			//std::cout << "fid " << fid << " pid " << pid << std::endl;
 			udp_pktinfo p;
 			p.fid=fid;
 			p.recvbytes=packet->GetSize();
 			p.pktsendtime=Simulator::Now ().GetSeconds();
 			p.pid=pid;
-			udp_pktlist.push_back(p);
+			EpcEnbApplication::udp_pktlist.push_back(p);
 			if(udp_firstpktsend[fid]==0) {
 				udp_firstpktsend[fid]=Simulator::Now ().GetSeconds();
 			}
@@ -1349,9 +1361,10 @@ double EpcEnbApplication::sum1(uint32_t current_interface) {
 	//int count=0;
 	std::map<uint32_t, flowtable_info>::iterator it;
 	for(it=flowtable.begin();it!=flowtable.end();it++) {
-
+                
 		if(it->second.current_interface==current_interface ) {
 			tsum+=it->second.throughput;
+                       // std::cout<<"flow---------------"<<it->second.throughput<<std::endl;
 		}
 
 	}
@@ -2134,7 +2147,7 @@ void EpcEnbApplication:: algo_LOAD1(){
 
 
 
-int no_gbrnotensured(uint32_t current_interface) {
+int EpcEnbApplication::no_gbrnotensured(uint32_t current_interface) {
 	double count=0;
 	std::map<uint32_t, flowtable_info>::iterator it;
 	for(it=flowtable.begin();it!=flowtable.end();it++) {
@@ -2312,12 +2325,12 @@ void EpcEnbApplication::resetfunc(void) {
 	////std::cout << "ip sinr per \n";
 	std::map<Ipv4Address, sinrperinfo>::iterator it_sinr;
 	std::map<Ipv4Address, sinrperinfo>::iterator it_per=per_table.begin();
-	for(it_sinr=sinr_table.begin();(it_sinr!=sinr_table.end()) && (it_per!=per_table.end());it_sinr++,it_per++) {
+	/*for(it_sinr=sinr_table.begin();(it_sinr!=sinr_table.end()) && (it_per!=per_table.end());it_sinr++,it_per++) {
 		////std::cout << it_sinr->first << " " << sinr_table[it_sinr->first].lteval << " "  << sinr_table[it_sinr->first].wifival << std::endl;
 		////std::cout << it_per->first << " " << per_table[it_sinr->first].lteval << " "  << per_table[it_sinr->first].wifival << std::endl;
 
 	}
-
+*/
        //  wifitpt=wtthrpt+sum1(2)+(double)uplinkthrpt_wifi*8/duration/1000/1000;
       //   ltetpt=sum1(1)+(double)uplinkthrpt_lte*8/duration/1000/1000;
 

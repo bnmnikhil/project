@@ -36,7 +36,9 @@
 #include <ns3/epc-s1ap-sap.h>
 #include "ns3/net-device.h"
 #include <map>
-
+#include "ns3/udp-header.h"
+#include "ns3/seq-ts-header.h"
+#include "ns3/tcp-header.h"
 namespace ns3 {
 class EpcEnbS1SapUser;
 class EpcEnbS1SapProvider;
@@ -63,15 +65,14 @@ protected:
 public:
   static uint32_t onlylte;
   //static std::map<Mac48Address,std::map<double,double> > snr_per;
-  static std::map<Mac48Address,double> rssi;
-  static std::map<Mac48Address,Ipv4Address> macipmap;
+   
   void SendToS1uSocket (Ptr<Packet> packet, uint32_t teid);
  //  void resetfunc();
  
   void udpstats(uint32_t fid,uint32_t pid, double recvbytes, double time);
   void updatewifiload(double load);
   void updatewifisinrper(double sinr,double per, Mac48Address macaddr);
-  static void updateltesinrper(std::string context,uint16_t cellid,uint16_t rnti, double sinr, double avgsinr);
+ static  void updateltesinrper(std::string context,uint16_t cellid,uint16_t rnti, double sinr, double avgsinr);
   void addbearer(Ipv4Address ip, EpsBearer bearer,double interpacketinterval);
  // static double uplinkthrpt_lte;
  
@@ -165,7 +166,43 @@ public:
     friend bool operator == (const EpsFlowId_t &a, const EpsFlowId_t &b);
     friend bool operator < (const EpsFlowId_t &a, const EpsFlowId_t &b);
   };
-
+struct time_info{
+	uint32_t source_port;
+	int64_t past;
+	SequenceNumber32 last_seqno;
+	uint32_t dest_port;
+	SequenceNumber32 window_size;
+};
+struct pkt_info {
+	uint16_t source_port;
+	uint16_t dest_port;
+	uint32_t seqno;
+	uint32_t recvbytes;
+	double pktsendtime;
+};
+struct udp_pktinfo {
+	uint32_t fid;
+	uint32_t pid;
+	uint32_t recvbytes;
+	double pktsendtime;
+};
+struct flowtable_info {
+        uint16_t  source_port;
+        uint16_t  dest_port;
+	uint32_t current_interface;
+	double Qos_Enabled;
+	double delay;
+	double throughput;
+	Ipv4Address ip;
+	EpsBearer epsbearer;
+	double appdatarate;
+	uint32_t protocolno;
+	double new_flow;
+};
+struct sinrperinfo {
+	double lteval;
+	double wifival;
+};
 
 private:
 
@@ -294,7 +331,35 @@ private:
    * 
    */
   std::map<uint64_t, uint16_t> m_imsiRntiMap;
-  
+    /* 
+     * all maps from cc file
+     */   
+  std::list<pkt_info> pkt_list;
+std::list<udp_pktinfo> udp_pktlist;
+std::map<uint16_t, std::map<uint16_t,std::map<double,uint32_t>  > >  pkttointer;
+std::map<uint16_t, std::map<uint16_t,double> > lastpktrecv;
+std::map<uint16_t, std::map<uint16_t,double> > firstpktsend;
+std::map<uint16_t, std::map<uint16_t,double> > total_delay;
+std::map<uint16_t, std::map<uint16_t,uint64_t> > RecvBytes;
+std::map<uint16_t, std::map<uint16_t,double> > wlastpktrecv;
+std::map<uint16_t, std::map<uint16_t,double> > wfirstpktsend;
+std::map<uint16_t, std::map<uint16_t,double> > wtotal_delay;
+std::map<uint16_t, std::map<uint16_t,uint64_t> > wRecvBytes; 
+std::map<uint32_t, double > udp_recvbytes;
+std::map<uint32_t, double > udp_sendbytes;
+std::map<uint32_t, double > udp_lastpktrecv;
+std::map<uint32_t, double > udp_firstpktsend;
+std::map<uint32_t, double > udp_totaldelay;
+std::map<uint32_t, flowtable_info> flowtable;
+
+std::map<Ipv4Address, sinrperinfo> per_table;
+std::map<Ipv4Address, EpsBearer> ipbearermap;
+std::map<Ipv4Address, double> ipdatarate;
+
+std::map<Mac48Address,double> rssi;
+public:
+   std::map<Mac48Address,Ipv4Address> macipmap;
+private:
   uint16_t m_cellId;
   uint64_t lreset;
   double lte_usedrbs;
@@ -307,7 +372,20 @@ public:
   double ltetpt;
   double uplinkthrpt;
   double ullastpktrecv;
-  
+  int64_t past;
+  int flag;
+  int mxpt;
+  int fair; 
+  bool tcp;
+  time_info s[10];
+   uint64_t nmb;
+  //uint32_t pkt_cnt=0;
+  uint32_t packtno;
+  uint16_t temp_port;
+  uint32_t current_value;
+  uint32_t past_value;
+  int count;
+  double  wifi_load;
 };
 
 } //namespace ns3
